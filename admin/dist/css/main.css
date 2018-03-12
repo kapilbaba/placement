@@ -1,0 +1,27 @@
+.container_card {
+    box-shadow: 13px 12px 10px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    margin: 50px;
+    padding: 10px;
+}
+
+.btn-default {
+    padding: 15px;
+    color: white;
+    background: #232d32;
+    -webkit-transition: background 0.37s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.37s;
+    text-transform: capitalize;
+}
+
+.btn-default:hover {
+    padding: 15px;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #232d32;
+
+}
+
+.center {
+    text-align: center;
+}
