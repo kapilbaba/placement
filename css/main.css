@@ -293,6 +293,7 @@ body, html {
 
 
 .form_page {
+    margin: 20px 250px 20px 250px;
     background: white;
     color: black;
     opacity: 0.87;

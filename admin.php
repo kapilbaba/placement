@@ -5,8 +5,9 @@ session_start(); ?>
 <!DOCTYPE html>
 <html>
 <?php
+ $id =$_SESSION['id'];
 include "core/database/connection_db.php";
-$sql = "SELECT * from admin Where email='pardeep@123'";
+$sql = "SELECT * from admin Where id='$id'";
 $result = $conn->query($sql);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc())
@@ -25,78 +26,101 @@ $conn->close();
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        <div class="container">  <br>
-            <div class="col-md-6">
-                <!-- USERS LIST -->
-                <div class="box box-danger">
+        <div class="container">
+            <div class="col-md-6 col-xs-12 col-sm-12">
+
+                <div class="box box-info">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Latest Members</h3>
+                        <h3 class="box-title">Latest jobs</h3>
 
                         <div class="box-tools pull-right">
-                            <span class="label label-danger">8 New Members</span>
                             <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                             </button>
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i>
-                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                         </div>
                     </div>
                     <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="table-responsive">
+                            <table class="table no-margin">
+                                <thead>
+                                <tr>
+                                    <th>Jobs ID</th>
+                                    <th>date of job post</th>
+                                    <th>category</th>
+                                    <th>edit</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>12/12/34</td>
+                                    <td><span class="label label-success">IT</span></td>
+                                    <td>
+                                        <a href="">view</a>
+                                    </td>
+                                </tr>
 
-                    <div class="box-body no-padding">
-                        <ul class="users-list clearfix">
-                            <li>
-                                <img src="admin/dist/img/user1-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Alexander Pierce</a>
-                                <span class="users-list-date">Today</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user8-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Norman</a>
-                                <span class="users-list-date">Yesterday</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user7-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Jane</a>
-                                <span class="users-list-date">12 Jan</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user6-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">John</a>
-                                <span class="users-list-date">12 Jan</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user2-160x160.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Alexander</a>
-                                <span class="users-list-date">13 Jan</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user5-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Sarah</a>
-                                <span class="users-list-date">14 Jan</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user4-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Nora</a>
-                                <span class="users-list-date">15 Jan</span>
-                            </li>
-                            <li>
-                                <img src="admin/dist/img/user3-128x128.jpg" alt="User Image">
-                                <a class="users-list-name" href="#">Nadia</a>
-                                <span class="users-list-date">15 Jan</span>
-                            </li>
-                        </ul>
-                        <!-- /.users-list -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
                     </div>
                     <!-- /.box-body -->
-                    <div class="box-footer text-center">
-                        <a href="javascript:void(0)" class="uppercase">View All Users</a>
+                    <div class="box-footer clearfix">
+                         <a href="all-user-admin.php" class="btn btn-sm btn-default btn-flat pull-right">View All jobs</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>
-                <!--/.box -->
             </div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
 
+                <div class="box box-info">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">New Candidates</h3>
+
+                        <div class="box-tools pull-right">
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="table-responsive">
+                            <table class="table no-margin">
+                                <thead>
+                                <tr>
+                                    <th>candidate id</th>
+                                    <th>candidate name</th>
+                                    <th>Status</th>
+                                    <th>edit</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><a href="pages/examples/invoice.html">OR9842</a></td>
+                                    <td>Call of Duty IV</td>
+                                    <td><span class="label label-success">pending</span></td>
+                                    <td>
+                                        <a href="">view</a>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer clearfix">
+                         <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
+                    </div>
+                    <!-- /.box-footer -->
+                </div>
+            </div>
         </div>
+
 
 
     </div>

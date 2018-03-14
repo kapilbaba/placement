@@ -32,11 +32,13 @@
         <ul class="sidebar-menu">
             <!-- Optionally, you can add icons to the links -->
             <li class="active"><a href="/admin.php"><i class="fa fa-laptop"></i> <span>Dashboard</span></a></li>
-            <li class=""><a href="/all-user-admin.php"><i class="fa fa-users"></i> <span>All users</span></a></li>
+            <li class=""><a href="/all-user-admin.php"><i class="fa fa-users"></i> <span>All candidates</span></a></li>
 
 
             <li><a href="#"><i class=""></i> <span>show all jobs</span></a></li>
             <li><a href="#"><i class=""></i> <span>post new jobs</span></a></li>
+            <li><a href="#"><i class=""></i> <span>Add New Admin</span></a></li>
+            <li><a href="#"><i class=""></i> <span>change password</span></a></li>
         </ul>
         <!-- /.sidebar-menu -->
     </section>

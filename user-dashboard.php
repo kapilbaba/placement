@@ -19,6 +19,7 @@ while ($row = $result->fetch_assoc()) {
     $email = $row['email'];
     $pwd = $row['password'];
     $contact = $row['contact'];
+    $resume =$row['resumes'];
     $conn->close();
 }
 ?>
@@ -33,8 +34,8 @@ while ($row = $result->fetch_assoc()) {
         <h3 style="text-align: center">candidate Infomation</h3>
         <div class="container">
             <div class="col-md-6">
-                <div class="form_page">
-                    <form ROLE="form" action="update_profile.php" method="post">
+                <div style="margin: 0px;" class="form_page">
+                    <form   ROLE="form" action="update_profile.php" method="post">
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label for="email">Email</label>
@@ -75,14 +76,15 @@ while ($row = $result->fetch_assoc()) {
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label style="margin: 5px 0px 5px 0px" for="resume">Upload Resume</label>
-                                <input value="" required="required" type="file"
+                                <input value="resume_upload" required="required" type="file"
                                        class="" id="resume" name="resume_upload">
                             </div>
                         </div>
+                        <p><?php  echo $_SESSION['upload-done']; echo $_SESSION['upload-error'];?></p>
                         <p style="text-align: left">
-                            <input style="margin-left: 15px" name="upload" type="submit" class="button1" value="Upload"/>
+                            <input style="margin-left: 15px" name="upload" type="submit" class="button1" value="Update"/>
                         </p>
-
+                 <button TYPE="button" class="btn btn-block"><a href="<?php echo $resume;?>">show resume</a></button>
                     </form>
                 </div>
 
