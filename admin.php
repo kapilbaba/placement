@@ -4,16 +4,7 @@ session_start(); ?>
 <?php include "core/script/admin-auth.php" ?>
 <!DOCTYPE html>
 <html>
-<?php
- $id =$_SESSION['id'];
-include "core/database/connection_db.php";
-$sql = "SELECT * from admin Where id='$id'";
-$result = $conn->query($sql);
-$result->num_rows > 0;
-while ($row = $result->fetch_assoc())
-    $admin_name = $row['admin-name'];
-$conn->close();
-?>
+
 <?php include_once 'admin/includes/head.php' ?>
 
 <body class="hold-transition skin-red sidebar-mini">
@@ -68,7 +59,7 @@ $conn->close();
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                         <a href="all-user-admin.php" class="btn btn-sm btn-default btn-flat pull-right">View All jobs</a>
+                         <a href="" class="btn btn-sm btn-default btn-flat pull-right">View All jobs</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>
@@ -114,7 +105,7 @@ $conn->close();
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                         <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
+                         <a href="all-user-admin.php" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>
