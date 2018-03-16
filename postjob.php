@@ -18,6 +18,7 @@ $jobdesription_4 =$_POST['desription_4'];
 $jobdesription_5 =$_POST['desription_5'];
 $jobdesription_6 =$_POST['desription_6'];
 $jobdesription_7 =$_POST['desription_7'];
+$companyaddress=$_POST['company_address'];
 //job information
 
 $jobsalary =$_POST['job_salary'];
@@ -35,8 +36,8 @@ $jobcandidateprofile =$_POST['candidate_profile'];
 
 if (isset($jobpost)){
 
-    $sql = "insert into jobinformation(description1, description2, description3, description4, description5, description6, description7, description8, salary, indrustry, jobcategory, jobtype, skill1, skill2, skill3, skill4, skill5, profilecandidate) 
-VALUE ('$jobdesription_1','$jobdesription_2','$jobdesription_3','$jobdesription_4','$jobdesription_5','$jobdesription_6','$jobdesription_7','$jobdesription_8','$jobsalary','$jobindrustry','$jobcategory','$jobtype','$jobskill1','$jobskill2','$jobskill3','$jobskill4','$jobskill5','$jobcandidateprofile')";
+    $sql = "insert into jobinformation(description1, description2, description3, description4, description5, description6, description7, description8, salary, indrustry, jobcategory, jobtype, skill1, skill2, skill3, skill4, skill5, profilecandidate,companyaddress) 
+VALUE ('$jobdesription_1','$jobdesription_2','$jobdesription_3','$jobdesription_4','$jobdesription_5','$jobdesription_6','$jobdesription_7','$jobdesription_8','$jobsalary','$jobindrustry','$jobcategory','$jobtype','$jobskill1','$jobskill2','$jobskill3','$jobskill4','$jobskill5','$jobcandidateprofile','$companyaddress')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";

@@ -1,4 +1,4 @@
-<div class="col-md-6 col-sm-6 col-xs-12">
+<!--<div class="col-md-6 col-sm-6 col-xs-12">
     <div class="form-group">
         <label for="category">Select catagory:</label>
         <?php
@@ -39,4 +39,17 @@
 
         </select>
     </div>
-</div>
+</div>-->
+
+<?php
+
+$sql ="select * from jobinformation";
+$result = mysqli_query($conn,$sql);
+echo "<th>id</th> <th>description</th>";
+while ($row = mysqli_fetch_array($result)){
+    echo "<table style='border: 1px solid black'><th><td>".$row['id']."</td></th>"."<th><td>".$row['description1']."</td></th></table>";
+
+}
+
+?>
+

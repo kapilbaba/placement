@@ -105,7 +105,7 @@ session_start(); ?>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                         <a href="all-user-admin.php" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
+                         <a href="alljobs.php" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>

@@ -167,7 +167,17 @@ session_start(); ?>
                                           id="candidate_profile" data-validation="required"></textarea>
                             </div>
                         </div>
-
+                        <div class="col-md-12">
+                            <div class="panel panel-danger">
+                                <div class="panel-heading"><h3 class="panel-title">company address</h3></div>
+                            </div>
+                            <div class="form-group input-field">
+                                <label for="candidate_profile">company address</label>
+                                <textarea rows="4" required="required" type="text" name="company_address" value=""
+                                          class="form-control"
+                                          id="candidate_profile" data-validation="required"></textarea>
+                            </div>
+                        </div>
 
                         <button type="submit" name="post" class="btn btn-default">submit</button>
                     </form>
