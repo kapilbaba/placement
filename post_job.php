@@ -28,7 +28,11 @@ session_start(); ?>
                             <div class="panel-heading"><h3 class="panel-title">Job Description</h3></div>
                         </div>
 
-
+                        <div class="form-group input-field">
+                            <label for="description_1">Job Post</label>
+                            <input required="required" type="text" name="jobpost" value="" class="form-control"
+                                   id="description_1" data-validation="required">
+                        </div>
                         <div class="form-group input-field">
                             <label for="description_1">job Description</label>
                             <input required="required" type="text" name="desription_1" value="" class="form-control"
@@ -172,7 +176,7 @@ session_start(); ?>
                                 <div class="panel-heading"><h3 class="panel-title">company address</h3></div>
                             </div>
                             <div class="form-group input-field">
-                                <label for="candidate_profile">company address</label>
+                                <label for="candidate_profile">company details</label>
                                 <textarea rows="4" required="required" type="text" name="company_address" value=""
                                           class="form-control"
                                           id="candidate_profile" data-validation="required"></textarea>

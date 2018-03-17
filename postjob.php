@@ -8,8 +8,9 @@
 
 include 'core/database/connection_db.php';
 
-$jobpost = $_POST['post'];
+$jobsubmit = $_POST['post'];
 //job description
+$jobpost = $_POST['jobpost'];
 $jobdesription_8 = $_POST['desription_8'];
 $jobdesription_1 = $_POST['desription_1'];
 $jobdesription_2 = $_POST['desription_2'];
@@ -34,15 +35,15 @@ $jobskill5 = $_POST['skill_5'];
 //profile
 $jobcandidateprofile = $_POST['candidate_profile'];
 
-if (isset($jobpost)) {
+if (isset($jobsubmit)) {
 
 
 
 
     $stmt = $conn->prepare(
 
-        "insert into jobinformation(description1, description2, description3, description4, description5, description6, description7, description8, salary, indrustry, jobcategory, jobtype, skill1, skill2, skill3, skill4, skill5, profilecandidate,companyaddress) 
-VALUE ('$jobdesription_1','$jobdesription_2','$jobdesription_3','$jobdesription_4','$jobdesription_5','$jobdesription_6','$jobdesription_7','$jobdesription_8','$jobsalary','$jobindrustry','$jobcategory','$jobtype','$jobskill1','$jobskill2','$jobskill3','$jobskill4','$jobskill5','$jobcandidateprofile','$companyaddress')"
+        "insert into jobinformation(jobpost,description1, description2, description3, description4, description5, description6, description7, description8, salary, indrustry, jobcategory, jobtype, skill1, skill2, skill3, skill4, skill5, profilecandidate,companyaddress) 
+VALUE ('$jobpost','$jobdesription_1','$jobdesription_2','$jobdesription_3','$jobdesription_4','$jobdesription_5','$jobdesription_6','$jobdesription_7','$jobdesription_8','$jobsalary','$jobindrustry','$jobcategory','$jobtype','$jobskill1','$jobskill2','$jobskill3','$jobskill4','$jobskill5','$jobcandidateprofile','$companyaddress')"
     );
 
     $stmt->execute();

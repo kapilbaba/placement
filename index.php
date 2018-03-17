@@ -218,27 +218,27 @@
 <section class="latest_job">
     <div style="text-align: center;background: white;opacity:  0.76;"><h1>latest job </h1><span
                 style="color: black;"><a style="color: black;" href="">see all jobs</a></span></div>
-    <div class="container latest_contain">
-        <div class="col-xs-12 col-sm-6 col-md-3 job_container" data-aos="fade-right">
-            <h3 class="job_profile">Executive Chef</h3>
-            <p>salary : <span>rs 13000</span> -per month</p>
-            <p>country : <span>india</span></p>
-            <a class="btn_apply" href="">apply online</a>
 
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 job_container" data-aos="fade-up">
-            <h3 class="job_profile">Executive Chef</h3>
-            <p>salary : <span>rs 13000</span> -per month</p>
-            <p>country : <span>india</span></p>
-            <a class="btn_apply" href="">apply online</a>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 job_container" data-aos="fade-left">
-            <h3 class="job_profile">Executive Chef</h3>
-            <p>salary : <span>rs 13000</span> -per month</p>
-            <p>country : <span>india</span></p>
-            <a class="btn_apply" href="">apply online</a>
-        </div>
+    <?php
+    include "core/database/connection_db.php";
+    $sql = "SELECT * from jobinformation ORDER BY id desc limit 3";
+    $result = mysqli_query($conn, $sql);
+    echo "";
+    while ($row = mysqli_fetch_array($result)) {
+
+    echo "<div class='container latest_contain'>
+        <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>".$row['jobpost']."</h3>
+    <p>salary : <span>rs".$row['salary']."</span> -per month</p>
+    <p>job category : <span>".$row['jobcategory']."</span></p>
+    <a class='btn_apply' href=''>apply online</a>
     </div>
+    ";
+    }
+
+
+    ?>
+
+
 </section>
 
 
