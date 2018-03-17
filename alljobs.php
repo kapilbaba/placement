@@ -5,7 +5,6 @@
  * Date: 10/03/18
  * Time: 14:02
  */
-
 $title = "allusers";
 session_start(); ?>
 <?php include "core/script/admin-auth.php" ?>
@@ -46,7 +45,6 @@ include "core/database/connection_db.php";
                     </div>
                     <div class="box-body table-responsive no-padding">
                         <?php
-
                         $sql = "select * from jobinformation";
                         $result = mysqli_query($conn, $sql);
                         echo "<table class='table table-hover'>
@@ -57,7 +55,6 @@ include "core/database/connection_db.php";
                             <th>edit</th>
                             <th>delete</th>";
                         while ($row = mysqli_fetch_array($result)) {
-
                             echo "
                                
                                 <tr>
@@ -67,12 +64,11 @@ include "core/database/connection_db.php";
                                 <td>" . $row['indrustry'] . "</td>
                                 <td><a  href='job.php?id=" . $row['id'] . "'  >view</a></td>
                                 <td><a  href='deletejob.php?id=" . $row['id'] . "'>delete</a></td>
-                         </tbody></table>";
-
-
+                         ";
                         }
                         ?>
-
+                        </tbody>
+                        </table>
 
                     </div>
                     <!-- /.box-body -->

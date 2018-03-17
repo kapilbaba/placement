@@ -31,67 +31,25 @@
                 </p>
             </div>
             <div style="clear: both"></div>
-            <div style="background: rgba(74,144,226,.5)" class="container latest_contain">
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
-                </div>
+            <?php
+            include "core/database/connection_db.php";
+            $sql = "SELECT * from jobinformation";
+            $result = mysqli_query($conn, $sql);
 
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
+            while ($row = mysqli_fetch_array($result)) {
 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
-                </div>
+                echo "  <div style='background: #62c1e2' class='container latest_contain'>
+                <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>" .$row['jobpost']."</h3>
+    <p>salary : <span>rs".$row['salary']."</span> -per month</p>
+    <p>job category : <span>".$row['jobcategory']."</span></p>
+    <a class='btn_apply' href=''>apply online</a>
+    </div>
+    ";
+            }
 
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container" >
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 job_container">
-                    <h3 class="job_profile">Executive Chef</h3>
-                    <p>salary : <span>rs 13000</span> -per month</p>
-                    <p>country : <span>india</span></p>
-                    <a class="btn_apply" href="">apply online</a>
-                </div>
-            </div>
+            ?>
 
         </div>
 
