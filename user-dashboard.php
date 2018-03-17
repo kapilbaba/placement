@@ -19,23 +19,63 @@ while ($row = $result->fetch_assoc()) {
     $email = $row['email'];
     $pwd = $row['password'];
     $contact = $row['contact'];
-    $resume =$row['resumes'];
+    $resume = $row['resumes'];
     $conn->close();
 }
 ?>
 
+<style>
+    a.plain {
+        border-radius: 0px !important;
+        background: #ed5888;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+    }
 
+    a.plain:hover {
+        border-radius: 0px !important;
+        background: #953f4c !important;
+        color: white;
+
+    }
+</style>
 <div id="page">
 
     <?php include "layout/header.php"; ?>
     <?php include "layout/user-navbar.php"; ?>
 
     <section class="registration">
+        <div class="container">
+            <ul data-aos="fade-down" class="nav nav-pills nav-justified">
+                <li><a class="plain" href="#">HR
+                        Consulting
+                        Services
+                    </a></li>
+                <li><a class="plain" href="#">Staff
+                        Augmentation
+                        Services
+                    </a></li>
+                <li><a class="plain" href="#">Leadership
+                        Hiring
+                        Services
+                    </a></li>
+                <li><a class="plain" href="#">IT
+                        Staffing
+                        Services
+                    </a></li>
+                <li><a class="plain" href="#">Contract
+                        Staffing
+                        Services
+                    </a></li>
+            </ul>
+        </div>
+
         <h3 style="text-align: center">candidate Infomation</h3>
         <div class="container">
             <div class="col-md-6">
                 <div style="margin: 0px;" class="form_page">
-                    <form   ROLE="form" action="update_profile.php" method="post">
+                    <form ROLE="form" action="update_profile.php" method="post">
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label for="email">Email</label>
@@ -80,11 +120,14 @@ while ($row = $result->fetch_assoc()) {
                                        class="" id="resume" name="resume_upload">
                             </div>
                         </div>
-                        <p><?php  echo $_SESSION['upload-done']; echo $_SESSION['upload-error'];?></p>
+                        <p><?php echo $_SESSION['upload-done'];
+                            echo $_SESSION['upload-error']; ?></p>
                         <p style="text-align: left">
-                            <input style="margin-left: 15px" name="upload" type="submit" class="button1" value="Update"/>
+                            <input style="margin-left: 15px" name="upload" type="submit" class="button1"
+                                   value="Update"/>
                         </p>
-                 <button TYPE="button" class="btn btn-block"><a href="<?php echo $resume;?>">show resume</a></button>
+                        <button TYPE="button" class="btn btn-block"><a href="<?php echo $resume; ?>">show resume</a>
+                        </button>
                     </form>
                 </div>
 

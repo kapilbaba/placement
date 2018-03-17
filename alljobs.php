@@ -16,6 +16,7 @@ include "core/database/connection_db.php";
 ?>
 <?php include_once 'admin/includes/head.php' ?>
 
+
 <body class="hold-transition skin-red sidebar-mini">
 <div class="wrapper">
     <?php include_once 'admin/includes/header.php'; ?>
@@ -44,33 +45,35 @@ include "core/database/connection_db.php";
                         </div>
                     </div>
                     <div class="box-body table-responsive no-padding">
-                        <table class="table table-hover">
-                            <?php
+                        <?php
 
-                            $sql ="select * from jobinformation";
-                            $result = mysqli_query($conn,$sql);
-                            while ($row = mysqli_fetch_row($result)){
-                                printf ("%s (%s)\n",$row[0],$row[1]);
-                            }
+                        $sql = "select * from jobinformation";
+                        $result = mysqli_query($conn, $sql);
+                        echo "<table class='table table-hover'>
+                            <tbody><th>ID</th>
+                            <th>category</th>
+                            <th>sallary</th>
+                            <th>indrustry</th>
+                            <th>edit</th>
+                            <th>delete</th>";
+                        while ($row = mysqli_fetch_array($result)) {
 
-                            ?>
-                            <tbody style="text-transform: capitalize">
-                            <tr>
-                                <th>ID</th>
-                                <th>category</th>
-                                <th>sallary</th>
-                                <th>indrustry</th>
-                                <th>edit</th>
-                            </tr>
-                            <tr>
-                                <td><?php echo $row['id']; ?></td>
-                                <td>web</td>
-                                <td>R.s 10000</td>
-                                <td>IT</td>
-                                <td><a href="">view</a></td>
-                            </tr>
-                            </tbody>
-                        </table>
+                            echo "
+                               
+                                <tr>
+                                <td>" . $row['id'] . "</td>
+                                <td>" . $row['jobcategory'] . "</td>
+                                <td>" . $row['salary'] . "</td>
+                                <td>" . $row['indrustry'] . "</td>
+                                <td><a  href='job.php?id=" . $row['id'] . "'  >view</a></td>
+                                <td><a  href='deletejob.php?id=" . $row['id'] . "'>delete</a></td>
+                         </tbody></table>";
+
+
+                        }
+                        ?>
+
+
                     </div>
                     <!-- /.box-body -->
                 </div>
@@ -83,15 +86,13 @@ include "core/database/connection_db.php";
 </div>
 
 
-</div>
-
 <?php include_once 'admin/includes/footer.php'; ?>
 
 
 <?php include_once 'admin/includes/right-sidebar.php'; ?>
 
 <div class="control-sidebar-bg"></div>
-</div>
+
 
 <?php include_once 'admin/includes/script.php'; ?>
 
