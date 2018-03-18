@@ -2,6 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: kapilanand
+ * Date: 18/03/18
+ * Time: 14:44
+
+ *
+ * <?php
+/**
+ * Created by PhpStorm.
+ * User: kapilanand
  * Date: 10/03/18
  * Time: 14:02
  */
@@ -35,8 +43,8 @@ include "core/database/connection_db.php";
                         <div class="box-tools">
                             <div class="input-group input-group-sm" style="width: 150px;">
 
-                                    <input type="text" name="table_search" class="form-control pull-right"
-                                           placeholder="Search">
+                                <input type="text" name="table_search" class="form-control pull-right"
+                                       placeholder="Search">
 
 
                                 <div class="input-group-btn">
@@ -47,25 +55,29 @@ include "core/database/connection_db.php";
                     </div>
                     <div class="box-body table-responsive no-padding">
                         <?php
-                        $sql = "select * from jobinformation";
+                        $sql = "select * from users";
                         $result = mysqli_query($conn, $sql);
                         echo "<table class='table table-hover'>
                             <tbody><th>ID</th>
-                            <th>category</th>
-                            <th>sallary</th>
-                            <th>indrustry</th>
-                            <th>edit</th>
-                            <th>delete</th>";
+                            <th>first name</th>
+                            <th>last name</th>
+                            <th>email</th>
+                            <th>password</th>
+                            <th>contact</th>
+                            <th>resume</th>
+                            <th></th>";
                         while ($row = mysqli_fetch_array($result)) {
                             echo "
                                
                                 <tr>
                                 <td>" . $row['id'] . "</td>
-                                <td>" . $row['jobcategory'] . "</td>
-                                <td>" . $row['salary'] . "</td>
-                                <td>" . $row['indrustry'] . "</td>
-                                <td><a  href='job.php?id=" . $row['id'] . "'  >view</a></td>
-                                <td><a  href='deletejob.php?id=" . $row['id'] . "'>delete</a></td>
+                                <td>" . $row['firstname'] . "</td>
+                                <td>" . $row['lastname'] . "</td>
+                                <td>" . $row['email'] . "</td>
+                                <td>" . $row['password'] . "</td>
+                                <td>" . $row['contact'] . "</td>
+                                <td><a  href='" . $row['resumes'] . "'>view</a></td>
+                         
                          ";
                         }
                         ?>

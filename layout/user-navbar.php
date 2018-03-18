@@ -61,18 +61,9 @@
                 </li>
                 <li><a href="/search.php">search</a></li>
                 <li><a href="#">grivance</a></li>
+                <li><a href="/logout.php">logout</a></li>
 
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">User  <i
-                            class="fa fa-caret-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#"> profile</a></li>
-                        <li><a href="#">Application</a></li>
-                        <li><a href="#">Change password</a></li>
-                        <li><a href="#">Reqruitment process</a></li>
-                        <li><a href="/logout.php">Log Out</a></li>
 
-                    </ul>
-                </li>
 
             </ul>
 

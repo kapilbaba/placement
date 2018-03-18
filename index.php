@@ -2,7 +2,47 @@
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+    }
 
+    .title {
+        color: grey;
+        font-size: 18px;
+    }
+
+    button.profile {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        margin-top:5px;
+    }
+
+    a.pro {
+        margin: 5px;
+        border: 1px solid;
+
+        padding: 2px;
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+    }
+
+    button:hover, a:hover {
+        opacity: 0.7;
+    }
+</style>
 <div id="page">
 
     <?php include "layout/header.php"; ?>
@@ -89,9 +129,9 @@
             </div>
         </div>
         <div style="clear: both"></div>
-        <div style="background: #172d4b; padding: 10px; opacity: 0.75" class="banner_footer">
+        <div style="background: #fcfffa; padding: 10px; opacity: 0.75" class="banner_footer">
 
-            <p style="text-align: center; color: #fdf8ff;">submit your resume now &nbsp;
+            <p style="text-align: center; color: #000000;">submit your resume now &nbsp;
                 <button type="button" class="btn home_btn">
                     Register Now
                 </button>
@@ -226,10 +266,10 @@
     echo "";
     while ($row = mysqli_fetch_array($result)) {
 
-    echo "<div class='container latest_contain'>
-        <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>".$row['jobpost']."</h3>
-    <p>salary : <span>rs".$row['salary']."</span> -per month</p>
-    <p>job category : <span>".$row['jobcategory']."</span></p>
+        echo "<div class='container latest_contain'>
+        <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>" . $row['jobpost'] . "</h3>
+    <p>salary : <span>rs" . $row['salary'] . "</span> -per month</p>
+    <p>job category : <span>" . $row['jobcategory'] . "</span></p>
     <a class='btn_apply' href=''>apply online</a>
     </div>
     ";
@@ -240,6 +280,8 @@
 
 
 </section>
+
+
 
 
 </div>

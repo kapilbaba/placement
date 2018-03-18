@@ -22,13 +22,20 @@
     <?php include "layout/navbar.php"; ?>
     <section class="job_search">
         <div class="container">
+            <?php  include "header2.php";?>
             <h3 style="text-align: center"><span style="border-bottom: solid 5px black">search job here</span></h3>
             <div class="col-md-4 col-md-offset-4 col-xs-12">
                 <h1 style="text-align: center">akostaplacement services</h1>
-                <p style="text-align: center">
-                    <input type="search" placeholder="search job here">
-                    <button type="submit" class="btn">search</button>
+
+                <form action="search_job.php" method="post">
+                    <p style="text-align: center" >
+                    <input type="text" placeholder="search job here">
+                    <button type="submit" name="jobsearch" class="btn">search</button>
                 </p>
+
+                </form>
+
+
             </div>
             <div style="clear: both"></div>
 

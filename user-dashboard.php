@@ -24,53 +24,15 @@ while ($row = $result->fetch_assoc()) {
 }
 ?>
 
-<style>
-    a.plain {
-        border-radius: 0px !important;
-        background: #ed5888;
-        color: white;
-        padding: 10px;
-        margin: 10px;
-    }
 
-    a.plain:hover {
-        border-radius: 0px !important;
-        background: #953f4c !important;
-        color: white;
-
-    }
-</style>
 <div id="page">
 
     <?php include "layout/header.php"; ?>
     <?php include "layout/user-navbar.php"; ?>
 
     <section class="registration">
-        <div class="container">
-            <ul data-aos="fade-down" class="nav nav-pills nav-justified">
-                <li><a class="plain" href="#">HR
-                        Consulting
-                        Services
-                    </a></li>
-                <li><a class="plain" href="#">Staff
-                        Augmentation
-                        Services
-                    </a></li>
-                <li><a class="plain" href="#">Leadership
-                        Hiring
-                        Services
-                    </a></li>
-                <li><a class="plain" href="#">IT
-                        Staffing
-                        Services
-                    </a></li>
-                <li><a class="plain" href="#">Contract
-                        Staffing
-                        Services
-                    </a></li>
-            </ul>
-        </div>
 
+<?php include "header2.php"?>
         <h3 style="text-align: center">candidate Infomation</h3>
         <div class="container">
             <div class="col-md-6">
@@ -137,6 +99,13 @@ while ($row = $result->fetch_assoc()) {
 
     </section>
 
+    <section  style="text-align: center; margin: 10px">
+        <h3>
+            reqruitment process
+        </h3>
+        <p>status:</p><span style="background: red; color: white;padding: 10px; margin: 10px;">in process</span>
+    </section>
+<div style="clear: both"></div>
 
 </div>
 <?php include "layout/footer.php"; ?>
