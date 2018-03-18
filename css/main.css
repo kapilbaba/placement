@@ -199,7 +199,7 @@ body, html {
 }
 
 .home_intro {
-    background: #000;
+    background: #4e4a28;
     opacity: .76
 }
 
@@ -258,14 +258,17 @@ body, html {
     background-size: cover
 }
 .latest_contain{
-    background: #172d4a;
+    background: #efe273;
 }
 .box
 {
+    color: #2c2c2c;
     text-align: center;
-    background: #ffffffe6;
-    padding: 100px;
+    background: rgba(255, 241, 122, 0.93);
+    padding: 30px;
     margin: 55px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
 }
 .dropdown-menu{
     background: #172d4a;

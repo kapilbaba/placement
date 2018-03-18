@@ -25,32 +25,46 @@ session_start(); ?>
                         <h3 class="box-title">Latest jobs</h3>
 
                         <div class="box-tools pull-right">
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
                             </button>
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
                         </div>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
-                        <div class="table-responsive">
-                            <table class="table no-margin">
-                                <thead>
+                        <?php
+                        include "core/database/connection_db.php";
+                        $sql = "SELECT * from jobinformation ORDER BY id desc limit 7";
+                        $result = mysqli_query($conn, $sql);
+                        echo "<div class='table-responsive'>
+                            <table class='table no-margin'><thead>
                                 <tr>
                                     <th>Jobs ID</th>
-                                    <th>date of job post</th>
+                                    <th>Jobs post</th>
+                                    <th>salary</th>
                                     <th>category</th>
                                     <th>edit</th>
                                 </tr>
-                                </thead>
-                                <tbody>
+                                </thead>";
+                        while ($row = mysqli_fetch_array($result)) {
+                            echo"<tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>12/12/34</td>
-                                    <td><span class="label label-success">IT</span></td>
-                                    <td>
-                                        <a href="">view</a>
+                                    <td>".$row['id']."</td>
+                                    <td>".$row['jobpost']."</td>
+                                    <td>".$row['salary']."</td>
+                                    <td>".$row['jobcategory']."</td>
+                                        <td>
+                                        <a href='job.php?id=" . $row['id'] . "'>view</a>
                                     </td>
                                 </tr>
+";
+                        }
+
+                        ?>
+
+
 
                                 </tbody>
                             </table>
@@ -59,7 +73,7 @@ session_start(); ?>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                         <a href="" class="btn btn-sm btn-default btn-flat pull-right">View All jobs</a>
+                        <a href="alljobs.php" class="btn btn-sm btn-default btn-flat pull-right">View All jobs</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>
@@ -71,32 +85,47 @@ session_start(); ?>
                         <h3 class="box-title">New Candidates</h3>
 
                         <div class="box-tools pull-right">
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
                             </button>
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
                         </div>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
-                        <div class="table-responsive">
-                            <table class="table no-margin">
+
+                        <?php
+                        include "core/database/connection_db.php";
+                        $sql = "SELECT * from users ORDER BY id desc limit 7";
+                        $result = mysqli_query($conn, $sql);
+                        echo "<div class='table-responsive'>
+                            <table class='table no-margin'>
                                 <thead>
                                 <tr>
                                     <th>candidate id</th>
-                                    <th>candidate name</th>
-                                    <th>Status</th>
-                                    <th>edit</th>
+                                    <th>name</th>
+                                    <th>contact</th>
+                                    <th>resume</th>
                                 </tr>
-                                </thead>
-                                <tbody>
+                                </thead>";
+                        while ($row = mysqli_fetch_array($result)) {
+                            echo" <tbody>
                                 <tr>
-                                    <td><a href="pages/examples/invoice.html">OR9842</a></td>
-                                    <td>Call of Duty IV</td>
-                                    <td><span class="label label-success">pending</span></td>
+                                    <td><a href=''>".$row['id']."</a></td>
+                                    <td>".$row['firstname']."</td>
+                                    <td>".$row['contact']."</td>
                                     <td>
-                                        <a href="">view</a>
+                                        <a href='".$row['resumes']."'>view</a>
                                     </td>
                                 </tr>
+";
+                        }
+
+                        ?>
+
+
+
 
                                 </tbody>
                             </table>
@@ -105,13 +134,12 @@ session_start(); ?>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                         <a href="alljobs.php" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
+                        <a href="allusers.php" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>
             </div>
         </div>
-
 
 
     </div>
