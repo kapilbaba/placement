@@ -64,8 +64,9 @@ include "core/database/connection_db.php";
                             <th>email</th>
                             <th>password</th>
                             <th>contact</th>
+                            <th>status</th>
                             <th>resume</th>
-                            <th></th>";
+                            <th>edit</th>";
                         while ($row = mysqli_fetch_array($result)) {
                             echo "
                                
@@ -76,11 +77,22 @@ include "core/database/connection_db.php";
                                 <td>" . $row['email'] . "</td>
                                 <td>" . $row['password'] . "</td>
                                 <td>" . $row['contact'] . "</td>
-                                <td><a  href='" . $row['resumes'] . "'>view</a></td>
+                                <td><span class='label label-success'>".$row['candidate_status']."</span></td>
+                                <td><a  href='" .$row['resumes']. "'>view</a></td>
+                                <td><a href='candidateinfo.php?id=".$row['id']."' >edit status</a></td>
                          
                          ";
+$_SESSION['candidateid']=$row['id'];
                         }
+
                         ?>
+
+                        <?php
+
+
+
+                        ?>
+
                         </tbody>
                         </table>
 

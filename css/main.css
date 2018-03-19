@@ -281,6 +281,7 @@ body, html {
     line-height: 1.42857143;
     color: #fff;
     white-space: nowrap;
+    font-size: 15px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
     background: #283340;

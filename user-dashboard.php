@@ -20,6 +20,7 @@ while ($row = $result->fetch_assoc()) {
     $pwd = $row['password'];
     $contact = $row['contact'];
     $resume = $row['resumes'];
+    $status = $row['candidate_status'];
     $conn->close();
 }
 ?>
@@ -103,7 +104,7 @@ while ($row = $result->fetch_assoc()) {
         <h3>
             reqruitment process
         </h3>
-        <p>status:</p><span style="background: red; color: white;padding: 10px; margin: 10px;">in process</span>
+        <p>status:</p><span style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
     </section>
 <div style="clear: both"></div>
 
