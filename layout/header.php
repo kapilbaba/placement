@@ -1,25 +1,11 @@
+
+
 <div class=" header">
     <div class="container ">
         <ul class="nav nav-pills navbar-left">
-            <li ><p class="header_info"><a data-toggle="modal" data-target="#myModal" href="">Track Applicant Record</a></p></li>
+            <li ><p class="header_info"><a href="/user-dashboard.php">Track aplicant status</a></p></li>
             <li><p></p></li>
-            <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <br>
-                            <h1>Track Application Status</h1>
-                            <br>
-                            Job Seeker No: <input type="text">
-
-                            <button style="margin-top: -2px; float: right" type="button" name="search" class="btn btn-default">search</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </ul>
         <ul class="nav nav-pills navbar-right">
             <li>

@@ -9,6 +9,7 @@ session_start();
 <html>
 <?php include "layout/core/head.php" ?>
 <?php
+$jobid=$_GET['id'];
 $id = $_SESSION['id'];
 include "core/database/connection_db.php";
 $sql = "SELECT * from users Where id='$id'";
@@ -36,7 +37,7 @@ while ($row = $result->fetch_assoc()) {
     <?php include "layout/header.php"; ?>
     <?php include "layout/user-navbar.php"; ?>
 
-    <section class="registration">
+    <section class="registration_1">
 
 <?php include "layout/header2.php" ?>
 
@@ -62,6 +63,16 @@ while ($row = $result->fetch_assoc()) {
                             <div class="form-group">
                                 <label for="password">password</label>
                                 <input value="<?php echo $pwd; ?>" required="required" type="text" class="form-control"
+                                       name="user_password">
+                            </div>
+                        </div>
+<?php
+
+?>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="password">job id</label>
+                                <input disabled value="<?php echo $jobid; ?>" required="required" type="text" class="form-control"
                                        name="user_password">
                             </div>
                         </div>
