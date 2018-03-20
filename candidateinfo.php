@@ -18,7 +18,7 @@ $sql = "select * from users WHERE id =' $get '";
 $result = $conn->query($sql) or die($conn->error);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc()) {
-
+    $id = $row['id'];
     $email = $row['email'];
     $pwd = $row['password'];
     $contact = $row['contact'];
@@ -47,7 +47,7 @@ $get = $_SESSION['id_user'];
         <div class="container">
             <div class="col-md-12">
                 <div style="margin: 0px;" class="form_page">
-                    <form ROLE="form" action="status.php" method="post">
+                    <form ROLE="form" action="statusupdate.php" method="post">
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label for="email">Email</label>
@@ -55,6 +55,7 @@ $get = $_SESSION['id_user'];
                                        class="form-control"  name="user_email">
                             </div>
                         </div>
+                        <input type="hidden" value="<?php echo $id; ?>" class="form-control"  name="user_id">
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label for="contact">contact no</label>
@@ -74,8 +75,11 @@ $get = $_SESSION['id_user'];
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label for="password">status</label>
-                                <input placeholder="panding | on process | placed " value="<?php echo $status; ?>" required="required" type="text"
-                                       class="form-control"  name="contact_info">
+                                <select class="form-control" name="status">
+                                    <option value="on-process">On-Process</option>
+                                    <option value="pending">Pending</option>
+                                    <option value="placed">Placed</option>
+                                </select>
                             </div>
                         </div>
 

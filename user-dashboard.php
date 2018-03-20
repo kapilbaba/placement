@@ -24,6 +24,11 @@ while ($row = $result->fetch_assoc()) {
     $conn->close();
 }
 ?>
+<style>
+    .form_page{
+        background: #ffffff00;
+    }
+</style>
 
 
 <div id="page">
@@ -33,8 +38,8 @@ while ($row = $result->fetch_assoc()) {
 
     <section class="registration">
 
-<?php include "header2.php"?>
-        <h3 style="text-align: center">candidate Infomation</h3>
+<?php include "layout/header2.php" ?>
+
         <div class="container">
             <div class="col-md-6">
                 <div style="margin: 0px;" class="form_page">
@@ -89,7 +94,7 @@ while ($row = $result->fetch_assoc()) {
                             <input style="margin-left: 15px" name="upload" type="submit" class="button1"
                                    value="Update"/>
                         </p>
-                        <button TYPE="button" class="btn btn-block"><a href="<?php echo $resume; ?>">show resume</a>
+                        <button style="margin-left: 15px;" TYPE="button" class="btn btn-block"><a href="<?php echo $resume; ?>">show resume</a>
                         </button>
                     </form>
                 </div>
@@ -97,16 +102,18 @@ while ($row = $result->fetch_assoc()) {
             </div>
 
         </div>
+        <div style="text-align: center; margin: 10px">
+            <h3>
+                reqruitment process
+            </h3>
+            <p>status:</p><span style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
+
+        </div>
+
+
 
     </section>
 
-    <section  style="text-align: center; margin: 10px">
-        <h3>
-            reqruitment process
-        </h3>
-        <p>status:</p><span style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
-    </section>
-<div style="clear: both"></div>
 
 </div>
 <?php include "layout/footer.php"; ?>

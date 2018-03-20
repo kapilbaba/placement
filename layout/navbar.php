@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="color: white" href="#">akostaplacement</a>
+            <a class="navbar-brand" style="color: white" href="#"><img src="" alt=""></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,17 +30,12 @@
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">intership </a></li>
-                        <li><a href="#">placement</a></li>
-                        <li><a href="#">apperentice</a></li>
-                        <li><a href="#">exicutive and research</a></li>
-                        <li><a href="#">senior and middle level hiring</a></li>
-                        <li><a href="#">global sourcing</a></li>
-                        <li><a href="#">reqruitmentprocess outsourcing</a></li>
-                        <li><a href="#">carrer transition service</a></li>
-                        <li><a href="#">market inteligence</a></li>
-                        <li><a href="#">recruitment training programme</a></li>
-                        <li><a href="#">interim managment</a></li>
+                        <li><a href="#">HR Consulting Services </a></li>
+                        <li><a href="#">Staff Augmentation Services</a></li>
+                        <li><a href="#">Leadership Hiring Services</a></li>
+                        <li><a href="#">IT Staffing Services</a></li>
+                        <li><a href="#">Contract Staffing Services</a></li>
+
                     </ul>
                 </li>
 

@@ -303,3 +303,11 @@ body, html {
     opacity: 0.87;
     padding: 25px;
 }
+.registration{
+    background: url("/images/user-bg.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+

@@ -22,7 +22,7 @@
     <?php include "layout/navbar.php"; ?>
     <section class="job_search">
         <div class="container">
-            <?php  include "header2.php";?>
+            <?php  include "layout/header2.php";?>
             <h3 style="text-align: center"><span style="border-bottom: solid 5px black">search job here</span></h3>
             <div class="col-md-4 col-md-offset-4 col-xs-12">
                 <h1 style="text-align: center">akostaplacement services</h1>
