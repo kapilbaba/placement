@@ -54,7 +54,7 @@
                         <li><a href="/enquiry.php">enquirey</a></li>
                     </ul>
                 </li>
-                <li><a href="/user-jobs.php">search</a></li>
+                <li><a href="/user-jobs.php">job</a></li>
                 <li><a href="#">grivance</a></li>
                 <li><a href="/logout.php">logout</a></li>
 

@@ -73,7 +73,7 @@ while ($row = $result->fetch_assoc()) {
 
 
                         <p style="text-align: center">
-                            <input name="update" type="submit" class="button1" />
+                            <input name="update" type="submit" class="button1" value="update" />
                         </p>
 
                     </form>

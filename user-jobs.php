@@ -44,7 +44,7 @@
                 <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>" .$row['jobpost']."</h3>
     <p>salary : <span>rs".$row['salary']."</span> -per month</p>
     <p>job category : <span>".$row['jobcategory']."</span></p>
-    <a class='btn_apply' href='user-dashboard.php?id=".$row['id']."'>apply online</a>
+    <a class='btn_apply' href='user_job_info.php?id=".$row['id']."'>apply online</a>
     </div>
     ";
             }

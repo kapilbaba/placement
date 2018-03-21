@@ -47,6 +47,8 @@ session_start();
                     <p style="color: red; text-align: center">
                         <?php echo $_SESSION['message']; ?>
                         <?php echo $_SESSION['error_msg']; ?>
+                        <?php echo $_SESSION['login-now']; ?>
+
                     </p>
                     <p style="text-align: center">
                         <button type="submit" name="submit" class="button1">login</button>
