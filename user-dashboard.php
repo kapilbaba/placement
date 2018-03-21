@@ -66,22 +66,14 @@ while ($row = $result->fetch_assoc()) {
                                        name="user_password">
                             </div>
                         </div>
-<?php
 
-?>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label for="password">job id</label>
-                                <input disabled value="<?php echo $jobid; ?>" required="required" type="text" class="form-control"
-                                       name="user_password">
-                            </div>
-                        </div>
+
                         <p><?php echo $_SESSION['success'];
                             $_SESSION['not-success']; ?></p>
 
 
                         <p style="text-align: center">
-                            <input name="update" type="submit" class="button1" value="Update"/>
+                            <input name="update" type="submit" class="button1" />
                         </p>
 
                     </form>
