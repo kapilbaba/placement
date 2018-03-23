@@ -146,9 +146,19 @@ body, html {
 
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
-    background:#185c8af0!important;
+    background: #185c8af0 !important;
     padding: 15px;
     border: 1px solid #185c8af0;
+
+}
+
+.start-now:hover {
+    color: white!important;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: rgba(23, 23, 23, 0.94) !important;
+    padding: 15px;
+    border: 1px solid rgba(23, 23, 23, 0.94);
 
 }
 
@@ -207,7 +217,7 @@ body, html {
     color: #fff;
     padding: 10%;
     text-align: center;
-    background:#48c4d8
+    background: #48c4d8
 }
 
 .submit_job a {
@@ -249,7 +259,8 @@ body, html {
     background: #000;
     color: #fff
 }
-.sector{
+
+.sector {
     margin-top: -20px;
     background-image: url(/images/home_3.jpg);
     background-attachment: fixed;
@@ -257,11 +268,12 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover
 }
-.latest_contain{
+
+.latest_contain {
     background: #efe273;
 }
-.box
-{
+
+.box {
     color: #2c2c2c;
     text-align: center;
     background: rgba(255, 241, 122, 0.93);
@@ -270,10 +282,12 @@ body, html {
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     background: #172d4a;
 }
-.dropdown-menu li a{
+
+.dropdown-menu li a {
     display: block;
     padding: 3px 20px;
     clear: both;
@@ -283,10 +297,12 @@ body, html {
     white-space: nowrap;
     font-size: 15px;
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     background: #283340;
 }
-.ceo_img{
+
+.ceo_img {
     width: auto;
     height: 200px;
     opacity: 1;
@@ -295,7 +311,6 @@ body, html {
 
 /*form css*/
 
-
 .form_page {
     margin: 20px 250px 20px 250px;
     background: white;
@@ -303,7 +318,8 @@ body, html {
     opacity: 0.87;
     padding: 25px;
 }
-.registration_1{
+
+.registration_1 {
     background: url("/images/user-bg.jpeg");
     background-attachment: fixed;
     background-position: center;

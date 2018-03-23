@@ -39,14 +39,7 @@
                     </ul>
                 </li>
 
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">JOBSEEKERS <i
-                                class="fa fa-caret-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/candidate-login.php">candidate login</a></li>
-                        <li><a href="/candidate-signup.php">candidate registration</a></li>
-                        <li><a href="#">trestimonial</a></li>
-                    </ul>
-                </li>
+
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
@@ -54,8 +47,8 @@
                         <li><a href="/enquiry.php">enquirey</a></li>
                     </ul>
                 </li>
-                <li><a href="/user-jobs.php">job</a></li>
-                <li><a href="#">grivance</a></li>
+                <li><a href="/user-jobs.php">jobs</a></li>
+
 
 
                 <li><a href="/logout.php">logout</a></li>

@@ -17,8 +17,7 @@ if (isset($update)) {
     $sql = "UPDATE users SET jobid='$job_id' , jobname='$job_name' WHERE id='$id'";
 
     if ($conn->query($sql) === TRUE) {
-        header("location:user-dashboard.php");
-        $_SESSION['job-updated']="your job has been sent to our HR head.";
+        header("location:confirmd-job.php");
     } else {
         header("location:user-jobs.php");
         $_SESSION['job-update-failed']="job update failed";

@@ -44,7 +44,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/candidate-login.php">candidate login</a></li>
                         <li><a href="/candidate-signup.php">candidate registration</a></li>
-                        <li><a href="#">trestimonial</a></li>
+
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us <i
@@ -55,7 +55,7 @@
                     </ul>
                 </li>
                 <li><a href="/user-jobs.php">Jobs</a></li>
-                <li><a href="#">grivance</a></li>
+           
 
             </ul>
 

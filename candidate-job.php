@@ -59,7 +59,7 @@ if ($result->num_rows > 0) {
         <div class="container">
             <h3 style="text-align: center; color: black">Update Your Job inforamtion</h3>
             <div class="col-md-4 col-md-offset-4">
-                <div style="margin: 0px;" class="form_page">
+                <div style="margin: 0px 0 50% 0px;" class="form_page">
 
                     <form style="text-align: center"  action="job-update.php" method="post">
                         <div  class="col-md-12 col-sm-6 col-xs-12">
