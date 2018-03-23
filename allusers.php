@@ -66,6 +66,7 @@ include "core/database/connection_db.php";
                             <th>contact</th>
                             <th>status</th>
                             <th>resume</th>
+                            <th> jobs</th>
                             <th>edit</th>";
                         while ($row = mysqli_fetch_array($result)) {
                             echo "
@@ -79,6 +80,7 @@ include "core/database/connection_db.php";
                                 <td>" . $row['contact'] . "</td>
                                 <td><span class='label label-success'>".$row['candidate_status']."</span></td>
                                 <td><a  href='" .$row['resumes']. "'>view</a></td>
+                                <td><a  href='job.php?id=" .$row['jobid']. "'>view</a></td>
                                 <td><a href='candidateinfo.php?id=".$row['id']."' >edit status</a></td>
                          
                          ";

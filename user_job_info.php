@@ -7,6 +7,7 @@
  */
 ?>
 <?php
+include "core/script/user-authenticated.php";
 include "core/database/connection_db.php";
 $id = $_GET['id'];
 $sql = "SELECT * FROM jobinformation WHERE id='$id'";
@@ -64,7 +65,7 @@ if ($result->num_rows > 0) {
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/navbar.php"; ?>
+    <?php include "layout/user-navbar.php"; ?>
     <section class="job_search">
         <div class="container">
             <?php include "layout/header2.php"; ?>
@@ -122,7 +123,7 @@ if ($result->num_rows > 0) {
                             <div class="panel-body"><span><?php echo $company;?></span></div>
                         </div>
 
-                        <button class="btn btn-default btn-lg" type="submit">Apply</button>
+                        <a class="btn btn-default btn-lg" type="submit" href="candidate-job.php?id=<?php  echo $jobid; ?>">confirm job</a>
                     </div>
                     <div style="clear: both"></div>
 

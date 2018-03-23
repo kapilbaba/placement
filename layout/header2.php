@@ -25,7 +25,7 @@
 </style>
 
 <div class="container">
-            <ul data-aos="fade-down" class="nav nav-pills nav-justified">
+            <ul class="nav nav-pills nav-justified">
                 <li><a class="plain" href="#">HR
                         Consulting
                         Services
