@@ -19,22 +19,22 @@
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">company profile</a></li>
-                        <li><a href="#">company objective</a></li>
-                        <li><a href="#">our mission</a></li>
-                        <li><a href="#">our vision</a></li>
-                        <li><a href="#">our value</a></li>
-                        <li><a href="#">client we work with</a></li>
+                        <li><a href="/company-profile.php">company profile</a></li>
+                        <li><a href="/company-objective.php">company objective</a></li>
+                        <li><a href="/our-mission.php">our mission</a></li>
+                        <li><a href="/our-vision.php">our vision</a></li>
+                        <li><a href="/our-value.php">our value</a></li>
+                        <li><a href="/client-we-work-with.php">client we work with</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">HR Consulting Services </a></li>
-                        <li><a href="#">Staff Augmentation Services</a></li>
-                        <li><a href="#">Leadership Hiring Services</a></li>
-                        <li><a href="#">IT Staffing Services</a></li>
-                        <li><a href="#">Contract Staffing Services</a></li>
+                        <li><a href="/cunsulting-service.php">HR Consulting Services </a></li>
+                        <li><a href="/Staff-Augmentation-Services.php">Staff Augmentation Services</a></li>
+                        <li><a href="/Leadership-Hiring-Services.php">Leadership Hiring Services</a></li>
+                        <li><a href="/IT-Staffing-Services.php">IT Staffing Services</a></li>
+                        <li><a href="/contract-staffing-service.php">Contract Staffing Services</a></li>
 
                     </ul>
                 </li>
@@ -47,15 +47,9 @@
 
                     </ul>
                 </li>
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us <i
-                                class="fa fa-caret-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">contact detail </a></li>
-                        <li><a href="/enquiry.php">enquirey</a></li>
-                    </ul>
-                </li>
+                <li><a href="/enquiry.php">contact us </a></li>
                 <li><a href="/user-jobs.php">Jobs</a></li>
-           
+
 
             </ul>
 

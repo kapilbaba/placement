@@ -55,9 +55,9 @@
             <div class="row">
                 <div class="intro">
                     <h1>Search Here For Jobs</h1>
-
+                    <a style="color: white; text-decoration: none" href="user-jobs.php">
                     <button type="button" class="btn btn-block start-now">Start From Now &nbsp; <span
-                                class="glyphicon glyphicon-chevron-right"></span></button>
+                                class="glyphicon glyphicon-chevron-right"></span></button></a>
                 </div>
 
             </div>
@@ -132,9 +132,12 @@
         <div style="background: #fcfffa; padding: 10px; opacity: 0.75" class="banner_footer">
 
             <p style="text-align: center; color: #000000;">submit your resume now &nbsp;
-                <button type="button" class="btn home_btn">
-                    Register Now
-                </button>
+                <a href="candidate-signup.php">
+                    <button type="button" class="btn home_btn">
+                        Register Now
+                    </button>
+                </a>
+
             </p>
         </div>
 </div>
@@ -206,13 +209,13 @@
 
 <section class="submit_job">
     <h1>apply job online</h1>
-    <a href="">click here</a>
+    <a href="user-jobs.php">click here</a>
 </section>
 
 <section class="sector">
     <div class="container">
         <div>
-            <h1 style="text-align: center; color: white">sector</h1>
+            <h1 style="text-align: center; color: white">services</h1>
         </div>
         <div style="letter-spacing: 1px;" class="col-sm-6 col-xs-12 col-md-3 col-md-offset-2 box">
             <h4>HR
@@ -257,7 +260,7 @@
 </section>
 <section class="latest_job">
     <div style="text-align: center;background: white;opacity:  0.76;"><h1>latest job </h1><span
-                style="color: black;"><a style="color: black;" href="">see all jobs</a></span></div>
+                style="color: black;"><a style="color: black; text-decoration: none" href="user-jobs.php" >see all jobs</a></span></div>
 
     <?php
     include "core/database/connection_db.php";

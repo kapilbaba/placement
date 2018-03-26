@@ -23,7 +23,7 @@ while ($row = $result->fetch_assoc()) {
     $contact = $row['contact'];
     $resume = $row['resumes'];
     $status = $row['candidate_status'];
-    $conn->close();
+
 }
 ?>
 <style>
