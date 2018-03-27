@@ -15,10 +15,13 @@ body{
     <?php include "layout/header.php"; ?>
     <?php include "layout/navbar.php"; ?>
     <section class="contact-us">
+
         <div class="form_page">
             <form action="">
 
+<div class="col-md-12">
 
+</div>
                 <div class="col-md-12 col-sm-6 col-xs-12">
                     <div class="form-group">
                         <label for="name"> name</label>
