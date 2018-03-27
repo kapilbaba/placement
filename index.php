@@ -68,7 +68,7 @@
 
                 <form action="sign_up.php" method="post" role="form" class="form">
 
-                    <div class="container_home_register" data-aos="zoom-in">
+                    <div class="container_home_register" >
 
                         <h3 style="text-align: center;">
                         <span class="top_register">
@@ -147,7 +147,7 @@
 <section id="into">
     <div class="container home_intro" style=" color: white">
 
-        <div class="col-md-8 col-xs-12-col-sm-12" data-aos="fade-left">
+        <div class="col-md-8 col-xs-12-col-sm-12" >
             <div class="col-sm-12 col-xs-12 col-md-11  block">
                 <h1>Welcome to A.J. Placement Consultants</h1>
                 <p>A.J. Placement Consultants is a leading brand in International recruitment consultancy for last
@@ -165,7 +165,7 @@
                     furni.</p>
                 <a class="btn-block" type="" href="">read more</a>
             </div>
-            <div class="col-sm-6 col-xs-12 col-md-5 block animated bounceInLeft">
+            <div class="col-sm-6 col-xs-12 col-md-5 block ">
                 <h4>Benefits of working in Middle East</h4>
                 <p>Tax free salaries. Offered according to experience and negotiable to fit your needs• Free
                     furni.</p>
@@ -185,7 +185,7 @@
             </div>
         </div>
 
-        <div style="text-align: center" class="col-md-4 col-xs-12 col-sm-12" data-aos="fade-up">
+        <div style="text-align: center" class="col-md-4 col-xs-12 col-sm-12" >
             <h3>message of CEO</h3>
             <img class="ceo_img" src="images/ceo.jpg" alt="">
             <p>
