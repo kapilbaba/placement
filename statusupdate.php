@@ -15,7 +15,7 @@ $status =$_POST['status'];
 $sql = "UPDATE users SET candidate_status='$status' WHERE id=$user_id";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Record updated successfully $user_id";
+    echo "Record updated successfully $user_id <a href='admin.php'>go home</a>" ;
 } else {
     echo "Error updating record: " . $conn->error;
 }
