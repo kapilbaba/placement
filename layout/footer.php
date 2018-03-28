@@ -56,7 +56,7 @@
                 </li>
                 <li class="sitemap_block">
                     <ul>
-                        <li class="sitemap_heading"><a>Services</a></li>
+                        <li class="sitemap_heading">Services</li>
                         <li><a title="Terms &amp; Conditions" href="/legal/terms">Hr consultance service</a></li>
                         <li><a title="Privacy Policy" href="/legal/privacy">Staff
                                 Augmentation
