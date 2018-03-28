@@ -17,12 +17,13 @@ body{
     <section class="contact-us">
 
         <div class="form_page">
-            <form action="">
+            <form action="mail.php" method="post">
 
 <div class="col-md-12">
 
 </div>
                 <div class="col-md-12 col-sm-6 col-xs-12">
+
                     <div class="form-group">
                         <label for="name"> name</label>
                         <input type="text" name="name" class="form-control" id="name">
