@@ -7,10 +7,13 @@
  */
 $name =$_POST['name'];
 $email = $_POST['email'];
-$message = $_POST['subject'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "contact@akostaplacement.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+$subject = $_POST['subject'];
+$message =$_POST['message'];
+
+$mailto ="contact@akostaplacement.com";
+$header ="from:" .$email;
+$txt ="you recive a text from ".$name."./n/n".$message;
+
+mail($mailto, $subject, $txt ,$header);
+header("index.php?mailsend");
+

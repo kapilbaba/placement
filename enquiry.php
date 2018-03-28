@@ -37,7 +37,14 @@ body{
                 </div>
 
                 <div class="col-md-12 col-sm-6 col-xs-12">
-                    <textarea id="subject" name="subject" placeholder="Write something.." cols="75" rows="5"></textarea>
+                    <div class="form-group">
+                        <label for="subject">subject</label>
+                        <input type="text" name="subject" class="form-control" id="subject">
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                    <textarea id="message" name="message" placeholder="Write something.." cols="75" rows="5"></textarea>
                 </div>
                 <p style="text-align: center">
 
