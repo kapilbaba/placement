@@ -25,13 +25,13 @@ body{
                 <div class="col-md-12 col-sm-6 col-xs-12">
                     <div class="form-group">
                         <label for="name"> name</label>
-                        <input type="text" class="form-control" id="name">
+                        <input type="text" name="name" class="form-control" id="name">
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-6 col-xs-12">
                     <div class="form-group">
                         <label for="email">email</label>
-                        <input type="email" class="form-control" id="email">
+                        <input type="email" name="email" class="form-control" id="email">
                     </div>
                 </div>
 
