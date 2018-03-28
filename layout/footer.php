@@ -76,8 +76,8 @@
 
                 <li class="sitemap_block social">
                     <ul>
-                        <li><a href="">terms and conditions</a></li>
-                        <li><a href="">privacy policy</a></li>
+                        <li><a href="/terms%20and%20condition.php">terms and conditions</a></li>
+                        <li><a href="/privacy-policy.php">privacy policy</a></li>
                         <li class="phantom"><a href=""></a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
