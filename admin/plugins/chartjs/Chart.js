@@ -1029,7 +1029,7 @@
 				this.options.customTooltips(false);
 			}
 			if (ChartElements.length > 0){
-				// If we have multiple datasets, show a MultiTooltip for all of the data points at that index
+				// If we have multiple datasets, show a MultiTooltip for all of the data points at that index.php
 				if (this.datasets && this.datasets.length > 1) {
 					var dataArray,
 						dataIndex;
@@ -1045,7 +1045,7 @@
 						tooltipColors = [],
 						medianPosition = (function(index) {
 
-							// Get all the points at that particular index
+							// Get all the points at that particular index.php
 							var Elements = [],
 								dataCollection,
 								xPositions = [],
@@ -1517,7 +1517,7 @@
 			var baseLineHeight = this.y - (this.height/2) + this.yPadding,
 				afterTitleIndex = index-1;
 
-			//If the index is zero, we're getting the title
+			//If the index.php is zero, we're getting the title
 			if (index === 0){
 				return baseLineHeight + this.titleHeight / 3;
 			} else{
@@ -1550,7 +1550,7 @@
 					ctx.fillText(label,this.x + this.xPadding + this.fontSize + 3, this.getLineHeight(index + 1));
 
 					//A bit gnarly, but clearing this rectangle breaks when using explorercanvas (clears whole canvas)
-					//ctx.clearRect(this.x + this.xPadding, this.getLineHeight(index + 1) - this.fontSize/2, this.fontSize, this.fontSize);
+					//ctx.clearRect(this.x + this.xPadding, this.getLineHeight(index.php + 1) - this.fontSize/2, this.fontSize, this.fontSize);
 					//Instead we'll make a white filled block to put the legendColour palette over.
 
 					ctx.fillStyle = this.legendColorBackground;
@@ -1878,11 +1878,11 @@
 			 * Solution:
 			 *
 			 * We assume the radius of the polygon is half the size of the canvas at first
-			 * at each index we check if the text overlaps.
+			 * at each index.php we check if the text overlaps.
 			 *
-			 * Where it does, we store that angle and that index.
+			 * Where it does, we store that angle and that index.php.
 			 *
-			 * After finding the largest index and angle we calculate how much we need to remove
+			 * After finding the largest index.php and angle we calculate how much we need to remove
 			 * from the shape radius to move the point inwards by that x.
 			 *
 			 * We average the left and right distances to get the maximum shape radius that can fit in the box
@@ -1922,7 +1922,7 @@
 				pointPosition = this.getPointPosition(i, largestPossibleRadius);
 				textWidth = this.ctx.measureText(template(this.templateString, { value: this.labels[i] })).width + 5;
 				if (i === 0 || i === this.valuesCount/2){
-					// If we're at index zero, or exactly the middle, we're at exactly the top/bottom
+					// If we're at index.php zero, or exactly the middle, we're at exactly the top/bottom
 					// of the radar chart, so text will be aligned centrally, so we'll half it and compare
 					// w/left and right text sizes
 					halfTextWidth = textWidth/2;
@@ -2192,7 +2192,7 @@
 					this.animations[i].animationObject.onAnimationComplete.call(this.animations[i].chartInstance);
 					// Remove the animation.
 					this.animations.splice(i, 1);
-					// Keep the index in place to offset the splice
+					// Keep the index.php in place to offset the splice
 					i--;
 				}
 			}

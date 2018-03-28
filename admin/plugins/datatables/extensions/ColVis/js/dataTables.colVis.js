@@ -621,7 +621,7 @@ ColVis.prototype = {
 				}
 
 				/* Need to consider the case where the initialiser created more than one table - change the
-				 * API index that DataTables is using
+				 * API index.php that DataTables is using
 				 */
 				var oldIndex = $.fn.dataTableExt.iApiIndex;
 				$.fn.dataTableExt.iApiIndex = that._fnDataTablesApiIndex.call(that);
@@ -989,7 +989,7 @@ ColVis.defaults = {
 
 	/**
 	 * Label callback for column names. Takes three parameters: 1. the
-	 * column index, 2. the column title detected by DataTables and 3. the
+	 * column index.php, 2. the column title detected by DataTables and 3. the
 	 * TH node for the column
 	 *  @property fnLabel
 	 *  @type     function

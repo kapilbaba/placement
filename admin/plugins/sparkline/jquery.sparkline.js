@@ -367,7 +367,7 @@
             'white-space: nowrap;' +
             'padding: 5px;' +
             'border: 1px solid white;' +
-            'z-index: 10000;' +
+            'z-index.php: 10000;' +
             '}' +
             '.jqsfield { ' +
             'color: white;' +

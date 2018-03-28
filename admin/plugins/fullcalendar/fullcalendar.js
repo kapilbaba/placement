@@ -2717,7 +2717,7 @@ var Grid = fc.Grid = RowRenderer.extend({
 	},
 
 
-	// Given a cell object with index and misc data, generates a range object
+	// Given a cell object with index.php and misc data, generates a range object
 	computeCellRange: function(cell) {
 		// subclasses must implement
 	},
@@ -4768,7 +4768,7 @@ DayGrid.mixin({
 					break;
 				}
 			}
-			// `j` now holds the desired subrow index
+			// `j` now holds the desired subrow index.php
 			seg.level = j;
 
 			// create new level array if needed and append segment
@@ -5480,7 +5480,7 @@ var TimeGrid = Grid.extend({
 		slatCoverage = Math.max(0, slatCoverage);
 		slatCoverage = Math.min(this.slatEls.length, slatCoverage);
 
-		slatIndex = Math.floor(slatCoverage); // an integer index of the furthest whole slot
+		slatIndex = Math.floor(slatCoverage); // an integer index.php of the furthest whole slot
 		slatRemainder = slatCoverage - slatIndex;
 		slatTop = this.slatTops[slatIndex]; // the top position of the furthest whole slot
 
@@ -5734,7 +5734,7 @@ TimeGrid.mixin({
 
 		for (col = 0; col < segCols.length; col++) { // iterate each column grouping
 			colSegs = segCols[col];
-			placeSlotSegs(colSegs); // compute horizontal coordinates, z-index's, and reorder the array
+			placeSlotSegs(colSegs); // compute horizontal coordinates, z-index.php's, and reorder the array
 
 			containerEl = $('<div class="fc-event-container"/>');
 
@@ -6733,7 +6733,7 @@ var View = fc.View = Class.extend({
 	// Initializes internal variables related to calculating hidden days-of-week
 	initHiddenDays: function() {
 		var hiddenDays = this.opt('hiddenDays') || []; // array of day-of-week indices that are hidden
-		var isHiddenDayHash = []; // is the day-of-week hidden? (hash with day-of-week-index -> bool)
+		var isHiddenDayHash = []; // is the day-of-week hidden? (hash with day-of-week-index.php -> bool)
 		var dayCnt = 0;
 		var i;
 
@@ -6758,7 +6758,7 @@ var View = fc.View = Class.extend({
 
 
 	// Is the current day hidden?
-	// `day` is a day-of-week index (0-6), or a Moment
+	// `day` is a day-of-week index.php (0-6), or a Moment
 	isHiddenDay: function(day) {
 		if (moment.isMoment(day)) {
 			day = day.day();

@@ -25,7 +25,7 @@
 
 
 /**
- * Switch the key value pairing of an index array to be value key (i.e. the old value is now the
+ * Switch the key value pairing of an index.php array to be value key (i.e. the old value is now the
  * key). For example consider [ 2, 0, 1 ] this would be returned as [ 1, 2, 0 ].
  *  @method  fnInvertKeyValues
  *  @param   array aIn Array to switch around
@@ -130,18 +130,18 @@ $.fn.dataTableExt.oApi.fnColReorder = function ( oSettings, iFrom, iTo )
 
 	if ( iFrom < 0 || iFrom >= iCols )
 	{
-		this.oApi._fnLog( oSettings, 1, "ColReorder 'from' index is out of bounds: "+iFrom );
+		this.oApi._fnLog( oSettings, 1, "ColReorder 'from' index.php is out of bounds: "+iFrom );
 		return;
 	}
 
 	if ( iTo < 0 || iTo >= iCols )
 	{
-		this.oApi._fnLog( oSettings, 1, "ColReorder 'to' index is out of bounds: "+iTo );
+		this.oApi._fnLog( oSettings, 1, "ColReorder 'to' index.php is out of bounds: "+iTo );
 		return;
 	}
 
 	/*
-	 * Calculate the new column array index, so we have a mapping between the old and new
+	 * Calculate the new column array index.php, so we have a mapping between the old and new
 	 */
 	var aiMapping = [];
 	for ( i=0, iLen=iCols ; i<iLen ; i++ )
@@ -221,7 +221,7 @@ $.fn.dataTableExt.oApi.fnColReorder = function ( oSettings, iFrom, iTo )
 	 */
 	if ( oSettings.aoColumns[iFrom].bVisible )
 	{
-		/* Calculate the current visible index and the point to insert the node before. The insert
+		/* Calculate the current visible index.php and the point to insert the node before. The insert
 		 * before needs to take into account that there might not be an element to insert before,
 		 * in which case it will be null, and an appendChild should be used
 		 */
@@ -816,7 +816,7 @@ ColReorder.prototype = {
 	/**
 	 * Add a mouse down listener to a particluar TH element
 	 *  @method  _fnMouseListener
-	 *  @param   int i Column index
+	 *  @param   int i Column index.php
 	 *  @param   element nTh TH element clicked on
 	 *  @returns void
 	 *  @private
@@ -846,7 +846,7 @@ ColReorder.prototype = {
 		/* Store information about the mouse position */
 		var target = $(e.target).closest('th, td');
 		var offset = target.offset();
-		var idx = parseInt( $(nTh).attr('data-column-index'), 10 );
+		var idx = parseInt( $(nTh).attr('data-column-index.php'), 10 );
 
 		if ( idx === undefined ) {
 			return;
@@ -1106,7 +1106,7 @@ ColReorder.prototype = {
 		$(this.s.dt.nTHead).find( '*' ).off( '.ColReorder' );
 
 		$.each( this.s.dt.aoColumns, function (i, column) {
-			$(column.nTh).removeAttr('data-column-index');
+			$(column.nTh).removeAttr('data-column-index.php');
 		} );
 
 		this.s.dt._colReorder = null;
@@ -1115,15 +1115,15 @@ ColReorder.prototype = {
 
 
 	/**
-	 * Add a data attribute to the column headers, so we know the index of
-	 * the row to be reordered. This allows fast detection of the index, and
+	 * Add a data attribute to the column headers, so we know the index.php of
+	 * the row to be reordered. This allows fast detection of the index.php, and
 	 * for this plug-in to work with FixedHeader which clones the nodes.
 	 *  @private
 	 */
 	"_fnSetColumnIndexes": function ()
 	{
 		$.each( this.s.dt.aoColumns, function (i, column) {
-			$(column.nTh).attr('data-column-index', i);
+			$(column.nTh).attr('data-column-index.php', i);
 		} );
 	}
 };

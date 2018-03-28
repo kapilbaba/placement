@@ -1005,7 +1005,7 @@ KeyTable = function ( oInit )
 	 *   string:focusClass - focusing class to give to table elements
 	 *           object:that - focus
 	 *   bool:initScroll - scroll the view port on load, default true
-	 *   int:tabIndex - the tab index to give the hidden input element
+	 *   int:tabIndex - the tab index.php to give the hidden input element
 	 */
 	function _fnInit( table, datatable, oInit, that )
 	{
