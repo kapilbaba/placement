@@ -31,7 +31,7 @@
 
                 <li class="sitemap_block">
                     <ul>
-                        <li class="sitemap_heading"><a>General</a></li>
+                        <li class="sitemap_headi">General</li>
                         <li><a title="Home" href="/index.php"> Home</a></li>
                         <li><a title="About us" href="/candidate-login.php">login </a></li>
                         <li><a title="About us" href="/candidate-signup.php">Sign Up </a></li>
@@ -44,7 +44,7 @@
 
                 <li class="sitemap_block">
                     <ul>
-                        <li class="sitemap_heading"><a>About us</a></li>
+                        <li class="sitemap_heading">About us</li>
                         <li><a
                                href="/company-profile.php">company profile</a></li>
                         <li><a title="Get in touch" href="/company-objective.php">company objective</a></li>
