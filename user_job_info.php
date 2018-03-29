@@ -107,7 +107,14 @@ if ($result->num_rows > 0) {
                         <div class="panel panel-info">
                             <div class="panel-heading">Job sallary</div>
                             <div class="panel-body">
-                                <span><?php echo $sallary; ?></span><span><span><?php echo $category; ?></span>,
+                                <span><?php echo $sallary; ?></span>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-info">
+                            <div class="panel-heading">Job category</div>
+                            <div class="panel-body">
+                                <span><?php echo $category; ?></span>
                             </div>
                         </div>
                         <div class="panel panel-info">
