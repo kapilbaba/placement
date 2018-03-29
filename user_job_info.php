@@ -111,7 +111,7 @@ if ($result->num_rows > 0) {
                             </div>
                         </div>
 
-                        <div class="panel panel-info">
+                        <div class="panel panel-default">
                             <div class="panel-heading">Job category</div>
                             <div class="panel-body">
                                 <span><?php echo $category; ?></span>
