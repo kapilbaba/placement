@@ -9,7 +9,7 @@ include "core/database/connection_db.php";
 session_start();
 
 $id = $_SESSION['id'];
-$target_dir = "candidate_resumes/";
+$target_dir = "resumes/";
 $target_file = $target_dir . basename($_FILES["resume_upload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
