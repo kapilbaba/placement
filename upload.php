@@ -25,9 +25,10 @@ if (isset($_POST["upload"])) {
                 header("location:user-dashboard.php");
             }
 
-            $conn->close();
+
         } else {
             die();
         }
     }
 }
+$conn->close();

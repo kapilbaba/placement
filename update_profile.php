@@ -7,6 +7,7 @@
  */
 
 include "core/database/connection_db.php";
+include "core/script/user-authenticated.php";
 session_start();
 $update = $_POST['update'];
 
