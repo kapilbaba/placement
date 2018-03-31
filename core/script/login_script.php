@@ -16,6 +16,6 @@ if (!$row = $result->fetch_assoc()) {
         header('Location:'.$_SESSION['redirectURL']);
     }
     else {
-        header('Location:user-dashboard.php');
+        header('Location:user-dashboard');
     }
 }
