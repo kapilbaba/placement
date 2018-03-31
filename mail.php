@@ -15,11 +15,9 @@ $message =$_POST['message'];
 
 
 $curl = curl_init();
-
 $json = [
-    'options'=>['sandbox'=>true],
     'content'=>[
-        'from'=>'contact@akostaplacment.com',
+        'from'=>'contact@akostaplacement.com',
         'subject'=>$subject,
         'text'=>$message
     ],
@@ -47,9 +45,8 @@ $response = curl_exec($curl);
 $err = curl_error($curl);
 curl_close($curl);
 if ($err) {
-    echo "cURL Error #:" . $err;
+    header('contact-us.php?mailerror');
 } else {
-    echo $response;
+    header("index.php?mailsend");
 }
-header("index.php?mailsend");
 

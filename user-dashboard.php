@@ -11,9 +11,8 @@ session_start();
 <?php
 $jobid=$_GET['id'];
 $id = $_SESSION['id'];
-$email1 =$_SESSION['email'];
 include "core/database/connection_db.php";
-$sql = "SELECT * from users Where id='$id' OR email='$email1'";
+$sql = "SELECT * from users Where id='$id'";
 $result = $conn->query($sql);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc()) {
@@ -108,7 +107,7 @@ while ($row = $result->fetch_assoc()) {
         </div>
         <div style="text-align: center; margin: 10px">
             <h3>
-                reqruitment process
+                recruitment process
             </h3>
             <p>status:</p><span style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
             <br>
