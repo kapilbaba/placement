@@ -36,7 +36,7 @@ session_start(); ?>
         <h3 style="text-align: center">track applicant status</h3>
         <div class="container">
             <div class="form_page">
-                <form ROLE="form" action="" method="post">
+                <form ROLE="form" action="track.php" method="post">
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="name">Job Seeker No</label>
@@ -45,8 +45,8 @@ session_start(); ?>
                     </div>
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label for="name"> Job Seeker Name</label>
-                            <input required="required" type="text" class="form-control" id="name" name="track_name">
+                            <label for="email"> Job Seeker Email</label>
+                            <input required="required" type="email" class="form-control" id="email" name="track_name">
                         </div>
                     </div>
 
@@ -56,14 +56,14 @@ session_start(); ?>
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <p style="color: red; font-size: small"><?php  ; ?></p>
+                                <p style="color: red; font-size: small"><?php   echo $_SESSION['status']; $_SESSION['status']= null; ?></p>
 
                             </div>
                         </div>
                     </div>
 
                     <p style="text-align: center">
-                        <button id="btnSubmit" type="submit" class="button1">track</button>
+                        <button id="btnSubmit" type="submit" name="track" class="button1">track</button>
                     </p>
 
                 </form>

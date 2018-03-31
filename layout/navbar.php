@@ -15,26 +15,26 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right ">
-                <li><a href="/index.php">HOME</a></li>
+                <li><a href="/">HOME</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/company-profile.php">company profile</a></li>
-                        <li><a href="/company-objective.php">company objective</a></li>
-                        <li><a href="/our-mission.php">our mission</a></li>
-                        <li><a href="/our-vision.php">our vision</a></li>
-                        <li><a href="/our-value.php">our value</a></li>
-                        <li><a href="/client-we-work-with.php">client we work with</a></li>
+                        <li><a href="/company-profile">company profile</a></li>
+                        <li><a href="/company-objective">company objective</a></li>
+                        <li><a href="/our-mission">our mission</a></li>
+                        <li><a href="/our-vision">our vision</a></li>
+                        <li><a href="/our-value">our value</a></li>
+                        <li><a href="/client-we-work-with">client we work with</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/cunsulting-service.php">HR Consulting Services </a></li>
-                        <li><a href="/Staff-Augmentation-Services.php">Staff Augmentation Services</a></li>
-                        <li><a href="/Leadership-Hiring-Services.php">Leadership Hiring Services</a></li>
-                        <li><a href="/IT-Staffing-Services.php">IT Staffing Services</a></li>
-                        <li><a href="/contract-staffing-service.php">Contract Staffing Services</a></li>
+                        <li><a href="/cunsulting-service">HR Consulting Services </a></li>
+                        <li><a href="/Staff-Augmentation-Services">Staff Augmentation Services</a></li>
+                        <li><a href="/Leadership-Hiring-Services">Leadership Hiring Services</a></li>
+                        <li><a href="/IT-Staffing-Services">IT Staffing Services</a></li>
+                        <li><a href="/contract-staffing-service">Contract Staffing Services</a></li>
 
                     </ul>
                 </li>
@@ -42,19 +42,19 @@
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">JOBSEEKERS <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/candidate-login.php">candidate login</a></li>
-                        <li><a href="/candidate-signup.php">candidate registration</a></li>
+                        <li><a href="/candidate-login">candidate login</a></li>
+                        <li><a href="/candidate-signup">candidate registration</a></li>
 
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/contact-us.php">contact detail </a></li>
-                        <li><a href="/enquiry.php">enquirey</a></li>
+                        <li><a href="/contact-us">contact detail </a></li>
+                        <li><a href="/enquiry">enquirey</a></li>
                     </ul>
                 </li>
-                <li><a href="/user-jobs.php">Jobs</a></li>
+                <li><a href="/user-jobs">Jobs</a></li>
 
 
             </ul>
