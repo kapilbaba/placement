@@ -57,7 +57,7 @@ session_start(); ?>
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <h3  style="color: red;><?php   echo $status; ?></h3>
+                                <h3  style="color: red; "><?php   echo $status; ?></h3>
 
                             </div>
                         </div>
