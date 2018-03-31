@@ -209,7 +209,7 @@
 
 <section class="submit_job">
     <h1>apply job online</h1>
-    <a href="user-jobs.php">click here</a>
+    <a href="user-jobs">click here</a>
 </section>
 
 <section class="sector">
