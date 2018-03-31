@@ -25,7 +25,7 @@
         <h3 style="text-align: center">candidate registration</h3>
         <div class="container">
             <div class="form_page">
-                <form ROLE="form" action="sign_up.php" method="post">
+                <form ROLE="form" action="sign_up" method="post">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="name">first name</label>

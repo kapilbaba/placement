@@ -16,13 +16,13 @@ if (isset($submit)) {
         $result = $conn->query($sql);
         if (!$row = $result->fetch_assoc()) {
             $_SESSION['error_msg'] = 'You Are Using Inncorrect E-mail & Password';
-            header("location:admin-login.php");
+            header("location:admin-login");
             die();
         } else {
         session_start();
         $_SESSION['id'] = $row['id'];
         $_SESSION["authenticated"] = 'true';
-        header('Location: admin.php');
+        header('Location: admin');
 
     }
     }

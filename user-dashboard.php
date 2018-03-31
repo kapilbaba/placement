@@ -49,7 +49,7 @@ $applicantid = $row['id'];
 
                     <div class="tab-content">
                         <div id="home" class="tab-pane fade in active">
-                            <form ROLE="form" action="update_profile.php" method="post">
+                            <form ROLE="form" action="update_profile" method="post">
                                 <div class="col-md-12 col-sm-6 col-xs-12">
                                     <div class="form-group">
                                         <label for="email">Email</label>

@@ -134,7 +134,7 @@ session_start(); ?>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
-                        <a href="allusers.php" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
+                        <a href="allusers" class="btn btn-sm btn-default btn-flat pull-right">View All candidates</a>
                     </div>
                     <!-- /.box-footer -->
                 </div>

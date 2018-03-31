@@ -37,7 +37,7 @@ session_start();
             <div class="col-md-4 col-xs-12 col-sm-12">
                 <h3 style="text-align: center">
                 Your job is confirmed and sent to our HR Head.
-                    <a href="user-dashboard.php">Go Back To your profile</a>
+                    <a href="user-dashboard">Go Back To your profile</a>
                 </h3>
 
             </div>
