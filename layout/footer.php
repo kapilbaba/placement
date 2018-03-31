@@ -31,11 +31,11 @@
 
                 <li class="sitemap_block">
                     <ul>
-                        <li class="sitemap_headi">General</li>
-                        <li><a title="Home" href="/index.php"> Home</a></li>
-                        <li><a  href="/candidate-login.php">login </a></li>
-                        <li><a  href="/candidate-signup.php">Sign Up </a></li>
+                        <li><a title="Home" href="/"> Home</a></li>
+                        <li><a  href="/candidate-login">login </a></li>
+                        <li><a  href="/candidate-signup">Sign Up </a></li>
                         <li><a  href="/">Blog</a></li>
+                        <li class="phantom"><a>&nbsp;</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                     </ul>
@@ -46,11 +46,11 @@
                     <ul>
                         <li class="sitemap_heading">About us</li>
                         <li><a
-                               href="/company-profile.php">company profile</a></li>
-                        <li><a  href="/company-objective.php">company objective</a></li>
-                        <li><a  href="/customers">our mission</a></li>
-                        <li class="phantom"><a>&nbsp;our value</a></li>
-                        <li class="phantom"><a>&nbsp;our vision</a></li>
+                               href="/company-profile">company profile</a></li>
+                        <li><a  href="/company-objective">company objective</a></li>
+                        <li><a  href="/our-mission">our mission</a></li>
+                        <li class="phantom"><a href="/our-value">&nbsp;our value</a></li>
+                        <li class="phantom"><a href="/our-vision">&nbsp;our vision</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                     </ul>
                 </li>
@@ -58,17 +58,17 @@
 
                     <ul>
                         <li class="sitemap_heading">Services</li>
-                        <li><a  href="/legal/terms">Hr consultance service</a></li>
-                        <li><a  href="/legal/privacy">Staff
+                        <li><a  href="/cunsulting-service">Hr consultance service</a></li>
+                        <li><a  href="/Staff-Augmentation-Services">Staff
                                 Augmentation
                                 Services</a></li>
-                        <li><a>&nbsp;Leadership
+                        <li><a href="/Leadership-Hiring-Services">&nbsp;Leadership
                                 Hiring
                                 Services</a></li>
-                        <li><a>&nbsp;IT
+                        <li><a href="/IT-Staffing-Services.php">&nbsp;IT
                                 Staffing
                                 Services</a></li>
-                        <li><a>&nbsp;Contract
+                        <li><a href="/contract-staffing-service.php">&nbsp;Contract
                                 Staffing
                                 Services</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
@@ -77,8 +77,8 @@
 
                 <li class="sitemap_block social">
                     <ul>
-                        <li><a href="/terms%20and%20condition.php">terms and conditions</a></li>
-                        <li><a href="/privacy-policy.php">privacy policy</a></li>
+                        <li><a href="/terms%20and%20condition">terms and conditions</a></li>
+                        <li><a href="/privacy-policy">privacy policy</a></li>
                         <li class="phantom"><a href=""></a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
