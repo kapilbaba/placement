@@ -50,8 +50,8 @@
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us <i
                                 class="fa fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/contact-us">contact detail </a></li>
-                        <li><a href="/enquiry">enquirey</a></li>
+                        <li><a href="/enquiry.php">enquiry </a></li>
+                        <li><a href="/contact.php">contact-us</a></li>
                     </ul>
 
                 </li>
