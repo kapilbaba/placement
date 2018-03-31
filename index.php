@@ -122,7 +122,7 @@
                             </div>
                         </div>
                         <p style="color: red; text-align: center">
-                            <a href="candidate-login.php">Login here</a>
+                            <a href="candidate-login">Login here</a>
                         </p>
                     </div>
                 </form>
@@ -132,7 +132,7 @@
         <div style="background: #fcfffa; padding: 10px; opacity: 0.75" class="banner_footer">
 
             <p style="text-align: center; color: #000000;">submit your resume now &nbsp;
-                <a href="candidate-signup.php">
+                <a href="candidate-signup">
                     <button type="button" class="btn home_btn">
                         Register Now
                     </button>
@@ -223,7 +223,7 @@
                     Consulting
                     Services
                 </h4>
-                <a class="btn_apply" href="/cunsulting-service.php">read more</a>
+                <a class="btn_apply" href="/cunsulting-service">read more</a>
             </div>
 
             <div class="col-sm-6 col-xs-12 col-md-3 box">
@@ -231,21 +231,21 @@
                     Augmentation
                     Services
                 </h4>
-                <a class="btn_apply" href="/Staff-Augmentation-Services.php">read more</a>
+                <a class="btn_apply" href="/Staff-Augmentation-Services">read more</a>
             </div>
             <div class="col-sm-6 col-xs-12 col-md-3 box">
                 <h4>Leadership
                     Hiring
                     Services
                 </h4>
-                <a class="btn_apply" href="/Leadership-Hiring-Services.php">read more</a>
+                <a class="btn_apply" href="/Leadership-Hiring-Services">read more</a>
             </div>
             <div style="margin-left: 20%" class="col-sm-6 col-xs-12 col-md-offset- col-md-3 box">
                 <h4>IT
                     Staffing
                     Services
                 </h4>
-                <a class="btn_apply" href="/IT-Staffing-Services.php">read more</a>
+                <a class="btn_apply" href="/IT-Staffing-Services">read more</a>
 
             </div>
 
@@ -253,7 +253,7 @@
                 <h4>Contract
                     Staffing
                     Services</h4>
-                <a class="btn_apply" href="contract-staffing-service.php">read more</a>
+                <a class="btn_apply" href="contract-staffing-service">read more</a>
             </div>
         </div>
 
@@ -264,7 +264,7 @@
 </section>
 <section class="latest_job">
     <div style="text-align: center;background: white;opacity:  0.76;"><h1>latest job </h1><span
-                style="color: black;"><a style="color: black; text-decoration: none" href="user-jobs.php" >see all jobs</a></span></div>
+                style="color: black;"><a style="color: black; text-decoration: none" href="user-jobs" >see all jobs</a></span></div>
 
     <?php
     include "core/database/connection_db.php";
