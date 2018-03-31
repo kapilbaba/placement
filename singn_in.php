@@ -10,7 +10,7 @@ $pwd = $_POST['pwd'];
 if (isset($submit)) {
 
     if (empty($uid) == true || empty($pwd) == true) {
-        echo "id pass is not true";
+        echo "plese enter your email and password";
     } elseif (isset($remember_me)) {
         if ($_POST["remember_me"] == '1' || $_POST["remember_me"] == 'on') {
             $hour = time() + 3600 * 24 * 30;

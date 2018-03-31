@@ -33,9 +33,9 @@
                     <ul>
                         <li class="sitemap_headi">General</li>
                         <li><a title="Home" href="/index.php"> Home</a></li>
-                        <li><a title="About us" href="/candidate-login.php">login </a></li>
-                        <li><a title="About us" href="/candidate-signup.php">Sign Up </a></li>
-                        <li><a title="eversign Blog" href="/">Blog</a></li>
+                        <li><a  href="/candidate-login.php">login </a></li>
+                        <li><a  href="/candidate-signup.php">Sign Up </a></li>
+                        <li><a  href="/">Blog</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                     </ul>
@@ -47,8 +47,8 @@
                         <li class="sitemap_heading">About us</li>
                         <li><a
                                href="/company-profile.php">company profile</a></li>
-                        <li><a title="Get in touch" href="/company-objective.php">company objective</a></li>
-                        <li><a title="Customers" href="/customers">our mission</a></li>
+                        <li><a  href="/company-objective.php">company objective</a></li>
+                        <li><a  href="/customers">our mission</a></li>
                         <li class="phantom"><a>&nbsp;our value</a></li>
                         <li class="phantom"><a>&nbsp;our vision</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
@@ -58,8 +58,8 @@
 
                     <ul>
                         <li class="sitemap_heading">Services</li>
-                        <li><a title="Terms &amp; Conditions" href="/legal/terms">Hr consultance service</a></li>
-                        <li><a title="Privacy Policy" href="/legal/privacy">Staff
+                        <li><a  href="/legal/terms">Hr consultance service</a></li>
+                        <li><a  href="/legal/privacy">Staff
                                 Augmentation
                                 Services</a></li>
                         <li><a>&nbsp;Leadership
@@ -82,10 +82,8 @@
                         <li class="phantom"><a href=""></a></li>
                         <li><a href=""></a></li>
                         <li><a href=""></a></li>
+                        <li class="phantom"><a>&nbsp;</a></li>
 
-                        <li class="customer_support_button"><a target="_blank" class="customer_support"
-                                                               title="Browse through our Help Center" href="/help">Help
-                                Center</a></li>
                     </ul>
                 </li>
 

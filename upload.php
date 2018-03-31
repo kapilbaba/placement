@@ -18,11 +18,11 @@ if (isset($_POST["upload"])) {
         if (move_uploaded_file($_FILES["resume_upload"]["tmp_name"], $target_file)) {
             $sql = "update users set resumes= '$target_file' WHERE id='$id'";
             if ($conn->query($sql) === TRUE) {
-                $_SESSION['upload-done']="your resume is upload successfully ";
+
                 header("location:user-dashboard.php");
             } else {
                 $_SESSION['upload-error']="your resume is upload failed  ";
-                header("location:user-dashboard.php");
+                header("location:upload-resume.php");
             }
 
 
