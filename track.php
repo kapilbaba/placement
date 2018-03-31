@@ -8,24 +8,28 @@
 
 session_start();
 include "core/database/connection_db.php";
-$number =$_POST['rack_number'];
-$name =$_POST['track_name'];
-$track =$_POST['track'];
+$number = $_POST['track_number'];
+$name = $_POST['track_emial'];
+$track = $_POST['track'];
+
 if (isset($track)){
-    $sql = "SELECT * from users Where id='$number' AND  firstname='$name'";
+    $sql = "SELECT candidate_status FROM users WHERE id ='$number' AND  email ='$name'";
+
     $result = $conn->query($sql);
-    $result->num_rows > 0;
-    while ($row = $result->fetch_assoc()) {
-$status = $row['candidate_status'];
 
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            $status = $row['candidate_status'];
+
+             header("location:track-application?status=$status");
+        }
+    } else {
+        echo "0 results";
     }
-    $_SESSION['status']= $status;
-    header("location:track-application");
-
 }
 else{
-    header("location:track-application");
+    die();
 }
-
-
+$conn->close();
 ?>
