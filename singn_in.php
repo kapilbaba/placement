@@ -19,7 +19,6 @@ if (isset($submit)) {
             include "core/script/login_script.php";
         }
     } else {
-
         include "core/script/login_script.php";
     }
 

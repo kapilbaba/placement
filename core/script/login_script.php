@@ -12,5 +12,10 @@ if (!$row = $result->fetch_assoc()) {
     session_start();
     $_SESSION["authenticated"] = 'true';
     $_SESSION["id"] = $row['id'];
-    header('Location:user-dashboard.php');
+    if(isset($_SESSION['redirectURL'])){
+        header('Location:'.$_SESSION['redirectURL']);
+    }
+    else {
+        header('Location:user-dashboard.php');
+    }
 }

@@ -7,6 +7,7 @@
  */
 session_start();
 if(empty($_SESSION["authenticated"]) || $_SESSION["authenticated"] != 'true') {
+    $_SESSION['redirectURL'] = $_SERVER['REQUEST_URI'];
     header('Location: candidate-login.php');
 }
 ?>

@@ -45,9 +45,10 @@ session_start();
                         <label for="checkbox"><input type="checkbox" name="remember_me" value="1" id="remember_me"> remember me</label>
                     </div>
                     <p style="color: red; text-align: center">
-                        <?php echo $_SESSION['message']; ?>
-                        <?php echo $_SESSION['error_msg']; ?>
-                        <?php echo $_SESSION['login-now']; ?>
+                        <?php echo $_SESSION['message']; $_SESSION['message'] = null; ?>
+                        <?php echo $_SESSION['error_msg']; $_SESSION['error_msg'] = null; ?>
+                        <?php echo $_SESSION['login-now']; $_SESSION['login-now'] = null; ?>
+
 
                     </p>
                     <p style="text-align: center">
@@ -57,7 +58,6 @@ session_start();
                         <a href="candidate-signup.php"> here!</a>
                     </p>
 
-                    <?php session_unset(); ?>
                 </form>
             </div>
 

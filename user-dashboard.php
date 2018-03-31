@@ -16,7 +16,7 @@ $sql = "SELECT * from users Where id='$id'";
 $result = $conn->query($sql);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc()) {
-
+$applicantid = $row['id'];
     $email = $row['email'];
     $pwd = $row['password'];
     $contact = $row['contact'];
@@ -44,6 +44,7 @@ while ($row = $result->fetch_assoc()) {
                         <li class="active"><a data-toggle="tab" href="#home">user information</a></li>
                         <li><a data-toggle="tab" href="#menu2">Resume Update</a></li>
                         <li><a data-toggle="tab" href="#menu3">Job status</a></li>
+                        <li><a data-toggle="tab" href="#menu4">applicant Id</a></li>
                     </ul>
 
                     <div class="tab-content">
@@ -73,8 +74,10 @@ while ($row = $result->fetch_assoc()) {
                                 </div>
 
 
-                                <p><?php echo $_SESSION['success'];
-                                    $_SESSION['not-success']; ?></p>
+                                <p><?php echo $_SESSION['success']; $_SESSION['success']=null;
+                                    echo $_SESSION['not-success'];
+                                    $_SESSION['not-success'] = null;
+                                    ?></p>
 
 
                                 <p style="text-align: center">
@@ -108,6 +111,21 @@ while ($row = $result->fetch_assoc()) {
                                 <br>
                                 <br>
                                 <p style="color: red; text-align: center"><?php echo $_SESSION['job-updated']; ?></p>
+
+                            </div>
+
+
+                        </div>
+
+                        <div id="menu4" class="tab-pane fade">
+                            <div style="text-align: center; margin: 10px">
+                                <h3>
+                                    Applicant Id
+                                </h3>
+                                <br>
+                                <br>
+                                <span style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $applicantid; ?></span>
+
 
                             </div>
 
