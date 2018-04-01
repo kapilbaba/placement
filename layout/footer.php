@@ -65,10 +65,10 @@
                         <li><a href="/Leadership-Hiring-Services">&nbsp;Leadership
                                 Hiring
                                 Services</a></li>
-                        <li><a href="/IT-Staffing-Services.php">&nbsp;IT
+                        <li><a href="/IT-Staffing-Services">&nbsp;IT
                                 Staffing
                                 Services</a></li>
-                        <li><a href="/contract-staffing-service.php">&nbsp;Contract
+                        <li><a href="/contract-staffing-service">&nbsp;Contract
                                 Staffing
                                 Services</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
