@@ -65,7 +65,7 @@ if ($result->num_rows > 0) {
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/user-nav.php"; ?>
+    <?php include "layout/user-navbar.php"; ?>
     <section class="job_search">
         <div class="container">
             <?php include "layout/header2.php"; ?>

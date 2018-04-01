@@ -30,7 +30,7 @@ $applicantid = $row['id'];
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/user-nav.php"; ?>
+    <?php include "layout/user-navbar.php"; ?>
 
     <section class="registration_1">
 

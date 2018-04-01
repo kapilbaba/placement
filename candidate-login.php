@@ -21,7 +21,7 @@ session_start();
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/nav.php"; ?>
+    <?php include "layout/navbar.php"; ?>
 
     <section class="registration">
         <h3 style="text-align: center">candidate login</h3>

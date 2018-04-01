@@ -21,7 +21,7 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/nav.php"; ?>
+    <?php include "layout/navbar.php"; ?>
     <section class="">
         <?php  include "layout/header2.php";?>
         <div style="text-align: center" class="container">
