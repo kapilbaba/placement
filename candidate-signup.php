@@ -70,7 +70,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <p style="color: red; font-size: small"><?php echo  $_SESSION['error_exist']; ?></p>
+                                <p style="color: red; font-size: small"><?php echo  $_SESSION['error_exist']; $_SESSION['error_exist']= null;  ?></p>
                                 <span class="pass_match" style="display: none; color: red; font-size: small; text-align: center">Password Is Not Matched</span>
 
                             </div>
