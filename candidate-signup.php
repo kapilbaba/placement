@@ -88,7 +88,7 @@
                         <button id="btnSubmit" type="submit" class="button1">Register</button>
                     </p>
                     <p style="color: red; text-align: center">
-                        <a href="candidate-login.php">Login here</a>
+                        <a href="candidate-login">Login here</a>
                     </p>
                 </form>
             </div>
