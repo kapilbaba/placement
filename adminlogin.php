@@ -22,7 +22,7 @@ if (isset($submit)) {
         session_start();
         $_SESSION['id'] = $row['id'];
         $_SESSION["authenticated"] = 'true';
-        header('Location: admin-dashboard.php');
+        header('Location: admin-dashboard');
 
     }
     }

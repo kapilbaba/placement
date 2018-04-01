@@ -51,7 +51,7 @@ session_start(); ?>
                                        value="Upload"/>
                                 <br>
                                 <br>
-                                <a type="button"  href="user-dashboard.php"><?php echo $_SESSION['upload-success'];$_SESSION['upload-success']=null;?></a>
+                                <a type="button"  href="user-dashboard"><?php echo $_SESSION['upload-success'];$_SESSION['upload-success']=null;?></a>
                             </p>
 
                         </form>
