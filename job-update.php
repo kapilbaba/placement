@@ -17,9 +17,9 @@ if (isset($update)) {
     $sql = "UPDATE users SET jobid='$job_id' , jobname='$job_name' WHERE id='$id'";
 
     if ($conn->query($sql) === TRUE) {
-        header("location:confirmd-job.php");
+        header("location:confirmd-job");
     } else {
-        header("location:user-jobs.php");
+        header("location:user-jobs");
         $_SESSION['job-update-failed']="job update failed";
     }
 
