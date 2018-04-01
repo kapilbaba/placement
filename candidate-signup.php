@@ -80,7 +80,7 @@
                         <div class="col-sm-12">
                             <div class="text-center">
                                 <p style="color: black; font-size: small">By proceeding you agree
-                                    to the <a href="#">Terms of Use </a>and <a href=""> Privacy Policy</a> </p>
+                                    to the <a href="/terms%20and%20condition">Terms of Use </a>and <a href="/privacy-policy"> Privacy Policy</a> </p>
                             </div>
                         </div>
                     </div>
