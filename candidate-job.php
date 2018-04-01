@@ -50,7 +50,7 @@ if ($result->num_rows > 0) {
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/user-navbar.php"; ?>
+    <?php include "layout/nav.php"; ?>
 
     <section class="registration_1">
 

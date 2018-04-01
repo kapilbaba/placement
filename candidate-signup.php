@@ -19,7 +19,7 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/navbar.php"; ?>
+    <?php include "layout/nav.php"; ?>
 
     <section class="registration">
         <h3 style="text-align: center">candidate registration</h3>

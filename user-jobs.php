@@ -19,7 +19,7 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/navbar.php"; ?>
+    <?php include "layout/nav.php"; ?>
     <section class="job_search">
         <div class="container">
             <?php  include "layout/header2.php";?>

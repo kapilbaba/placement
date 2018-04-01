@@ -46,7 +46,7 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/navbar.php"; ?>
+    <?php include "layout/nav.php"; ?>
 
     <section class="container banner">
         <div class="back"
