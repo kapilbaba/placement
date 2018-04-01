@@ -94,6 +94,7 @@ if ($result->num_rows > 0) {
                                 <span><?php echo $description3; ?></span>
                                 <br>
                                 <span><?php echo $description4; ?></span></div>
+
                         </div>
                         <div class="panel panel-info">
                             <div class="panel-heading">Job skills</div>
