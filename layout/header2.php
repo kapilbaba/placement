@@ -26,23 +26,23 @@
 
 <div class="container">
             <ul class="nav nav-pills nav-justified">
-                <li><a class="plain" href="/cunsulting-service.php">HR
+                <li><a class="plain" href="/cunsulting-service">HR
                         Consulting
                         Services
                         </a></li>
-                <li><a class="plain" href="/Staff-Augmentation-Services.php">Staff
+                <li><a class="plain" href="/Staff-Augmentation-Services">Staff
                         Augmentation
                         Services
                         </a></li>
-                <li><a class="plain" href="/Leadership-Hiring-Services.php">Leadership
+                <li><a class="plain" href="/Leadership-Hiring-Services">Leadership
                         Hiring
                         Services
                         </a></li>
-                <li><a class="plain" href="/IT-Staffing-Services.php">IT
+                <li><a class="plain" href="/IT-Staffing-Services">IT
                         Staffing
                         Services
                         </a></li>
-                <li><a class="plain" href="/contract-staffing-service.php">Contract
+                <li><a class="plain" href="/contract-staffing-service">Contract
                         Staffing
                         Services
                         </a></li>

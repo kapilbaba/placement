@@ -17,6 +17,7 @@ $result = $conn->query($sql);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc()) {
 $applicantid = $row['id'];
+    $job = $row['jobname'];
     $email = $row['email'];
     $pwd = $row['password'];
     $contact = $row['contact'];
@@ -43,8 +44,9 @@ $applicantid = $row['id'];
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#home">user information</a></li>
                         <li><a data-toggle="tab" href="#menu2">Resume Update</a></li>
-                        <li><a data-toggle="tab" href="#menu3">Job status</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Job status </a></li>
                         <li><a data-toggle="tab" href="#menu4">applicant Id</a></li>
+
                     </ul>
 
                     <div class="tab-content">
@@ -103,6 +105,7 @@ $applicantid = $row['id'];
                         </div>
                         <div id="menu3" class="tab-pane fade">
                             <div style="text-align: center; margin: 10px">
+                              
                                 <h3>
                                     recruitment process
                                 </h3>
@@ -131,6 +134,8 @@ $applicantid = $row['id'];
 
 
                         </div>
+
+
                     </div>
                 </div>
 
