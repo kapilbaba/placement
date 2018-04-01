@@ -17,7 +17,6 @@ $result = $conn->query($sql);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc()) {
 $applicantid = $row['id'];
-    $job = $row['jobname'];
     $email = $row['email'];
     $pwd = $row['password'];
     $contact = $row['contact'];
