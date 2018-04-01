@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="intro">
                     <h1>Search Here For Jobs</h1>
-                    <a style="color: white; text-decoration: none" href="user-jobs.php">
+                    <a style="color: white; text-decoration: none" href="user-jobs">
                     <button type="button" class="btn btn-block start-now">Start From Now &nbsp; <span
                                 class="glyphicon glyphicon-chevron-right"></span></button></a>
                 </div>
