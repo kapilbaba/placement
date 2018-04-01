@@ -46,7 +46,7 @@
     <p>salary : <span>rs".$row['salary']."</span> -per month</p>
     <p>job category : <span>".$row['jobcategory']."</span></p>
     <a class='btn_apply' href='user_job_info.php?id=".$row['id']."'>show detail</a>
-    <a class='btn_apply' href='candidate-job.php?id=".$row['id']."'>apply online</a>
+    <a class='btn_apply' href='candidate-job?id=".$row['id']."'>apply online</a>
     </div>
     ";
             }
