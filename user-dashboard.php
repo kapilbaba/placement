@@ -41,15 +41,15 @@ $applicantid = $row['id'];
                 <div style="margin: 0px;" class="form_page">
 
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#home">user information</a></li>
+                        <li ><a data-toggle="tab" href="#home">user information</a></li>
                         <li><a data-toggle="tab" href="#menu2">Resume Update</a></li>
                         <li><a data-toggle="tab" href="#menu3">Job status </a></li>
-                        <li><a data-toggle="tab" href="#menu4">applicant Id</a></li>
+                        <li class="active"><a data-toggle="tab" href="#menu4">applicant Id</a></li>
 
                     </ul>
 
                     <div class="tab-content">
-                        <div id="home" class="tab-pane fade in active">
+                        <div id="home" class="tab-pane fade ">
                             <form ROLE="form" action="update_profile" method="post">
                                 <div class="col-md-12 col-sm-6 col-xs-12">
                                     <div class="form-group">
@@ -119,7 +119,7 @@ $applicantid = $row['id'];
 
                         </div>
 
-                        <div id="menu4" class="tab-pane fade">
+                        <div id="menu4" class="tab-pane fade in active">
                             <div style="text-align: center; margin: 10px">
                                 <h3>
                                     Applicant Id

@@ -48,7 +48,10 @@ session_start(); ?>
                             <p><?php echo $_SESSION['upload-error']; ?></p>
                             <p style="text-align: left">
                                 <input style="margin-left: 15px" name="upload" type="submit" class="button1"
-                                       value="Update"/>
+                                       value="Upload"/>
+                                <br>
+                                <br>
+                                <a type="button"  href="user-dashboard.php"><?php echo $_SESSION['upload-success'];$_SESSION['upload-success']=null;?></a>
                             </p>
 
                         </form>
