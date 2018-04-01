@@ -31,7 +31,7 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="/admin.php"><i class="fa fa-laptop"></i> <span>Dashboard</span></a></li>
+            <li class="active"><a href="/admin-dashboard.php"><i class="fa fa-laptop"></i> <span>Dashboard</span></a></li>
             <li class=""><a href="/allusers.php"><i class="fa fa-users"></i> <span>All candidates</span></a></li>
 
 
