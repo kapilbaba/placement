@@ -32,11 +32,11 @@ body{
 
         font-size: 16px;
     }
-    h5, ul {
+    h4, ul {
         margin: 0;
         padding: 0;
     }
-    h5 {
+    h4 {
         color: #04b3ee;
         font-weight: 400;
         font-family: 'Roboto Slab', serif;
@@ -60,8 +60,8 @@ body{
         padding-top: 20px;
     }
 .item{
-    background: #0000008f;
-    color: white;
+    background:  #ffffff8f;
+    color: black;
     padding: 15px;
 }
 </style>
@@ -100,7 +100,7 @@ body{
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="item">
-                                <h3>24/7 Quick Contact</h3>
+                                <h4>24/7 Quick Contact</h4>
 
                                 <ul>
 
@@ -115,7 +115,7 @@ body{
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="item">
-                                <h3>Working Hours</h3>
+                                <h4>Working Hours</h4>
 
                                 <ul>
                                     <li>Mon - Fri Day: <span> 09.00am to 18.00pm </span></li>
