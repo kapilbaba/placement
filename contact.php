@@ -100,13 +100,13 @@ body{
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="item">
-                                <h5>24/7 Quick Contact</h5>
+                                <h3>24/7 Quick Contact</h3>
 
                                 <ul>
-                                    <li>Phone No: <span> +91&nbsp;11 22717833</span></li>
-                                    <li>Mobile No: <span> +91 8448015977</span></li>
-                                    <li>Email: <span> info@avaplacement.com,</span></li>
-                                    <li>Email: <span> avaplacement@gmail.com</span></li>
+
+                                    <li>Mobile No: <span> ‪+91 84475 81034</span></li>
+                                    <li>Email: <span> contact@akostaplacement.com</span></li>
+                                    <li>Email: <span> akostaplacement@gmail.com</span></li>
                                 </ul>
                             </div>
                             <br>
@@ -115,7 +115,7 @@ body{
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="item">
-                                <h5>Working Hours</h5>
+                                <h3>Working Hours</h3>
 
                                 <ul>
                                     <li>Mon - Fri Day: <span> 09.00am to 18.00pm </span></li>
