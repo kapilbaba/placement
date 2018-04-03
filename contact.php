@@ -37,7 +37,7 @@ body{
         padding: 0;
     }
     h4 {
-        color: #04b3ee;
+        color: crimson;
         font-weight: 400;
         font-family: 'Roboto Slab', serif;
     }
@@ -64,6 +64,12 @@ body{
     color: black;
     padding: 15px;
 }
+    .color{
+        color: deepskyblue;
+    }
+    .black{
+        color: black;
+    }
 </style>
 <div id="page">
     <?php include "layout/header.php"; ?>
@@ -104,12 +110,13 @@ body{
 
                                 <ul>
 
-                                    <li>Mobile No: <span> ‪+91 84475 81034</span></li>
-                                    <li>Email: <span style="text-transform: lowercase"> contact@akostaplacement.com</span></li>
-                                    <li>Email: <span style="text-transform: lowercase"> akostaplacement@gmail.com</span></li>
+                                    <li class="color">Mobile No: <span class="black"> ‪+91 84475 81034</span></li>
+                                    <li class="color">Email: <span class="black" style="text-transform: lowercase"> contact@akostaplacement.com</span></li>
+                                    <li class="color">Email: <span class="black" style="text-transform: lowercase"> akostaplacement@gmail.com</span></li>
+                                    <br>
+
                                 </ul>
                             </div>
-                            <br>
                             <br>
                             <div class="form-group"><iframe allowfullscreen="" frameborder="0" height="230" width="775" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.224905800714!2d77.30294931508169!3d28.59302898243347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce48c3ff9f49f%3A0xab54af6155ff9419!2sAVA+Placement+Services!5e0!3m2!1sen!2sin!4v1503625409203" style="border:0"></iframe></div>
                         </div>
@@ -119,12 +126,14 @@ body{
                                 <h4>Working Hours</h4>
 
                                 <ul>
-                                    <li>Mon - Fri Day: <span> 09.00am to 06.00pm </span></li>
-                                    <li>Saturaday: <span> 10.00am to 04.00pm </span></li>
-                                    <li>Sunday: <span> Closed</span></li>
+                                    <li class="color">Mon - Fri Day: <span class="black"> 09.00am to 06.00pm </span></li>
+                                    <li class="color">Saturaday: <span class="black"> 10.00am to 04.00pm </span></li>
+                                    <li class="color">Sunday: <span class="black"> Closed</span></li>
                                 </ul>
                                 <br>
+
                             </div>
+                            <br>
                         </div>
                     </div>
                 </div>
