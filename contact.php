@@ -60,7 +60,7 @@ body{
         padding-top: 20px;
     }
 .item{
-    background:  #ffffff8f;
+    background: rgba(236, 215, 255, 0.56);
     color: black;
     padding: 15px;
 }
