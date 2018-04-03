@@ -105,8 +105,8 @@ body{
                                 <ul>
 
                                     <li>Mobile No: <span> ‪+91 84475 81034</span></li>
-                                    <li>Email: <span> contact@akostaplacement.com</span></li>
-                                    <li>Email: <span> akostaplacement@gmail.com</span></li>
+                                    <li>Email: <span style="text-transform: lowercase"> contact@akostaplacement.com</span></li>
+                                    <li>Email: <span style="text-transform: lowercase"> akostaplacement@gmail.com</span></li>
                                 </ul>
                             </div>
                             <br>
@@ -119,8 +119,8 @@ body{
                                 <h4>Working Hours</h4>
 
                                 <ul>
-                                    <li>Mon - Fri Day: <span> 09.00am to 18.00pm </span></li>
-                                    <li>Saturaday: <span> 10.00am to 16.00pm </span></li>
+                                    <li>Mon - Fri Day: <span> 09.00am to 06.00pm </span></li>
+                                    <li>Saturaday: <span> 10.00am to 04.00pm </span></li>
                                     <li>Sunday: <span> Closed</span></li>
                                 </ul>
                                 <br>
