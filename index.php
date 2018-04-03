@@ -3,44 +3,15 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
-        margin: auto;
-        text-align: center;
-    }
-
-    .title {
-        color: grey;
-        font-size: 18px;
-    }
-
-    button.profile {
-        border: none;
-        outline: 0;
-        display: inline-block;
-        padding: 8px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-        font-size: 18px;
-        margin-top:5px;
-    }
-
-    a.pro {
-        margin: 5px;
-        border: 1px solid;
-
-        padding: 2px;
-        text-decoration: none;
-        font-size: 22px;
-        color: black;
-    }
 
     button:hover, a:hover {
         opacity: 0.7;
+    }
+    .jobtitle{
+        font-size: 36px;
+        background: #ffffffc2;
+        padding: 5px;
+        color: black;
     }
 </style>
 <div id="page">
@@ -54,7 +25,7 @@
         <div class="col-md-6 col-xs-12 col-sm-12">
             <div class="row">
                 <div class="intro">
-                    <h1>Search Here For Jobs</h1>
+                    <h1 class="jobtitle">Search Here For Jobs</h1>
                     <a style="color: white; text-decoration: none" href="user-jobs">
                     <button type="button" class="btn btn-block start-now">Start From Now &nbsp; <span
                                 class="glyphicon glyphicon-chevron-right"></span></button></a>
