@@ -8,6 +8,7 @@
         opacity: 0.7;
     }
     .jobtitle{
+        width: 85%;
         font-size: 36px;
         background: #46b5da;
         padding: 5px;
@@ -92,8 +93,11 @@
                                 </div>
                             </div>
                         </div>
+
+                        <br>
+
                         <p style="color: red; text-align: center">
-                            <a href="candidate-login">Login here</a>
+                            <a style="text-decoration: none" class="button button1" href="candidate-login">Login here</a>
                         </p>
                     </div>
                 </form>
