@@ -193,7 +193,7 @@
             <div>
                 <h1 style="text-align: center; color: white">services</h1>
             </div>
-            <div style="letter-spacing: 1px;" class="col-sm-6 col-xs-12 col-md-3 col-md-offset-2 box">
+            <div style="letter-spacing: 1px;" class="col-sm-5 col-xs-12 col-md-3 col-md-offset-2 box">
                 <h4>HR
                     Consulting
                     Services
@@ -201,21 +201,21 @@
                 <a class="btn_apply" href="/cunsulting-service">read more</a>
             </div>
 
-            <div class="col-sm-6 col-xs-12 col-md-3 box">
+            <div class="col-sm-5 col-xs-12 col-md-3 box">
                 <h4>Staff
                     Augmentation
                     Services
                 </h4>
                 <a class="btn_apply" href="/Staff-Augmentation-Services">read more</a>
             </div>
-            <div class="col-sm-6 col-xs-12 col-md-3 box">
+            <div class="col-sm-5 col-xs-12 col-md-3 box">
                 <h4>Leadership
                     Hiring
                     Services
                 </h4>
                 <a class="btn_apply" href="/Leadership-Hiring-Services">read more</a>
             </div>
-            <div style="margin-left: 20%" class="col-sm-6 col-xs-12 col-md-offset- col-md-3 box">
+            <div  class="col-sm-5 col-xs-12 col-md-offset- col-md-3 box itbox">
                 <h4>IT
                     Staffing
                     Services
@@ -224,7 +224,7 @@
 
             </div>
 
-            <div class="col-sm-6 col-xs-12 col-md-3 box">
+            <div class="col-sm-5 col-xs-12 col-md-3 box margin">
                 <h4>Contract
                     Staffing
                     Services</h4>

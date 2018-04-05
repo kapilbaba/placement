@@ -326,4 +326,40 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover
 }
+.itbox{
+    margin-left: 20%;
+}
+@media only screen and (max-width: 1024px) {
+    .intro {
+        margin: 35% 15% 10% 12%;
+        color: #fff;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+    .intro{
+        display: none;
+    }
+    .navbar-default {
+
+        padding: 0px;
+
+    }
+    .container_home_register {
+        margin: 10%;
+    }
+    .block {
+        margin: 0px;
+    }
+    .home_intro{
+        padding: 10px;
+    }
+    .itbox{
+        margin-left: 0%;
+    }
+    .margin{
+        margin-left: 25%;
+
+    }
+
+}
