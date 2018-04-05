@@ -118,7 +118,7 @@ body{
                                 </ul>
                             </div>
                             <br>
-                            <div class="form-group"><iframe allowfullscreen="" frameborder="0" height="230" width="775" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.224905800714!2d77.30294931508169!3d28.59302898243347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce48c3ff9f49f%3A0xab54af6155ff9419!2sAVA+Placement+Services!5e0!3m2!1sen!2sin!4v1503625409203" style="border:0"></iframe></div>
+                             <div class="form-group"><iframe allowfullscreen="" frameborder="0" height="230" width="775" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=A-3%2F56%2C%20Dal%20Mill%20Rd%20Hostal%20Vihar%2C%20Om%20Vihar%2C%20Uttam%20Nagar%20Delhi%2C%20110059+(akostaplacement)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="border:0"></iframe></div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
