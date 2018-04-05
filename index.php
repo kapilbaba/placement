@@ -9,9 +9,9 @@
     }
     .jobtitle{
         font-size: 36px;
-        background: #ffffffc2;
+        background: #46b5da;
         padding: 5px;
-        color: black;
+        color: white;
     }
 </style>
 <div id="page">
