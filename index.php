@@ -8,7 +8,7 @@
         opacity: 0.7;
     }
     .jobtitle{
-        width: 90%;
+        width: 100%;
         font-size: 36px;
         background: #46b5da;
         padding: 5px;
