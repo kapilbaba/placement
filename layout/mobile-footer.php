@@ -20,5 +20,5 @@
 </style>
 
 <div class="footer">
-  <p style="text-align: center"><a href="/candidate-signup.php">Sign-up</a>| <a href="/candidate-login.php">Login</a>| <a href="/candidate-job.php">Jobs</a></p>
+  <p style="text-align: center"><a style="color: white ; text-decoration: none" href="/candidate-signup.php">Sign-up</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a style="color: white; text-decoration: none" href="/candidate-login.php">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a style="color: white; text-decoration: none;" href="/candidate-job.php">Jobs</a></p>
 </div>
