@@ -326,6 +326,11 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover
 }
+.banner_footer{
+    background: #fcfffa;
+    padding: 10px;
+    opacity: 0.75
+}
 .itbox{
     margin-left: 20%;
 }
@@ -362,4 +367,20 @@ body, html {
 
     }
 
+}
+@media only screen and (max-width: 500px) {
+    .containerheader{
+        margin-left: 25%;
+    }
+.header_info a{
+    padding:5px 10px 5px 10px;
+}
+}
+@media only screen and (max-width: 411px) {
+    .container_home_register {
+        margin: 5px;
+    }
+    .banner_footer{
+        display: none;
+    }
 }

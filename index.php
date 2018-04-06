@@ -104,7 +104,7 @@
             </div>
         </div>
         <div style="clear: both"></div>
-        <div style="background: #fcfffa; padding: 10px; opacity: 0.75" class="banner_footer">
+        <div  class="banner_footer">
 
             <p style="text-align: center; color: #000000;">submit your resume now &nbsp;
                 <a href="candidate-signup">
