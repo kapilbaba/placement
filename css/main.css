@@ -345,6 +345,9 @@ body, html {
         margin: 35% 15% 10% 12%;
         color: #fff;
     }
+    .latest_contain{
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -372,7 +375,12 @@ body, html {
         margin-left: 25%;
 
     }
-
+    .iframe{
+        display: none;
+    }
+    .latest_contain{
+        margin-bottom: 100px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .containerheader{
@@ -381,6 +389,12 @@ body, html {
 .header_info a{
     padding:5px 10px 5px 10px;
 }
+    .iframe{
+        display: none;
+    }
+    .latest_contain{
+        margin-bottom: 100px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .container_home_register {
@@ -408,12 +422,23 @@ body, html {
     .form_page{
         margin: 0;
     }
+    .iframe{
+        display: none;
+    }
+    .latest_contain{
+        margin-bottom: 100px;
+    }
 
 }
 
 @media (max-width:900px) and (min-width:700px) {
     .form_page{
-
         margin: 10%;
     }
+    .iframe{
+        display: none;
+    }
+.latest_contain{
+    margin-bottom: 100px;
+}
 }

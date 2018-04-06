@@ -3,7 +3,7 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-body{
+.contact-us{
     background-image:url("/images/jobconfirm.jpeg") ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ body{
                                 </ul>
                             </div>
                             <br>
-                             <div class="form-group"><iframe allowfullscreen="" frameborder="0" height="230" width="775" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=A-3%2F56%2C%20Dal%20Mill%20Rd%20Hostal%20Vihar%2C%20Om%20Vihar%2C%20Uttam%20Nagar%20Delhi%2C%20110059+(akostaplacement)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="border:0"></iframe></div>
+                             <div class="form-group iframe"><iframe allowfullscreen="" frameborder="0" height="230" width="775" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=A-3%2F56%2C%20Dal%20Mill%20Rd%20Hostal%20Vihar%2C%20Om%20Vihar%2C%20Uttam%20Nagar%20Delhi%2C%20110059+(akostaplacement)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="border:0"></iframe></div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
