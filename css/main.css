@@ -371,15 +371,15 @@ body, html {
     }
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .containerheader{
-        margin-left: 20%;
+        margin-left: 25%;
     }
 .header_info a{
     padding:5px 10px 5px 10px;
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .container_home_register {
         margin: 5px;
     }
@@ -402,8 +402,5 @@ body, html {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .margin{
-        margin-left: 30%;
 
-    }
 }
