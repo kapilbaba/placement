@@ -346,7 +346,7 @@ body, html {
         color: #fff;
     }
     .latest_contain{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 }
 
@@ -379,7 +379,7 @@ body, html {
         display: none;
     }
     .latest_contain{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -393,7 +393,7 @@ body, html {
         display: none;
     }
     .latest_contain{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -426,7 +426,7 @@ body, html {
         display: none;
     }
     .latest_contain{
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 
 }
@@ -439,6 +439,6 @@ body, html {
         display: none;
     }
 .latest_contain{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 }
