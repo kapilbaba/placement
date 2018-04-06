@@ -97,7 +97,7 @@
                         <br>
 
                         <p style="color: red; text-align: center">
-                            <a style="text-decoration: none; c"  href="candidate-login">Login here</a>
+                            <a style="text-decoration: none; color: white"  href="candidate-login">Login here</a>
                         </p>
                     </div>
                 </form>

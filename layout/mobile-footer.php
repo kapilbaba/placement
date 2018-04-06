@@ -8,7 +8,7 @@
 
 <style>
     .footer {
-  
+
         font-family: inherit;
         left: 0;
         bottom: 0;
