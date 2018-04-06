@@ -20,5 +20,5 @@
 </style>
 
 <div class="footer">
-  <p style="text-align: center">Copyright  2018 Akostaplacement. All Rights Reserved.</p>
+  <p style="text-align: center"><a href="/candidate-signup.php">Sign-up</a>| <a href="/candidate-login.php">Login</a>| <a href="/candidate-job.php">Jobs</a></p>
 </div>
