@@ -8,12 +8,13 @@
         padding: 6px 12px;
     }
 
-    #page {
+    .registration{
         background: url("/images/form_img.jpeg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover
+        background-size: cover;
+        margin-bottom: 10px;
     }
 </style>
 <div id="page">

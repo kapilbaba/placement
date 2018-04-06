@@ -10,7 +10,7 @@ session_start();
         padding: 6px 12px;
     }
 
-    #page {
+    body {
         background: url("/images/form_img.jpeg");
         background-attachment: fixed;
         background-position: center;
