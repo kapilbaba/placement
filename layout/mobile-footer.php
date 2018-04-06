@@ -9,7 +9,6 @@
 <style>
     .footer {
         font-family: inherit;
-        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
