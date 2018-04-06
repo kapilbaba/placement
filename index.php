@@ -189,7 +189,7 @@
 
 <section class="sector">
     <div class="container">
-        <div class="row" style="margin-left: 10%">
+        <div class="row boxrow" >
             <div>
                 <h1 style="text-align: center; color: white">services</h1>
             </div>

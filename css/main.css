@@ -334,6 +334,9 @@ body, html {
 .itbox{
     margin-left: 20%;
 }
+.boxrow{
+    margin-left: 10%
+}
 @media only screen and (max-width: 1024px) {
     .intro {
         margin: 35% 15% 10% 12%;
@@ -376,11 +379,27 @@ body, html {
     padding:5px 10px 5px 10px;
 }
 }
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 414px) {
     .container_home_register {
         margin: 5px;
     }
     .banner_footer{
         display: none;
+    }
+    .margin{
+        margin-left: 0%;
+
+    }
+    .job_container{
+        margin: 5px;
+        padding: 15px;
+
+    }
+    .box{
+        margin:5px;
+    }
+    .boxrow{
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
