@@ -267,6 +267,7 @@
 
 
 </div>
+
 <?php include "layout/footer.php"; ?>
 <?php include "layout/core/script.php"; ?>
 
