@@ -16,6 +16,7 @@
         background-size: cover;
         margin-bottom: 10px;
     }
+
 </style>
 <div id="page">
 
