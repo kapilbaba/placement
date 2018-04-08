@@ -25,7 +25,8 @@ if (isset($track)){
              header("location:track-application?status=$status");
         }
     } else {
-        echo "0 results";
+
+        header("location:track-application?status=Applicant information is wrong");
     }
 }
 else{
