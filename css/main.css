@@ -229,9 +229,7 @@ body, html {
     margin: 30px
 }
 
-.latest_job {
-    margin-top: -20px;
-}
+
 
 .job_container {
     padding: 25px;
@@ -345,9 +343,7 @@ body, html {
         margin: 35% 15% 10% 12%;
         color: #fff;
     }
-    .latest_contain{
-        margin-bottom: 100px;
-    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -378,9 +374,7 @@ body, html {
     .iframe{
         display: none;
     }
-    .latest_contain{
-        margin-bottom: 200px;
-    }
+
 }
 @media only screen and (max-width: 767px) {
     .containerheader{
@@ -392,9 +386,7 @@ body, html {
     .iframe{
         display: none;
     }
-    .latest_contain{
-        margin-bottom: 100px;
-    }
+
 }
 @media only screen and (max-width: 767px) {
     .container_home_register {
@@ -408,7 +400,7 @@ body, html {
 
     }
     .job_container{
-        margin: 5px;
+        margin: 15px 0 15px 0px;
         padding: 15px;
 
     }
@@ -420,13 +412,10 @@ body, html {
         margin-right: 5%;
     }
     .form_page{
-        margin: 0;
+        margin: 0 0 10% 0px;
     }
     .iframe{
         display: none;
-    }
-    .latest_contain{
-        margin-bottom: 100px;
     }
 
 }
@@ -438,7 +427,5 @@ body, html {
     .iframe{
         display: none;
     }
-.latest_contain{
-    margin-bottom: 200px;
-}
+
 }

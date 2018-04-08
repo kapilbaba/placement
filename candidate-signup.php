@@ -8,7 +8,7 @@
         padding: 6px 12px;
     }
 
-    .registration{
+    body,html{
         background: url("/images/form_img.jpeg");
         background-attachment: fixed;
         background-position: center;
@@ -101,7 +101,7 @@
 
 
 </div>
-<?php include "layout/footer.php"; ?>
+
 <?php include "layout/core/script.php"; ?>
 
 </html>
