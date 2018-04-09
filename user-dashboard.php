@@ -25,6 +25,15 @@ $applicantid = $row['id'];
 
 }
 ?>
+<style>
+body,html{
+    background: url("/images/user-bg.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+</style>
 
 
 <div id="page">
@@ -42,8 +51,11 @@ $applicantid = $row['id'];
 
         <?php include "layout/header2.php" ?>
 
-        <div class="container" style="margin-top: 5%;">
-            <div class="col-md-12">
+        <div class="container" style="margin-top: 5%; margin-bottom: 10%">
+
+
+
+            <div class="col-md-12 col-xs-12 col-sm-12">
                 <div style="margin: 0px;" class="form_page">
 
                     <ul class="nav nav-tabs">
@@ -110,7 +122,7 @@ $applicantid = $row['id'];
                         </div>
                         <div id="menu3" class="tab-pane fade">
                             <div style="text-align: center; margin: 10px">
-                              
+
                                 <h3>
                                     recruitment process
                                 </h3>
@@ -149,10 +161,10 @@ $applicantid = $row['id'];
         </div>
 
 
-</div>
-
-
 </section>
+
+
+
 
 
 </div>

@@ -317,13 +317,7 @@ body, html {
     padding: 25px;
 }
 
-.registration_1 {
-    background: url("/images/user-bg.jpeg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
-}
+
 .banner_footer{
     background: #fcfffa;
     padding: 10px;
