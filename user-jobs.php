@@ -19,7 +19,13 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
-    <?php include "layout/navbar.php"; ?>
+    <?php
+    if (empty($_SESSION["authenticated"])== true){
+        include "layout/navbar.php"; }
+    else{
+        include 'layout/user-navbar.php';
+    }
+    ?>
     <section class="job_search">
         <div class="container">
             <?php  include "layout/header2.php";?>

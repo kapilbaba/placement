@@ -19,6 +19,7 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
+
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }

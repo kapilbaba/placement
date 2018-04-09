@@ -43,9 +43,15 @@
                 <li><a href="/contact">contact-us</a></li>
                 <li><a href="/user-jobs">jobs</a></li>
 
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">User-profile <i
+                                class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/user-dashboard">user-dashboard</a></li>
+                        <li><a href="/logout">logout</a></li>
+                    </ul>
+                </li>
 
 
-                <li><a href="/logout">logout</a></li>
 
 
             </ul>
