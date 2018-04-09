@@ -1,4 +1,5 @@
 <?php $title = "job"; ?>
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
@@ -19,6 +20,7 @@
 <div id="page">
 
     <?php include "layout/header.php"; ?>
+
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }

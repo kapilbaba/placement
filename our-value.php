@@ -11,6 +11,7 @@
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
+<?php session_start(); ?>
 <style>
     body {
         background: inherit;

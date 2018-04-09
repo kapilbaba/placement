@@ -8,6 +8,7 @@
 ?>
 
 <?php $title = "company profile"; ?>
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
