@@ -11,7 +11,6 @@
 
     .footer-mobile {
         background: #000;
-        position: static;
         bottom: 0;
         width: 100%
     }

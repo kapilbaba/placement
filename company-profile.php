@@ -6,7 +6,6 @@
  * Time: 14:08
  */
 ?>
-
 <?php $title = "company profile"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
