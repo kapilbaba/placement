@@ -21,7 +21,7 @@
             <div class="upper_footer_right">
                 <label>Placement</label>
                 <p class="status">● placement process begin in just 5 working days</p>
-                <small>No Registration fees</small>
+                <small></small>
             </div>
 
             <div class="clearfix"></div>

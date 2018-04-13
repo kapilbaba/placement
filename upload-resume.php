@@ -41,7 +41,7 @@ session_start(); ?>
                             <div class="col-md-12 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <label style="margin: 5px 0px 5px 0px" for="resume">Upload Resume</label>
-                                    <input value="resume_upload" required="required" type="file"
+                                    <input value="resume_upload" required="required" type="file" accept=".doc, .docx"
                                            class="" id="resume" name="resume_upload">
                                 </div>
                             </div>

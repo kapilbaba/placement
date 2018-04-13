@@ -56,7 +56,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="contact">contact no</label>
-                            <input required="required" type="number" class="form-control" id="contact"
+                            <input required="required" type="text" class="form-control" id="contact"
                                    name="contact_info" maxlength="10">
                         </div>
                     </div>

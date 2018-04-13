@@ -74,7 +74,7 @@
                         </div>
 
                         <div class="form-group col-md-12 col-sm-12 ">
-                            <input required="required" type="number" class="form-control" name="contact_info"
+                            <input required="required" type="text" class="form-control" name="contact_info"
                                    placeholder="Contact number">
 
                         </div>
