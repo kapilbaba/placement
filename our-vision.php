@@ -6,8 +6,7 @@
  * Time: 14:08
  */
 ?>
-
-<?php $title = "our mission"; ?>
+<?php $title = "our vission"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
@@ -30,6 +29,12 @@
     }
     ?>
     <section class="">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>our vision</li>
+
+        </ol>
+
         <?php  include "layout/header2.php";?>
         <div style="text-align: center" class="container">
             <h2>our vision</h2>

@@ -29,6 +29,13 @@
     }
     ?>
     <section class="">
+
+             <ol class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li>company profile</li>
+
+            </ol>
+
         <?php  include "layout/header2.php";?>
         <div style="text-align: center" class="container">
             <h2>company profile</h2>

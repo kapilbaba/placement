@@ -82,6 +82,12 @@
     }
     ?>
     <section class="contact-us">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>contact us</li>
+
+        </ol>
+        <?php include "layout/header2.php"; ?>
 
         <div class="form_page">
             <div style="padding: 5%" class="container">

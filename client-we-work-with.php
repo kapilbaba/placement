@@ -6,7 +6,6 @@
  * Time: 14:08
  */
 ?>
-
 <?php $title = "client we work with"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
@@ -33,6 +32,12 @@ tr{
     }
     ?>
     <section class="">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>client we work with</li>
+
+        </ol>
+
         <?php include "layout/header2.php"; ?>
         <div style="text-align: center" class="container">
             <h2>client we work with</h2>

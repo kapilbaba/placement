@@ -6,7 +6,6 @@
  * Time: 14:08
  */
 ?>
-
 <?php $title = "our value"; ?>
 <!DOCTYPE HTML>
 <html>
@@ -30,6 +29,12 @@
     }
     ?>
     <section class="">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>our value</li>
+
+        </ol>
+
         <?php  include "layout/header2.php";?>
         <div style="text-align: center" class="container">
             <h2>our value</h2>

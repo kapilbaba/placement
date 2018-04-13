@@ -48,7 +48,11 @@ body,html{
     ?>
 
     <section class="registration_1">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>User Dashboard</li>
 
+        </ol>
         <?php include "layout/header2.php" ?>
 
         <div class="container" style="margin-top: 5%; margin-bottom: 10%">
