@@ -29,6 +29,12 @@
     }
     ?>
     <section class="job_search">
+
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>Jobs</li>
+
+        </ol>
         <div class="container">
             <?php  include "layout/header2.php";?>
 
