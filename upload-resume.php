@@ -41,14 +41,15 @@ session_start(); ?>
                             <div class="col-md-12 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <label style="margin: 5px 0px 5px 0px" for="resume">Upload Resume</label>
-                                    <input value="resume_upload" required="required" type="file" accept=".doc, .docx"
+                                    <input  value="resume_upload" required="required" type="file" accept=".doc, .docx"
                                            class="" id="resume" name="resume_upload">
                                 </div>
+                                <span id="lblError" style="color: red;"></span>
                             </div>
                             <p><?php echo $_SESSION['upload-error']; ?></p>
                             <p style="text-align: left">
                                 <input style="margin-left: 15px" name="upload" type="submit" class="button1"
-                                       value="Upload"/>
+                                      id="btnUpload" value="Upload"/>
                                 <br>
                                 <br>
                                 <a type="button"  href="user-dashboard"><?php echo $_SESSION['upload-success'];$_SESSION['upload-success']=null;?></a>

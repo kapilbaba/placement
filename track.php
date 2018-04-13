@@ -8,12 +8,12 @@
 
 session_start();
 include "core/database/connection_db.php";
-$number = $_POST['track_number'];
+
 $name = $_POST['track_emial'];
 $track = $_POST['track'];
 
 if (isset($track)){
-    $sql = "SELECT candidate_status FROM users WHERE id ='$number' AND  email ='$name'";
+    $sql = "SELECT candidate_status FROM users WHERE AND  email ='$name'";
 
     $result = $conn->query($sql);
 
@@ -26,7 +26,7 @@ if (isset($track)){
         }
     } else {
 
-        header("location:track-application?status=Applicant information is wrong");
+        header("location:track-application.php?status=Applicant information is wrong");
     }
 }
 else{

@@ -44,12 +44,7 @@ session_start(); ?>
         <div class="container">
             <div class="form_page">
                 <form ROLE="form" action="track.php" method="post">
-                    <div class="col-md-12 col-sm-6 col-xs-12">
-                        <div class="form-group">
-                            <label for="name">Job Seeker No</label>
-                            <input required="required" type="number" class="form-control" id="name" name="track_number">
-                        </div>
-                    </div>
+
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="email"> Job Seeker Email</label>

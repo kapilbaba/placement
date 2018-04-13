@@ -71,4 +71,17 @@ $(function () {
         }
         return true;
     });
+})
+
+$("body").on("click", "#btnUpload", function () {
+    var allowedFiles = [".doc", ".docx"];
+    var fileUpload = $("#resume");
+    var lblError = $("#lblError");
+    var regex = new RegExp("([a-zA-Z0-9\s_\\.\-:])+(" + allowedFiles.join('|') + ")$");
+    if (!regex.test(fileUpload.val().toLowerCase())) {
+        lblError.html("Please upload files having extensions: <b>" + allowedFiles.join(', ') + "</b> only.");
+        return false;
+    }
+    lblError.html('');
+    return true;
 });
