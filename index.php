@@ -158,7 +158,7 @@
                 <h4>Benefits of working in Middle East</h4>
                 <p>Tax free salaries. Offered according to experience and negotiable to fit your needs• Free
                     furni.</p>
-                <a class="btn-block" type="" href="">read more</a>
+
             </div>
             <div class="col-sm-6 col-xs-12 col-md-5 block">
                 <h4>Benefits of working in Middle East</h4>
