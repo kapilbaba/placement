@@ -171,7 +171,7 @@
         <div style="text-align: center" class="col-md-4 col-xs-12 col-sm-12" >
             <h3>message of CEO</h3>
             <img class="ceo_img" src="images/ceo.jpg" alt="">
-            <p>
+            <p style="text-align: justify">
                 Thank you for taking time to visit our website. Our website is one simple communication gateway that
                 will give you a better understanding of our services.
                 AJPC was established for providing quality service & opportunities to our candidates desirous of working
@@ -191,8 +191,17 @@
 </section>
 
 <section class="submit_job">
-    <h1>apply job online</h1>
-    <a href="user-jobs">click here</a>
+    <div class="container">
+
+            <h1>apply job online</h1>
+            <a href="user-jobs">click here</a>
+        </div>
+
+
+    </div>
+
+
+
 </section>
 
 <section class="sector">
