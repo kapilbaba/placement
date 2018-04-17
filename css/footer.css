@@ -7,6 +7,7 @@ footer.main_footer {
 }
 
 footer.main_footer .inner {
+    max-width: 100%;
     margin: 0 auto;
     padding: 10px 0px 15px 0px;
 }
