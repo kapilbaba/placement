@@ -45,8 +45,8 @@ $response = curl_exec($curl);
 $err = curl_error($curl);
 curl_close($curl);
 if ($err) {
-    header('location:contact?mailerror');
+    header('location:index?mailerror');
 } else {
-    header("location:index?mailsend");
+    header("location:thanks?mailsend");
 }
 
