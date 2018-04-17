@@ -8,27 +8,6 @@
 <link rel="stylesheet" href="/css/footer.css" type="text/css">
 <footer class="main_footer">
 
-    <section class="upper">
-
-        <div class="inner">
-
-            <div class="upper_footer_left">
-                <label>Jobs</label>
-                <p>More than 1 lakh jobs</p>
-                <small>more than 1000 jobs for freshers</small>
-            </div>
-
-            <div class="upper_footer_right">
-                <label>Placement</label>
-                <p class="status">● placement process begin in just 5 working days</p>
-                <small></small>
-            </div>
-
-            <div class="clearfix"></div>
-
-        </div>
-
-    </section>
 
     <section class="lower">
 
@@ -38,11 +17,12 @@
 
                 <li class="sitemap_block">
                     <ul>
-                        <li><a title="Home" href="/"> Home</a></li>
-                        <li><a  href="/candidate-login">login </a></li>
-                        <li><a  href="/candidate-signup">Sign Up </a></li>
-                        <li><a  href="/">Blog</a></li>
-                        <li class="phantom"><a>&nbsp;</a></li>
+                        <li class="sitemap_heading">Usefull links</li>
+                        <li><a href="/"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="/candidate-login"><i class="fas fa-chevron-right"></i> login</a></li>
+                        <li><a href="/candidate-signup"><i class="fas fa-chevron-right"></i> Sign Up</a></li>
+                        <li><a href="/"><i class="fas fa-chevron-right"></i> Blog</a></li>
+
                         <li class="phantom"><a>&nbsp;</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                     </ul>
@@ -52,12 +32,14 @@
                 <li class="sitemap_block">
                     <ul>
                         <li class="sitemap_heading">About us</li>
-                        <li><a
-                                href="/company-profile">company profile</a></li>
-                        <li><a  href="/company-objective">company objective</a></li>
-                        <li><a  href="/our-mission">our mission</a></li>
-                        <li class="phantom"><a href="/our-value">&nbsp;our value</a></li>
-                        <li class="phantom"><a href="/our-vision">&nbsp;our vision</a></li>
+                        <li><a href="/company-profile"> <i class="fas fa-chevron-right"></i> company profile</a></li>
+                        <li><a href="/company-objective"> <i class="fas fa-chevron-right"></i> company objective</a>
+                        </li>
+                        <li><a href="/our-mission"> <i class="fas fa-chevron-right"></i> our mission</a></li>
+                        <li class="phantom"><a href="/our-value"> <i class="fas fa-chevron-right"></i>&nbsp;our
+                                value</a></li>
+                        <li class="phantom"><a href="/our-vision"><i class="fas fa-chevron-right"></i>&nbsp;our
+                                vision</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
                     </ul>
                 </li>
@@ -65,30 +47,31 @@
 
                     <ul>
                         <li class="sitemap_heading">Services</li>
-                        <li><a  href="/cunsulting-service">Hr consultance service</a></li>
-                        <li><a  href="/Staff-Augmentation-Services">Staff
-                                Augmentation
-                                Services</a></li>
-                        <li><a href="/Leadership-Hiring-Services">&nbsp;Leadership
+                        <li><a href="/cunsulting-service"><i class="fas fa-chevron-right"></i> Hr consultance service</a>
+                        </li>
+                        <li><a href="/Staff-Augmentation-Services"><i class="fas fa-chevron-right"></i> Staff Augmentation </a></li>
+                        <li><a href="/Leadership-Hiring-Services"><i class="fas fa-chevron-right"></i>&nbsp;Leadership
                                 Hiring
                                 Services</a></li>
-                        <li><a href="/IT-Staffing-Services">&nbsp;IT
+                        <li><a href="/IT-Staffing-Services"><i class="fas fa-chevron-right"></i>&nbsp;IT
                                 Staffing
                                 Services</a></li>
-                        <li><a href="/contract-staffing-service">&nbsp;Contract
+                        <li><a href="/contract-staffing-service"><i class="fas fa-chevron-right"></i>&nbsp;Contract
                                 Staffing
                                 Services</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
+
                     </ul>
                 </li>
 
-                <li class="sitemap_block social">
+                <li class="sitemap_block ">
                     <ul>
+                        <li class="sitemap_heading">company info</li>
+                        <li><i class="fas fa-map-marker-alt"></i> A-35/56, Dal Mill Rd</li>
+                        <li><i class="fas fa-phone"></i> contact us :+91 84475 81034</li>
+                        <li><a href="mailto:akostaplacement@gmail.com"><i class="fas fa-envelope"></i> mail us</a></li>
                         <li><a href="/terms%20and%20condition">terms and conditions</a></li>
                         <li><a href="/privacy-policy">privacy policy</a></li>
-                        <li class="phantom"><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
 
                     </ul>

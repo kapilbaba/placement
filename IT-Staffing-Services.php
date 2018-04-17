@@ -42,7 +42,7 @@
             <h2>It staffing services</h2>
             <div class="container">
 
-                <p style="margin: 50px"> A company limited by guarantee. Commonly used where companies are formed for non-commercial purposes,
+                <p style="text-align: justify"> A company limited by guarantee. Commonly used where companies are formed for non-commercial purposes,
                     such as clubs or charities. The members guarantee the payment of certain (usually nominal) amounts if
                     the company goes into insolvent liquidation, but otherwise they have no economic rights in relation to
                     the company. This type of company is common in England. A company limited by guarantee may be with or

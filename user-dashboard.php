@@ -65,8 +65,8 @@ body,html{
                     <ul class="nav nav-tabs">
                         <li ><a data-toggle="tab" href="#home">user information</a></li>
                         <li><a data-toggle="tab" href="#menu2">Resume Update</a></li>
-                        <li><a data-toggle="tab" href="#menu3">Job status </a></li>
-                        <li class="active"><a data-toggle="tab" href="#menu4">applicant Id</a></li>
+                        <li class="active"><a data-toggle="tab" href="#menu3">Job status </a></li>
+
 
                     </ul>
 
@@ -124,14 +124,14 @@ body,html{
 
                             </div>
                         </div>
-                        <div id="menu3" class="tab-pane fade">
+                        <div id="menu3" class="tab-pane fade in active">
                             <div style="text-align: center; margin: 10px">
 
                                 <h3>
                                     recruitment process
                                 </h3>
                                 <p>status:</p><span
-                                        style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
+                                        style="background: crimson; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
                                 <br>
                                 <br>
                                 <p style="color: red; text-align: center"><?php echo $_SESSION['job-updated']; ?></p>
@@ -141,20 +141,6 @@ body,html{
 
                         </div>
 
-                        <div id="menu4" class="tab-pane fade in active">
-                            <div style="text-align: center; margin: 10px">
-                                <h3>
-                                    Applicant Id
-                                </h3>
-                                <br>
-                                <br>
-                                <span style="background: red; color: white;padding: 10px; margin: 10px;"><?php echo $applicantid; ?></span>
-
-
-                            </div>
-
-
-                        </div>
 
 
                     </div>
