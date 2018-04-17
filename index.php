@@ -132,27 +132,27 @@
 
         <div class="col-md-8 col-xs-12-col-sm-12" >
             <div class="col-sm-12 col-xs-12 col-md-11  block">
-                <h1>Welcome to A.J. Placement Consultants</h1>
-                <p>A.J. Placement Consultants is a leading brand in International recruitment consultancy for last
+                <h1>Welcome to akosta Placement Consultants</h1>
+                <p>Akosta Placement Consultants is a leading brand in International recruitment consultancy for last
                     28
                     years. Since our inception in 1989, we have been dully approved by Ministry of Overseas Indian
                     Affairs, Government of India, Vide registration No. ( B-0211/DEL/PER/1000+/5/2591/1989 ) and
                     registered with prestigious International Bench-marking & Certifications ISO 9001:2008 (QMS) We
                     at
-                    A.J. Placement Consultants are determined to prov... <a href="">readmore</a></p>
+                 </p>
             </div>
 
             <div class="col-sm-6 col-xs-12 col-md-5  block">
                 <h4>Benefits of working in Middle East</h4>
                 <p>Tax free salaries. Offered according to experience and negotiable to fit your needs• Free
                     furni.</p>
-                <a class="btn-block" type="" href="">read more</a>
+
             </div>
             <div class="col-sm-6 col-xs-12 col-md-5 block ">
                 <h4>Benefits of working in Middle East</h4>
                 <p>Tax free salaries. Offered according to experience and negotiable to fit your needs• Free
                     furni.</p>
-                <a class="btn-block" type="" href="">read more</a>
+
             </div>
             <div class="col-sm-6 col-xs-12 col-md-5  block">
                 <h4>Benefits of working in Middle East</h4>
@@ -164,7 +164,7 @@
                 <h4>Benefits of working in Middle East</h4>
                 <p>Tax free salaries. Offered according to experience and negotiable to fit your needs• Free
                     furni.</p>
-                <a class="btn-block" type="" href="">read more</a>
+
             </div>
         </div>
 
