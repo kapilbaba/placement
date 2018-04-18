@@ -27,16 +27,35 @@
                         <li class="phantom"><a>&nbsp;</a></li>
                     </ul>
                 </li>
+                <li class="sitemap_block">
+                    <ul>
+                        <li class="sitemap_heading">About us</li>
+                        <li><a href="/company-profile"> <i class="fas fa-chevron-right"></i> company profile</a></li>
 
+                        <li><a href="/company-objective"> <i class="fas fa-chevron-right"></i> company objective</a>
+
+                        </li>
+
+                        <li><a href="/our-mission"> <i class="fas fa-chevron-right"></i> our mission</a></li>
+
+                        <li class="phantom"><a href="/our-value"> <i class="fas fa-chevron-right"></i>&nbsp;our
+                                 value</a></li>
+                        <li class="phantom"><a href="/our-vision"><i class="fas fa-chevron-right"></i>&nbsp;our
+                                vision</a></li>
+                        <li class="phantom"><a>&nbsp;</a></li>
+                    </ul>
+                </li>
 
 
                 <li class="sitemap_block">
 
                     <ul>
                         <li class="sitemap_heading">Services</li>
-                        <li><a href="/cunsulting-service"><i class="fas fa-chevron-right"></i> Hr consultance service</a>
+                        <li><a href="/cunsulting-service"><i class="fas fa-chevron-right"></i> Hr consultance
+                                service</a>
                         </li>
-                        <li><a href="/Staff-Augmentation-Services"><i class="fas fa-chevron-right"></i> Staff Augmentation </a></li>
+                        <li><a href="/Staff-Augmentation-Services"><i class="fas fa-chevron-right"></i> Staff
+                                Augmentation </a></li>
                         <li><a href="/Leadership-Hiring-Services"><i class="fas fa-chevron-right"></i>&nbsp;Leadership
                                 Hiring
                                 Services</a></li>

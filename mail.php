@@ -17,12 +17,12 @@ $message =$_POST['message'];
 $curl = curl_init();
 $json = [
     'content'=>[
-        'from'=>'akostaplacement@gmail.com',
+        'from'=>'contact@akostaplacement.com',
         'subject'=>$subject,
         'text'=>$message
     ],
     'recipients'=>[
-        ['address'=>'akostaplacement@gmail.com']
+        ['address'=>'contact@akostaplacement.com']
     ]
 ];
 
