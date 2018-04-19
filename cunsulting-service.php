@@ -59,7 +59,7 @@
                                         <li role="presentation" class=""><a href="/Leadership-Hiring-Services" >Leadership-Hiring-Services</a></li>
                                         <li role="presentation" class=""><a href="/IT-Staffing-Services">IT-Staffing-Services</a></li>
                                         <li role="presentation" class=""><a href="/contract-staffing-service" >contract-staffing-service</a></li>
-                                        <li role="presentation" class=""><a href="man-power-services.php">financial analysis</a></li>  </ul>
+                                        <li role="presentation" class=""><a href="man-power-services.php">man-power-services</a></li>  </ul>
                                     <?php include "contact-info.php";?>
 
                                 </div>
