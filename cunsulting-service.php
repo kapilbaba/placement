@@ -70,7 +70,7 @@
                                         <div role="tabpanel" class="tab-pane fade active in" >
                                             <div class="about_company">
                                                 <div class="row business_divider_img">
-                                                    <div class="col-md-12">
+                                                    <div class="col-md-12 col-xs-12 col-sm-12">
                                                         <div class="our_about_image b_left_img">
                                                             <img src="images/about-company-img4.jpg" alt="">
                                                         </div>
