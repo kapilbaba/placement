@@ -4,9 +4,9 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-  body{
-      background: inherit;
-  }
+    body {
+        background: inherit;
+    }
 
     .btn {
         padding: 8px;
@@ -22,9 +22,9 @@
     <?php include "layout/header.php"; ?>
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -36,13 +36,11 @@
 
         </ol>
         <div class="container">
-            <?php  include "layout/header2.php";?>
+            <?php include "layout/header2.php"; ?>
 
             <div class="col-md-4 col-md-offset-4 col-xs-12">
                 <h1 style="text-align: center">akostaplacement cunsultant</h1>
                 <p style="color: red; text-align: center"><?php echo $_SESSION['job-update-failed']; ?></p>
-
-
 
 
             </div>
@@ -55,14 +53,30 @@
 
             while ($row = mysqli_fetch_array($result)) {
 
-                echo "  <div style='background: #62c1e2' class='container latest_contain'>
-                <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>" .$row['jobpost']."</h3>
-    <p>salary : <span>rs".$row['salary']."</span> -per month</p>
-    <p>job category : <span>".$row['jobcategory']."</span></p>
-    <a class='btn_apply' href='user_job_info.php?id=".$row['id']."'>show detail</a>
-    <br>
-    <a class='btn_apply' href='candidate-job?id=".$row['id']."'>apply online</a>
-    </div>
+                echo "
+
+<div class='row service_inner'>
+            <div class='col-md-4 col-sm-6'>
+                <div class='service_item'>
+                    <div class='media'>
+                        <div class='media-left'>
+                            <img src='images/icon/service-icon1-h.png' >
+                            <img src='images/icon/service-icon1-h.png' >
+                        </div>
+                        <div class='media-body' style='color: white; text-transform: uppercase; letter-spacing: 2px;'>
+                            <h3> " . $row['jobpost'] . "</h3>
+                            <h5>Rs: " . $row['salary'] . "</h5>
+                            <h5>" . $row['jobcategory'] . "</h5>
+<a class='more_link' href='user_job_info.php?id=" . $row['id'] . "'>Show details</a>
+<br>
+                            <a class='more_link' href='candidate-job?id=" . $row['id'] . "'>Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+ 
     ";
             }
 
@@ -73,7 +87,6 @@
 
 
     </section>
-    
 
 
 </div>

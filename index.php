@@ -233,7 +233,7 @@
                 <div class="media-body">
                     <h3 style="color: white">Are You Unemployed ?</h3>
                     <h4>start finding job today</h4>
-                    <a class="btn btn-info" href="">Apply For Job now</a>
+                    <a class="btn btn-info" href="user-jobs">Apply For Job now</a>
                     <div class="contact_d">
 
                     </div>
