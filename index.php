@@ -118,6 +118,24 @@
 
 </section>
 
+    <section class="helpline_area">
+        <div class="container">
+            <div class="helpline_inner">
+                <div class="media">
+
+                    <div class="media-body">
+                        <h3 style="color: white">Are You Unemployed ?</h3>
+                        <h4>start finding job today</h4>
+                        <a class="btn btn-info" href="user-jobs">Apply For Job now</a>
+                        <div class="contact_d">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <section class="business_box_area">
     <div class="container">
         <div class="sec_middle_title">
@@ -225,23 +243,7 @@
 
 </section>
 
-<section class="helpline_area">
-    <div class="container">
-        <div class="helpline_inner">
-            <div class="media">
 
-                <div class="media-body">
-                    <h3 style="color: white">Are You Unemployed ?</h3>
-                    <h4>start finding job today</h4>
-                    <a class="btn btn-info" href="user-jobs">Apply For Job now</a>
-                    <div class="contact_d">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="our_service_area">
     <div class="container">
