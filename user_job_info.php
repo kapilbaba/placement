@@ -60,7 +60,10 @@ if ($result->num_rows > 0) {
         background: #404a5780;
         color: white;
     }
-
+    pre{
+        font-size: 14px;
+        font-family: inherit;
+    }
 </style>
 <div id="page">
 
@@ -93,57 +96,52 @@ if ($result->num_rows > 0) {
                         </div>
                         <div class="panel panel-info">
                             <div class="panel-heading">Job discription</div>
-                            <div class="panel-body"><span><?php echo $description1; ?></span>
-                                <br>
-                                <span><?php echo $description2; ?></span>
-                                <br>
-                                <span><?php echo $description3; ?></span>
-                                <br>
-                                <span><?php echo $description4; ?></span></div>
+                            <div class="panel-body"><pre><?php echo $description1; ?></pre>
 
-                        </div>
-                        <div class="panel panel-info">
-                            <div class="panel-heading">Job skills</div>
-                            <div class="panel-body"><span><?php echo $skill1; ?></span>,
 
-                                <span><?php echo $skill2; ?></span>,
-                                <span><?php echo $skill3; ?></span>,
-                                <span><?php echo $skill4; ?></span>,
-                                <span><?php echo $skill5; ?></span></div>
-                        </div>
-                        <div class="panel panel-info">
-                            <div class="panel-heading">Job sallary</div>
-                            <div class="panel-body">
-                                <span><?php echo $sallary; ?></span>
                             </div>
-                        </div>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Job skills</div>
+                                <div class="panel-body"><span><?php echo $skill1; ?></span>,
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading">Job category</div>
-                            <div class="panel-body">
-                                <span><?php echo $category; ?></span>
+                                    <span><?php echo $skill2; ?></span>,
+                                    <span><?php echo $skill3; ?></span>,
+                                    <span><?php echo $skill4; ?></span>,
+                                    <span><?php echo $skill5; ?></span></div>
                             </div>
-                        </div>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Job sallary</div>
+                                <div class="panel-body">
+                                    <span><?php echo $sallary; ?></span>
+                                </div>
+                            </div>
 
-                        <div class="panel panel-info">
-                            <div class="panel-heading">Job indrustry </div>
-                            <div class="panel-body"><span><?php echo $indrustry; ?></span></div>
-                        </div>
-                        <div class="panel panel-info">
-                            <div class="panel-heading">Job Type </div>
-                            <div class="panel-body"><span><?php echo $type;?></span></div>
-                        </div>
-                        <div class="panel panel-info">
-                            <div class="panel-heading">Company Details </div>
-                            <div class="panel-body"><span><?php echo $company;?></span></div>
-                        </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Job category</div>
+                                <div class="panel-body">
+                                    <span><?php echo $category; ?></span>
+                                </div>
+                            </div>
 
-                        <a class="btn btn-default btn-lg" type="submit" href="candidate-job.php?id=<?php  echo $jobid; ?>">confirm job</a>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Job indrustry </div>
+                                <div class="panel-body"><span><?php echo $indrustry; ?></span></div>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Job Type </div>
+                                <div class="panel-body"><span><?php echo $type;?></span></div>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Company Details </div>
+                                <div class="panel-body"><pre><?php echo $company;?></pre></div>
+                            </div>
+
+                            <a class="btn btn-default btn-lg" type="submit" href="candidate-job.php?id=<?php  echo $jobid; ?>">confirm job</a>
+                        </div>
+                        <div style="clear: both"></div>
+
+
                     </div>
-                    <div style="clear: both"></div>
-
-
-                </div>
 
     </section>
 

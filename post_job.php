@@ -29,49 +29,14 @@ session_start(); ?>
                         </div>
 
                         <div class="form-group input-field">
-                            <label for="description_1">Job Post</label>
+                            <label for="post">Job Post</label>
                             <input required="required" type="text" name="jobpost" value="" class="form-control"
-                                   id="description_1" data-validation="required">
+                                   id="post" data-validation="required">
                         </div>
                         <div class="form-group input-field">
                             <label for="description_1">job Description</label>
-                            <input required="required" type="text" name="desription_1" value="" class="form-control"
-                                   id="description_1" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_2">job Description 1</label>
-                            <input required="required" type="text" name="desription_2" value="" class="form-control"
-                                   id="description_2" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_3">job Description 2</label>
-                            <input required="required" type="text" name="desription_3" value="" class="form-control"
-                                   id="description_3" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_4">job Description 3</label>
-                            <input  type="text" name="desription_4" value="" class="form-control"
-                                   id="description_4" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_5">job Description 4</label>
-                            <input  type="text" name="desription_5" value="" class="form-control"
-                                   id="description_5" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_6">job Description 5</label>
-                            <input  type="text" name="desription_6" value="" class="form-control"
-                                   id="description_6" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_7">job Description 6</label>
-                            <input  type="text" name="desription_7" value="" class="form-control"
-                                   id="description_7" data-validation="required">
-                        </div>
-                        <div class="form-group input-field">
-                            <label for="description_8">job Description 7</label>
-                            <input  type="text" name="desription_8" value="" class="form-control"
-                                   id="description_8" data-validation="required">
+                            <textarea cols="10" rows="10" required="required" type="text" name="desription_1" value="" class="form-control"
+                                      id="description_1" data-validation="required"></textarea>
                         </div>
 
                         <div class="col-md-12">
