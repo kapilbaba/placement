@@ -8,10 +8,10 @@
     button:hover, a:hover {
         opacity: 0.7;
     }
-    .jobtitle{
+
+    .jobtitle {
         width: 100%;
         font-size: 36px;
-        background: #46b5da;
         padding: 5px;
         color: white;
     }
@@ -21,23 +21,23 @@
     <?php include "layout/header.php"; ?>
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
 
     <section class="container banner">
-        <div class="back"
-        ">
+        <div class="back">
         <div class="col-md-6 col-xs-12 col-sm-12">
             <div class="row">
                 <div class="intro">
                     <h1 class="jobtitle">Search Here For Jobs</h1>
                     <a style="color: white; text-decoration: none" href="user-jobs">
-                    <button type="button" class="btn btn-block start-now">Start From Now &nbsp; <span
-                                class="glyphicon glyphicon-chevron-right"></span></button></a>
+                        <button type="button" class="btn btn-block start-now">Start From Now &nbsp; <span
+                                    class="glyphicon glyphicon-chevron-right"></span></button>
+                    </a>
                 </div>
 
             </div>
@@ -48,7 +48,7 @@
 
                 <form action="sign_up.php" method="post" role="form" class="form">
 
-                    <div class="container_home_register" >
+                    <div class="container_home_register">
 
                         <h3 style="text-align: center;">
                         <span class="top_register">
@@ -105,32 +105,67 @@
                         <br>
 
                         <p style="color: red; text-align: center">
-                            <a style="text-decoration: none; color: white"  href="candidate-login">Login here</a>
+                            <a class="btn home_btn" style="border: 1px solid white; color: white"
+                               href="candidate-login">Login here</a>
                         </p>
                     </div>
                 </form>
             </div>
         </div>
         <div style="clear: both"></div>
-        <div  class="banner_footer">
 
-            <p style="text-align: center; color: #000000;">submit your resume now &nbsp;
-                <a href="candidate-signup">
-                    <button type="button" class="btn home_btn">
-                        Register Now
-                    </button>
-                </a>
-
-            </p>
-        </div>
 </div>
 
+</section>
+
+<section class="business_box_area">
+    <div class="container">
+        <div class="sec_middle_title">
+            <h2><span>Consulting Service</span> for all kind of Jobs</h2>
+            <p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry simply dummy text of the printing and.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="business_box_item">
+                    <div class="business_image">
+                        <img src="images/business-1.jpg" alt="">
+                    </div>
+                    <div class="business_text">
+                        <a href="#"><h4>PartTime Jobs</h4></a>
+                        <h5>Expertness in placement field</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="business_box_item">
+                    <div class="business_image">
+                        <img src="images/business-2.jpg" alt="">
+                    </div>
+                    <div class="business_text">
+                        <a href="#"><h4>Full Time Jobs</h4></a>
+                        <h5>Expertness in placement field</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="business_box_item">
+                    <div class="business_image">
+                        <img src="images/business-3.jpg" alt="">
+                    </div>
+                    <div class="business_text">
+                        <a href="#"><h4>Remote Jobs</h4></a>
+                        <h5>Expertness in placement field</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="into">
     <div class="container home_intro" style=" color: white">
 
-        <div class="col-md-8 col-xs-12-col-sm-12" >
+        <div class="col-md-8 col-xs-12-col-sm-12">
             <div class="col-sm-12 col-xs-12 col-md-11  block">
                 <h1>Welcome to akosta Placement Consultants</h1>
                 <p>Akosta Placement Consultants is a leading brand in International recruitment consultancy for last
@@ -139,7 +174,7 @@
                     Affairs, Government of India, Vide registration No. ( B-0211/DEL/PER/1000+/5/2591/1989 ) and
                     registered with prestigious International Bench-marking & Certifications ISO 9001:2008 (QMS) We
                     at
-                 </p>
+                </p>
             </div>
 
             <div class="col-sm-6 col-xs-12 col-md-5  block">
@@ -168,7 +203,7 @@
             </div>
         </div>
 
-        <div style="text-align: center" class="col-md-4 col-xs-12 col-sm-12" >
+        <div style="text-align: center" class="col-md-4 col-xs-12 col-sm-12">
             <h3>message of CEO</h3>
             <img class="ceo_img" src="images/ceo.jpg" alt="">
             <p style="text-align: justify">
@@ -190,96 +225,198 @@
 
 </section>
 
-<section class="submit_job">
+<section class="helpline_area">
     <div class="container">
+        <div class="helpline_inner">
+            <div class="media">
 
-            <h1>apply job online</h1>
-            <a href="user-jobs">click here</a>
-        </div>
+                <div class="media-body">
+                    <h3 style="color: white">Are You Unemployed ?</h3>
+                    <h4>start finding job today</h4>
+                    <a class="btn btn-info" href="">Apply For Job now</a>
+                    <div class="contact_d">
 
-
-    </div>
-
-
-
-</section>
-
-<section class="sector">
-    <div class="container">
-        <div class="row boxrow" >
-            <div>
-                <h1 style="text-align: center; color: white">services</h1>
-            </div>
-            <div style="letter-spacing: 1px;" class="col-sm-5 col-xs-12 col-md-3 col-md-offset-2 box">
-                <h4>HR
-                    Consulting
-                    Services
-                </h4>
-                <a class="btn_apply" href="/cunsulting-service">read more</a>
-            </div>
-
-            <div class="col-sm-5 col-xs-12 col-md-3 box">
-                <h4>Staff
-                    Augmentation
-                    Services
-                </h4>
-                <a class="btn_apply" href="/Staff-Augmentation-Services">read more</a>
-            </div>
-            <div class="col-sm-5 col-xs-12 col-md-3 box">
-                <h4>Leadership
-                    Hiring
-                    Services
-                </h4>
-                <a class="btn_apply" href="/Leadership-Hiring-Services">read more</a>
-            </div>
-            <div  class="col-sm-5 col-xs-12 col-md-offset- col-md-3 box itbox">
-                <h4>IT
-                    Staffing
-                    Services
-                </h4>
-                <a class="btn_apply" href="/IT-Staffing-Services">read more</a>
-
-            </div>
-
-            <div class="col-sm-5 col-xs-12 col-md-3 box margin">
-                <h4>Contract
-                    Staffing
-                    Services</h4>
-                <a class="btn_apply" href="contract-staffing-service">read more</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
     </div>
-
 </section>
-<section class="latest_job">
-    <div style="text-align: center;background: white;opacity:  0.76;"><h1>latest job </h1><span
-                style="color: black;"><a style="color: black; text-decoration: none" href="user-jobs" >see all jobs</a></span></div>
 
-    <?php
-    include "core/database/connection_db.php";
-    $sql = "SELECT * from jobinformation ORDER BY id desc limit 3";
-    $result = mysqli_query($conn, $sql);
-    echo "";
-    while ($row = mysqli_fetch_array($result)) {
-
-        echo "<div class='container latest_contain'>
-        <div class='col-xs-12 col-sm-6 col-md-3 job_container' > <h3 class='job_profile'>" . $row['jobpost'] . "</h3>
-    <p>salary : <span>rs" . $row['salary'] . "</span> -per month</p>
-    <p>job category : <span>" . $row['jobcategory'] . "</span></p>
-    <a class='btn_apply' href='candidate-job?id=".$row['id']."'>apply online</a>
+<section class="our_service_area">
+    <div class="container">
+        <div class="section_title">
+            <h2 style="text-align: center">Our servies</h2>
+        </div>
+        <div class="row service_inner">
+            <div class="col-md-4 col-sm-6">
+                <div class="service_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/icon/service-icon1-h.png" alt="">
+                            <img src="images/icon/service-icon1-h.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#"><h4>HR Consulting Services</h4></a>
+                            <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
+                                simply.</p>
+                            <a class="more_link" href="cunsulting-service">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/icon/service-icon2-h.png" alt="">
+                            <img src="images/icon/service-icon2-h.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#"><h4>Contract Staffing Services</h4></a>
+                            <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
+                                simply.</p>
+                            <a class="more_link" href="contract-staffing-service">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/icon/service-icon4-h.png" alt="">
+                            <img src="images/icon/service-icon4-h.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#"><h4>Staff Augmentation Services</h4></a>
+                            <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
+                                simply.</p>
+                            <a class="more_link" href="Staff-Augmentation-Services">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/icon/service-icon4-h.png" alt="">
+                            <img src="images/icon/service-icon4-h.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#"><h4>Leadership Hiring Services</h4></a>
+                            <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
+                                simply.</p>
+                            <a class="more_link" href="Leadership-Hiring-Services">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/icon/service-icon5-h.png" alt="">
+                            <img src="images/icon/service-icon5-h.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#"><h4>Leadership Hiring Services</h4></a>
+                            <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
+                                simply.</p>
+                            <a class="more_link" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service_item">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/icon/service-icon6-h.png" alt="">
+                            <img src="images/icon/service-icon6-h.png" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#"><h4>IT Staffing Services</h4></a>
+                            <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
+                                simply.</p>
+                            <a class="more_link" href="IT-Staffing-Services">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+
+
+<section class="helpline_area">
+    <div class="container">
+        <div class="helpline_inner">
+            <div class="media">
+
+                <div class="media-body">
+                    <h6>Need consultation for job</h6>
+                    <h4>Call Us Now </h4>
+                    <p>Contact our customer support team if you have any further questions. We are heare to help you
+                        out</p>
+                    <div class="contact_d">
+                        <a href="#"> +9184475 81034</a>
+                        <a style="text-transform: lowercase" href="mailto:akostaplacement@gmail.com">akostaplacement@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="our_service_area">
+    <div class="container">
+        <div style="text-align: center" class="section_title">
+            <h2 >latest jobs</h2>
+            <a href="">See All Jobs</a>
+        </div>
+
+        <?php
+        include "core/database/connection_db.php";
+        $sql = "SELECT * from jobinformation ORDER BY id desc limit 3";
+        $result = mysqli_query($conn, $sql);
+        echo "";
+        while ($row = mysqli_fetch_array($result)) {
+
+            echo "
+<div class='row service_inner'>
+            <div class='col-md-4 col-sm-6'>
+                <div class='service_item'>
+                    <div class='media'>
+                        <div class='media-left'>
+                            <img src='images/icon/service-icon1-h.png' >
+                            <img src='images/icon/service-icon1-h.png' >
+                        </div>
+                        <div class='media-body' style='color: white; text-transform: uppercase; letter-spacing: 2px;'>
+                            <h3> " . $row['jobpost'] . "</h3>
+                            <h5>Rs: " . $row['salary'] . "</h5>
+                            <h5>" . $row['jobcategory'] . "</h5>
+
+                            <a class='more_link' href='candidate-job?id=" . $row['id'] . "'>Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     ";
-    }
+        }
 
 
-    ?>
+        ?>
 
-
+    </div>
 </section>
-
 
 
 

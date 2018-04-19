@@ -39,7 +39,7 @@
             <?php  include "layout/header2.php";?>
 
             <div class="col-md-4 col-md-offset-4 col-xs-12">
-                <h1 style="text-align: center">akostaplacement services</h1>
+                <h1 style="text-align: center">akostaplacement cunsultant</h1>
                 <p style="color: red; text-align: center"><?php echo $_SESSION['job-update-failed']; ?></p>
 
 
@@ -60,6 +60,7 @@
     <p>salary : <span>rs".$row['salary']."</span> -per month</p>
     <p>job category : <span>".$row['jobcategory']."</span></p>
     <a class='btn_apply' href='user_job_info.php?id=".$row['id']."'>show detail</a>
+    <br>
     <a class='btn_apply' href='candidate-job?id=".$row['id']."'>apply online</a>
     </div>
     ";

@@ -61,7 +61,7 @@ session_start();
                         <button type="submit" name="submit" class="button1">login</button>
                     </p>
                     <p style="color: black; text-align: center; font-size: small" >Don't have Id Register
-                        <a href="candidate-signup"> here!</a>
+                        <a style="font-size: 20px" href="candidate-signup"> here!</a>
                     </p>
 
                 </form>
