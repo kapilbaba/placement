@@ -377,7 +377,7 @@
     <div class="container">
         <div style="text-align: center" class="section_title">
             <h2 >latest jobs</h2>
-            <a href="">See All Jobs</a>
+            <a href="/user-jobs">See All Jobs</a>
         </div>
 
         <?php
