@@ -2,11 +2,12 @@
 /**
  * Created by PhpStorm.
  * User: kapilanand
- * Date: 01/03/18
- * Time: 14:08
+ * Date: 20/04/18
+ * Time: 00:51
  */
 ?>
-<?php $title = "leadership hiring services"; ?>
+
+<?php $title = "Men power recruitment services"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
@@ -56,10 +57,10 @@
                                     <ul class="nav nav-tabs" role="tablist">
                                         <li role="presentation" class=""><a href="/cunsulting-service"  >cunsulting-service</a></li>
                                         <li role="presentation" class=""><a href="/Staff-Augmentation-Services" >Staff-Augmentation-Services</a></li>
-                                        <li role="presentation" class="active"><a href="/Leadership-Hiring-Services" >Leadership-Hiring-Services</a></li>
+                                        <li role="presentation" class=""><a href="/Leadership-Hiring-Services" >Leadership-Hiring-Services</a></li>
                                         <li role="presentation" class=""><a href="/IT-Staffing-Services">IT-Staffing-Services</a></li>
                                         <li role="presentation" class=""><a href="/contract-staffing-service" >contract-staffing-service</a></li>
-                                        <li role="presentation" class=""><a href="man-power-services.php">financial analysis</a></li>  </ul>
+                                        <li role="presentation" class=" active"><a href="man-power-services.php">financial analysis</a></li> </ul>
                                     <?php include "contact-info.php";?>
 
                                 </div>
@@ -116,10 +117,10 @@
     </section>
 
 
-
 </div>
 <div style="clear: both"></div>
 <?php include "layout/footer.php"; ?>
 <?php include "layout/core/script.php"; ?>
 
 </html>
+

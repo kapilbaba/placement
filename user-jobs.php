@@ -36,10 +36,16 @@
 
         </ol>
         <div class="container">
-            <?php include "layout/header2.php"; ?>
+            <section class="banner_area">
+                <div class="container">
+                    <div class="banner_content">
+                        <h3><?php echo $title; ?></h3>
+                    </div>
+                </div>
+            </section>
 
             <div class="col-md-4 col-md-offset-4 col-xs-12">
-                <h1 style="text-align: center">akostaplacement cunsultant</h1>
+
                 <p style="color: red; text-align: center"><?php echo $_SESSION['job-update-failed']; ?></p>
 
 

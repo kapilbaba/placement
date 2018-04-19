@@ -325,10 +325,10 @@
                             <img src="images/icon/service-icon5-h.png" alt="">
                         </div>
                         <div class="media-body">
-                            <a href="#"><h4>Leadership Hiring Services</h4></a>
+                            <a href=""><h4>Men power recruitment services</h4></a>
                             <p>Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is
                                 simply.</p>
-                            <a class="more_link" href="#">Read More</a>
+                            <a class="more_link" href="/man-power-services.php">Read More</a>
                         </div>
                     </div>
                 </div>
