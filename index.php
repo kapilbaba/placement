@@ -184,8 +184,10 @@
     <div class="container home_intro" style=" color: white">
 
         <div class="col-md-8 col-xs-12-col-sm-12">
+            <br>
+            <br>
             <div class="col-sm-12 col-xs-12 col-md-11  block">
-                <h1>Welcome to akosta Placement Consultants</h1>
+                <h1>Welcome to akosta Placement Services</h1>
                 <p>Akosta Placement Consultants is a leading brand in International recruitment consultancy for last
                     28
                     years. Since our inception in 1989, we have been dully approved by Ministry of Overseas Indian
@@ -381,7 +383,7 @@
             <h2 >latest jobs</h2>
             <a href="/user-jobs">See All Jobs</a>
         </div>
-
+        <div class='row service_inner'>
         <?php
         include "core/database/connection_db.php";
         $sql = "SELECT * from jobinformation ORDER BY id desc limit 3";
@@ -390,7 +392,7 @@
         while ($row = mysqli_fetch_array($result)) {
 
             echo "
-<div class='row service_inner'>
+
             <div class='col-md-4 col-sm-6'>
                 <div class='service_item'>
                     <div class='media'>
@@ -409,14 +411,14 @@
                 </div>
             </div>
 
-        </div>
+        
 
     ";
         }
 
 
         ?>
-
+        </div>
     </div>
 </section>
 

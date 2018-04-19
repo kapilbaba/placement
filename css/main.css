@@ -1306,3 +1306,824 @@ body, html {
     font-weight: normal;
     padding-top: 20px;
 }
+.banner_area {
+    background: url(../images/banner-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    min-height: 352px;
+    position: relative;
+    z-index: 2;
+}
+
+.banner_area:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.banner_area .banner_content h3 {
+    padding-top: 215px;
+    color: #fff;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.banner_link {
+    background: #f1f1f1;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.banner_link .abnner_link_inner a {
+    font-size: 16px;
+    color: #a2a1a1;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .32px;
+    margin-right: 25px;
+    line-height: 60px;
+    position: relative;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.banner_link .abnner_link_inner a:before {
+    content: "\f105";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    left: -14px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #a2a1a1;
+}
+
+.banner_link .abnner_link_inner a:last-child {
+    margin-right: 0px;
+}
+
+.banner_link .abnner_link_inner a:first-child:before {
+    display: none;
+}
+
+.banner_link .abnner_link_inner a:hover, .banner_link .abnner_link_inner a.active {
+    color: #18ba60;
+}
+.our_about_area {
+    padding: 100px 0px;
+}
+
+.our_about_left_content {
+    padding-right: 10px;
+}
+
+.our_about_left_content .section_title {
+    padding-bottom: 30px;
+}
+
+.our_about_left_content h3 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: .44px;
+    color: #242424;
+    font-family: "Lato", sans-serif;
+}
+
+.our_about_left_content p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #898989;
+    letter-spacing: .34px;
+    font-family: "Lato", sans-serif;
+    padding-top: 30px;
+}
+
+.our_about_image {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.our_about_image:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+    cursor: pointer;
+}
+
+.our_about_image img {
+    max-width: 100%;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.our_about_image:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.our_about_image:hover:before {
+    opacity: 1;
+}
+
+/* End Our Abour Area css
+============================================================================================ */
+/* Consult Policy Area css
+============================================================================================ */
+.consult_policy_area {
+    background: url(../img/consult-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.consult_policy_area:before {
+    content: "";
+    background: rgba(41, 40, 46, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.consult_policy_area .consult_policy_inner {
+    padding: 0px 70px;
+}
+
+.consult_policy_area .consult_policy_inner i {
+    color: #18ba60;
+}
+
+.consult_policy_area .consult_policy_inner i:before {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.consult_policy_area .consult_policy_inner h3 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.consult_policy_area .consult_policy_inner h3 span {
+    color: #48b4d8;
+}
+
+.consult_policy_area .consult_policy_inner p {
+    font-size: 17px;
+    line-height: 28px;
+    font-family: "Lato", sans-serif;
+    color: #898989;
+    letter-spacing: .34px;
+    padding: 20px 0px 40px 0px;
+}
+
+/* End Consult Policy Area css
+============================================================================================ */
+/* Manager Area css
+============================================================================================ */
+.manager_area {
+    padding-top: 30px;
+}
+
+.manager_area .our_about_left_content {
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+
+.manager_area .our_about_left_content .section_title {
+    padding-bottom: 20px;
+}
+
+.manager_area .our_about_left_content img {
+    padding-top: 10px;
+}
+
+.manager_image {
+    margin-right: -50px;
+}
+
+.manager_image img {
+    max-width: 100%;
+    margin-bottom: -76px;
+}
+
+/* End Manager Area css
+============================================================================================ */
+/* Error Area css
+============================================================================================ */
+.error_area {
+    background: url(../img/error-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.error_area:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.error_area .error_content_inner {
+    padding-top: 245px;
+    padding-bottom: 145px;
+}
+
+.error_area .error_content_inner h1 {
+    font-size: 200px;
+    color: #18ba60;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+}
+
+.error_area .error_content_inner h3 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.error_area .error_content_inner h5 {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: .75px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.error_area .error_content_inner .submit_btn {
+    width: 310px;
+    height: 74px;
+    line-height: 74px;
+    font-size: 22.75px;
+    letter-spacing: 0.455px;
+}
+
+/* End Manager Area css
+============================================================================================ */
+/* Carrers Area css
+============================================================================================ */
+.carrers_area {
+    padding: 100px 0px;
+}
+
+.carrers_left .nav.nav-tabs {
+    border: none;
+}
+
+.carrers_left .nav.nav-tabs li {
+    float: none;
+    margin-bottom: 3px;
+}
+
+.carrers_left .nav.nav-tabs li a {
+    display: block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 15px;
+    color: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    line-height: 55px;
+    padding: 0px 25px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.carrers_left .nav.nav-tabs li:last-child {
+    margin-bottom: 0px;
+}
+
+.carrers_left .nav.nav-tabs li.active a {
+    background: #48b4d8;
+    color: #fff;
+}
+
+.carrers_left .contact_info {
+    margin-top: 50px;
+    padding-right: 17px;
+}
+
+.carrers_left .contact_info h2 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #242424;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+.carrers_left .contact_info p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #797979;
+    letter-spacing: .48px;
+    padding-bottom: 13px;
+}
+
+.carrers_left .contact_info h5 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #797979;
+    letter-spacing: .48px;
+    padding-bottom: 13px;
+}
+
+.carrers_left .contact_info h5 a {
+    color: #797979;
+    letter-spacing: .48px;
+    font-size: 16px;
+}
+
+.carrers_left .contact_info h5 + h5 {
+    padding-bottom: 0px;
+}
+
+.carrers_left.affix {
+    top: 0;
+    width: 270px;
+    position: fixed;
+}
+
+.carrers_left.affix-bottom {
+    position: absolute;
+    width: 270px;
+}
+
+.download_btn a {
+    display: block;
+    background: #373540;
+    padding: 13px 18px;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.download_btn a img {
+    float: right;
+}
+
+.carrers_right_content {
+    padding-left: 30px;
+}
+
+.carrers_right_content .section_title {
+    padding-bottom: 22px;
+}
+
+.carrers_right_content .section_title h2 {
+    font-size: 24px;
+    color: #242424;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #797979;
+    letter-spacing: .34px;
+    padding-bottom: 20px;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text ul {
+    padding-left: 25px;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text ul li {
+    margin-bottom: 10px;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text ul li a {
+    font-size: 17px;
+    line-height: 28px;
+    color: #797979;
+    letter-spacing: .34px;
+    position: relative;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text ul li a i {
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #18ba60;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.carrers_right_content .tab-content .tab-pane .requirements_text ul li:hover a {
+    color: #18ba60;
+}
+
+.company_history_list .media {
+    margin-top: 34px;
+}
+
+.company_history_list .media:first-child {
+    margin-top: 0px;
+}
+
+.company_history_list .media .media-left {
+    padding-right: 45px;
+}
+
+.company_history_list .media .media-left a {
+    color: #fff;
+    background: #18ba60;
+    display: block;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    line-height: 46px;
+    padding: 0px 34px;
+}
+
+.company_history_list .media .media-body h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.company_history_list .media .media-body p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #797979;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .34px;
+}
+
+.company_history_list .media .media-body .history_img_div {
+    margin-top: 35px;
+    margin-bottom: 28px;
+}
+
+.company_history_list .media .media-body .history_img_div .history_img_item {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.company_history_list .media .media-body .history_img_div .history_img_item img {
+    max-width: 100%;
+}
+
+.company_history_list .media .media-body .history_img_div .history_img_item:last-child {
+    margin-right: 0px;
+}
+
+.open_position .section_title {
+    padding-bottom: 33px;
+    padding-top: 40px;
+}
+
+.open_position .section_title h2 {
+    font-size: 24px;
+}
+
+.open_position .panel-group {
+    margin-bottom: 0px;
+}
+
+.open_position .panel-group .panel-default {
+    border-radius: 0px;
+    border-color: #e5e5e5;
+    margin-top: 20px;
+}
+
+.open_position .panel-group .panel-default:first-child {
+    margin-top: 0px;
+}
+
+.open_position .panel-group .panel-default .panel-heading {
+    padding: 0px;
+    border-color: #e5e5e5;
+}
+
+.open_position .panel-group .panel-default .panel-heading .panel-title a {
+    display: block;
+    padding: 0px 20px;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    line-height: 50px;
+    background: #303032;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .36px;
+}
+
+.open_position .panel-group .panel-default .panel-heading .panel-title a i {
+    float: right;
+    line-height: 50px;
+}
+
+.open_position .panel-group .panel-default .panel-heading .panel-title a.collapsed {
+    background: #fafafa;
+    color: #242424;
+}
+
+.open_position .panel-group .panel-collapse .panel-body {
+    padding: 30px 38px 80px 40px;
+    background: #fafafa;
+}
+
+.open_position .panel-group .panel-collapse .panel-body h3 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #242424;
+    padding-bottom: 15px;
+}
+
+.open_position .panel-group .panel-collapse .panel-body p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #797979;
+    letter-spacing: .34px;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 30px;
+}
+
+.open_position .panel-group .panel-collapse .panel-body p + p {
+    padding-bottom: 0px;
+}
+
+.download_area {
+    padding: 26px 60px;
+    background: #303032;
+    overflow: hidden;
+    clear: both;
+    margin-top: 45px;
+}
+
+.download_area .pull-left h4 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 13px;
+}
+
+.download_area .pull-right .main_btn {
+    padding: 0px 25px;
+}
+
+/* End Carrers Area css
+============================================================================================ */
+/* Company Overview Area css
+============================================================================================ */
+.about_company .section_title {
+    padding-top: 48px;
+}
+
+.about_company p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #797979;
+    line-height: 28px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .34px;
+    padding-bottom: 35px;
+}
+
+.about_company p + p {
+    padding-bottom: 0px;
+}
+
+.about_company .business_divider_img .our_about_image img {
+    max-width: none;
+}
+
+.we_are_content {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.we_are_content .we_are_text {
+    margin-right: -23px;
+}
+
+.we_are_content .we_are_text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #797979;
+    line-height: 28px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .34px;
+    padding-bottom: 30px;
+}
+
+.we_are_content .we_are_text p + p {
+    padding-bottom: 0px;
+}
+
+.we_are_content .we_are_text ul {
+    padding-left: 32px;
+    padding-top: 25px;
+}
+
+.we_are_content .we_are_text ul li {
+    margin-bottom: 13px;
+}
+
+.we_are_content .we_are_text ul li a {
+    position: relative;
+    font-size: 17px;
+    color: #999999;
+    font-family: "Lato", sans-serif;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.we_are_content .we_are_text ul li a img {
+    position: absolute;
+    left: -32px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.we_are_content .we_are_text ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.we_are_content .we_are_text ul li:hover a {
+    color: #18ba60;
+}
+
+.we_are_content .we_are_text ul li:hover a img {
+    left: -25px;
+}
+
+.we_are_content .our_about_image {
+    margin-left: 23px;
+}
+
+.we_are_content .our_about_image + .our_about_image {
+    margin-top: 17px;
+}
+
+.we_are_content.companu_history_img {
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+.we_are_content.companu_history_img .we_are_text p {
+    padding-bottom: 25px;
+}
+
+.we_are_content.companu_history_img .we_are_text p:last-child {
+    padding-bottom: 0px;
+}
+
+.development_process {
+    background: #f1f1f1;
+    padding: 45px 40px 60px 40px;
+}
+
+.development_process p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #797979;
+    line-height: 28px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .34px;
+}
+
+.panel-group.faq_panel .panel-default {
+    border-radius: 0px;
+    border-color: #d1d1d1;
+    margin-top: 20px;
+}
+
+.panel-group.faq_panel .panel-default .panel-heading {
+    padding: 0px;
+    background: transparent;
+}
+
+.panel-group.faq_panel .panel-default .panel-heading .panel-title a {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .34px;
+    line-height: 50px;
+    background: #18ba60;
+    display: block;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+.panel-group.faq_panel .panel-default .panel-heading .panel-title a i {
+    float: right;
+    line-height: 50px;
+}
+
+.panel-group.faq_panel .panel-default .panel-heading .panel-title a.collapsed {
+    background: #fafafa;
+    color: #242424;
+}
+
+.panel-group.faq_panel .panel-default .panel-heading .panel-title a.collapsed i {
+    color: #909090;
+}
+
+.panel-group.faq_panel .panel-default:first-child {
+    margin-top: 0px;
+}
+
+.panel-group.faq_panel .panel-default .panel-collapse .panel-body {
+    background: #fafafa;
+    padding: 30px 40px 38px 40px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #797979;
+    line-height: 28px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: .34px;
+}
+
+.partner_details .section_title {
+    padding-bottom: 20px;
+}
+
+.partner_details_inner .media {
+    background: #f1f1f1;
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+
+.partner_details_inner .media .media-left {
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.partner_details_inner .media .media-body {
+    vertical-align: middle;
+    padding-right: 60px;
+}
+
+.partner_details_inner .media .media-body h4 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #242424;
+    letter-spacing: .40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.partner_details_inner .media .media-body p {
+    font-size: 17px;
+    color: #797979;
+    line-height: 28px;
+    letter-spacing: .34px;
+}

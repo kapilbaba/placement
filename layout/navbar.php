@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="color: white" href="/">Akostaplacement Cunsultant</a>
+            <a class="navbar-brand" style="color: white" href="/">Akostaplacement Services</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
