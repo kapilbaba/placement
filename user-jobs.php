@@ -30,11 +30,7 @@
     ?>
     <section class="job_search">
 
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li>Jobs</li>
 
-        </ol>
         <div class="container">
             <section class="banner_area">
                 <div class="container">
@@ -43,7 +39,11 @@
                     </div>
                 </div>
             </section>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li>Jobs</li>
 
+            </ol>
             <div class="col-md-4 col-md-offset-4 col-xs-12">
 
                 <p style="color: red; text-align: center"><?php echo $_SESSION['job-update-failed']; ?></p>

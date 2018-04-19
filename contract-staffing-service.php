@@ -70,7 +70,7 @@
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane fade active in" >
                                             <div class="about_company">
-                                               
+
                                                 <div class="section_title">
                                                     <h2>We give best advice for your business</h2>
                                                 </div>
