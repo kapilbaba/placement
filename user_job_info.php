@@ -7,6 +7,7 @@
  */
 ?>
 <?php
+
 include "core/script/user-authenticated.php";
 include "core/database/connection_db.php";
 $id = $_GET['id'];
@@ -44,7 +45,7 @@ if ($result->num_rows > 0) {
 
 
 ?>
-<?php $title = "job"; ?>
+<?php $title = "job-information"; ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
@@ -75,12 +76,27 @@ if ($result->num_rows > 0) {
         include 'layout/user-navbar.php';
     }
     ?>
+    <section class="banner_area">
+        <div class="container">
+            <div class="banner_content">
+                <h3><?php echo $title?></h3>
+            </div>
+        </div>
+    </section>
+   
+
     <section class="job_search">
         <div class="container">
-            <?php include "layout/header2.php"; ?>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li><a href="/user-jobs"></a></li>
+                <li><?php echo $title?></li>
+
+            </ol>
+
 
             <div class="col-md-12  col-xs-12">
-                <h1 style="text-align: center">Job Information</h1>
+
 
 
                 <div class="container">
