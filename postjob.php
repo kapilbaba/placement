@@ -36,7 +36,7 @@ if (isset($jobsubmit)) {
 
 
     $sql = "INSERT INTO jobinformation (description1, salary, indrustry, jobcategory, jobtype, skill1, skill2, skill3, skill4, skill5, profilecandidate, companyaddress, jobpost)
-VALUES ('$jobdesription_1','$jobsalary','$jobindrustry','$jobcategory','$jobtype','$jobskill1','$jobskill2','$jobskill3','$jobskill4','$jobskill5','$jobcandidateprofile','$companyaddress','$pobpost')";
+VALUES ('$jobdesription_1','$jobsalary','$jobindrustry','$jobcategory','$jobtype','$jobskill1','$jobskill2','$jobskill3','$jobskill4','$jobskill5','$jobcandidateprofile','$companyaddress','$jobpost')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
