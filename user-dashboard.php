@@ -53,7 +53,7 @@ body,html{
             </div>
         </div>
     </section>
-    
+
     <section class="registration_1">
         <ol class="breadcrumb">
             <li><a href="/">Home</a></li>

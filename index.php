@@ -406,6 +406,7 @@
                             <h5>" . $row['jobcategory'] . "</h5>
 
                             <a class='more_link' href='candidate-job?id=" . $row['id'] . "'>Apply Now</a>
+                            <a class='more_link' href='user_job_info.php?id=" . $row['id'] . "'>Show details</a>
                         </div>
                     </div>
                 </div>
