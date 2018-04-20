@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-<?php $title = "candidate login"; ?>
+<?php $title = "login"; ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
@@ -28,18 +28,7 @@ session_start();
         include 'layout/user-navbar.php';
     }
     ?>
-    <section class="banner_area">
-        <div class="container">
-            <div class="banner_content">
-                <h3><?php echo $title?></h3>
-            </div>
-        </div>
-    </section>
-    <ol class="breadcrumb">
-        <li><a href="/">Home</a></li>
-        <li><?php echo $title;?></li>
 
-    </ol>
     <section class="registration">
         <h3 style="text-align: center">candidate login</h3>
         <div class="container">
