@@ -28,17 +28,18 @@
         include 'layout/user-navbar.php';
     }
     ?>
+    <section class="banner_area">
+        <div class="container">
+            <div class="banner_content">
+                <h3><?php echo $title; ?></h3>
+            </div>
+        </div>
+    </section>
     <section class="job_search">
 
 
         <div class="container">
-            <section class="banner_area">
-                <div class="container">
-                    <div class="banner_content">
-                        <h3><?php echo $title; ?></h3>
-                    </div>
-                </div>
-            </section>
+
             <ol class="breadcrumb">
                 <li><a href="/">Home</a></li>
                 <li>Jobs</li>
