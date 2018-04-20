@@ -89,7 +89,7 @@ if ($result->num_rows > 0) {
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="/">Home</a></li>
-                <li><a href="/user-jobs"></a></li>
+                <li><a href="/user-jobs">jobs</a></li>
                 <li><?php echo $title?></li>
 
             </ol>
