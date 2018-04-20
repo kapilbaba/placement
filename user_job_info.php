@@ -97,9 +97,8 @@ if ($result->num_rows > 0) {
                         <div class="panel panel-info">
                             <div class="panel-heading">Job discription</div>
                             <div class="panel-body"><pre><?php echo $description1; ?></pre>
-
-
                             </div>
+                        </div>
                             <div class="panel panel-info">
                                 <div class="panel-heading">Job skills</div>
                                 <div class="panel-body"><span><?php echo $skill1; ?></span>,
@@ -127,10 +126,12 @@ if ($result->num_rows > 0) {
                                 <div class="panel-heading">Job indrustry </div>
                                 <div class="panel-body"><span><?php echo $indrustry; ?></span></div>
                             </div>
+
                             <div class="panel panel-info">
                                 <div class="panel-heading">Job Type </div>
                                 <div class="panel-body"><span><?php echo $type;?></span></div>
                             </div>
+                        
                             <div class="panel panel-info">
                                 <div class="panel-heading">Company Details </div>
                                 <div class="panel-body"><pre><?php echo $company;?></pre></div>
