@@ -20,7 +20,7 @@ $title = "privacy policy"; ?>
 </style>
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
+
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -28,8 +28,27 @@ $title = "privacy policy"; ?>
         include 'layout/user-navbar.php';
     }
     ?>
+
+    <section class="innerpage-titlebar">
+        <div class="container">
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="#"><span><?php echo $title?></span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="">
-        <?php  include "layout/header2.php";?>
+
         <div style="text-align: center" class="container">
             <h2>privacy policy</h2>
             <p style="text-align: justify"> A company limited by guarantee. Commonly used where companies are formed for non-commercial purposes,

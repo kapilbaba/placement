@@ -16,6 +16,8 @@ $sql = "SELECT * from users Where id='$id'";
 $result = $conn->query($sql);
 $result->num_rows > 0;
 while ($row = $result->fetch_assoc()) {
+    $name=$row['firstname'];
+    $lname =['lastname'];
 $applicantid = $row['id'];
     $email = $row['email'];
     $pwd = $row['password'];
@@ -26,19 +28,13 @@ $applicantid = $row['id'];
 }
 ?>
 <style>
-body,html{
-    background: url("/images/user-bg.jpeg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
-}
+
 </style>
 
 
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
+
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -46,20 +42,29 @@ body,html{
         include 'layout/user-navbar.php';
     }
     ?>
-    <section class="banner_area">
+
+    <section class="innerpage-titlebar">
         <div class="container">
-            <div class="banner_content">
-                <h3><?php echo $title?></h3>
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2><?php echo $title;?></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="#"><?php echo $title;?></a>|<span><?php echo $name ; ?></span>  </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="registration_1">
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li>User Dashboard</li>
 
-        </ol>
+    <section class="registration_1">
+
 
 
         <div class="container" style="margin-top: 5%; margin-bottom: 10%">
@@ -137,7 +142,9 @@ body,html{
                                 <h3>
                                     recruitment process
                                 </h3>
-                                <p>status:</p><span
+                                <p>status:</p>
+                                <br>
+                                <br><span
                                         style="background: crimson; color: white;padding: 10px; margin: 10px;"><?php echo $status; ?></span>
                                 <br>
                                 <br>

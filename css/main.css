@@ -313,12 +313,14 @@ body, html {
 /*form css*/
 
 .form_page {
-    margin: 20px 250px 20px 250px;
+
+    margin: 20px 25% 20px 25%;
     background: white;
     color: black;
-    opacity: 0.87;
+
     padding: 25px;
 }
+
 
 
 .banner_footer{

@@ -10,17 +10,13 @@ session_start();
         padding: 6px 12px;
     }
 
-    body {
-        background: url("/images/form_img.jpeg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover
+    .form_page {
+        background: whitesmoke;
+
     }
 </style>
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -28,6 +24,26 @@ session_start();
         include 'layout/user-navbar.php';
     }
     ?>
+
+    <section class="innerpage-titlebar">
+        <div class="container">
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2><?php echo $title;?></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="#"><span><?php echo $title;?></span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="registration">
         <h3 style="text-align: center">candidate login</h3>

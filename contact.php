@@ -5,10 +5,8 @@
 <?php include "layout/core/head.php" ?>
 <style>
 .contact-us{
-    background-image:url("/images/jobconfirm.jpeg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
     p{
         margin: 10px;
@@ -73,7 +71,6 @@
     }
 </style>
 <div id="page">
-    <?php include "layout/header.php"; ?>
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -81,24 +78,32 @@
         include 'layout/user-navbar.php';
     }
     ?>
-    <section class="banner_area">
+
+
+    <section class="innerpage-titlebar">
         <div class="container">
-            <div class="banner_content">
-                <h3><?php echo $title?></h3>
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2><?php echo $title;?></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="#"><span><?php echo $title;?></span></a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
     <section class="contact-us">
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li><?php echo $title;?></li>
-
-        </ol>
-
 
         <div class="form_page">
-            <div style="padding: 5%" class="container">
-                <div class="tab active-tab" id="Newyork" style="display: block;">
+            <div  class="container">
+
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="item">

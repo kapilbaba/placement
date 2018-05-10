@@ -8,7 +8,6 @@
 ?>
 <?php
 
-include "core/script/user-authenticated.php";
 include "core/database/connection_db.php";
 $id = $_GET['id'];
 $sql = "SELECT * FROM jobinformation WHERE id='$id'";
@@ -50,9 +49,6 @@ if ($result->num_rows > 0) {
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    body {
-        background: inherit;
-    }
 
     .btn {
         padding: 8px;
@@ -65,10 +61,14 @@ if ($result->num_rows > 0) {
         font-size: 14px;
         font-family: inherit;
     }
+    .job_search{
+        margin-top: 10%;
+
+    }
+
 </style>
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -76,23 +76,29 @@ if ($result->num_rows > 0) {
         include 'layout/user-navbar.php';
     }
     ?>
-    <section class="banner_area">
+
+    <section class="innerpage-titlebar">
         <div class="container">
-            <div class="banner_content">
-                <h3><?php echo $title?></h3>
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2><?php echo $title;?></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="/user-jobs.php">jobs</a> |<span><?php echo $title;?></span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-   
+
 
     <section class="job_search">
-        <div class="container">
-            <ol class="breadcrumb">
-                <li><a href="/">Home</a></li>
-                <li><a href="/user-jobs">jobs</a></li>
-                <li><?php echo $title?></li>
 
-            </ol>
 
 
             <div class="col-md-12  col-xs-12">

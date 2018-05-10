@@ -19,18 +19,11 @@ session_start(); ?>
     margin-top: 10%;
     margin-bottom: 10%;
 }
-    body {
-        background: url("/images/jobconfirm.jpeg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover
-    }
+
 </style>
 <div id="page">
     <?php $status = $_GET['status']; ?>
 
-    <?php include "layout/header.php"; ?>
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }

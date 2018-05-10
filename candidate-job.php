@@ -49,7 +49,7 @@ if ($result->num_rows > 0) {
 
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
+
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -60,7 +60,7 @@ if ($result->num_rows > 0) {
 
     <section class="registration_1">
 
-        <?php include "layout/header2.php" ?>
+
 
         <div class="container">
             <h3 style="text-align: center; color: black">Update Your Job inforamtion</h3>

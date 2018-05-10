@@ -10,6 +10,7 @@
 
 
     .footer-mobile {
+        position: relative;
         background: #000;
         bottom: 0;
         width: 100%

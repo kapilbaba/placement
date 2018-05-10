@@ -31,13 +31,7 @@
     <section class="">
 
 
-        <section class="banner_area">
-            <div class="container">
-                <div class="banner_content">
-                    <h3><?php echo $title; ?></h3>
-                </div>
-            </div>
-        </section>
+
         <section class="">
 
             <ol class="breadcrumb">
@@ -69,15 +63,7 @@
             </div>
         </section>
 
-        <section class="consult_policy_area">
-            <div class="container">
-                <div class="consult_policy_inner">
-                    <h3>Akost<span>placement</span> Quality Policy</h3>
-                    <p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry simply dummy text of the printing and text of the stry simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry stext .</p>
-                    <a class="main_btn" href="#">Our services</a>
-                </div>
-            </div>
-        </section>
+
 
 
 

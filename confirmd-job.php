@@ -31,7 +31,7 @@ session_start();
 
     <div class="confirmed">
 
-        <?php include "layout/header2.php" ?>
+
 
         <div style="margin-top: 20%" class="container">
             <div class="col-md-4 col-xs-12 col-sm-12">

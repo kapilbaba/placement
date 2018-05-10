@@ -7,8 +7,11 @@
     <title><?php echo $title;?></title>
 
     <!-- Bootstrap -->
+
+
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <!--  <link rel="stylesheet" href="/css/animate.min.css">-->

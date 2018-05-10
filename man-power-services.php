@@ -6,7 +6,6 @@
  * Time: 00:51
  */
 ?>
-
 <?php $title = "Men power recruitment services"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
@@ -24,7 +23,6 @@
 </style>
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -32,19 +30,26 @@
         include 'layout/user-navbar.php';
     }
     ?>
-    <section class="banner_area">
+    <section class="innerpage-titlebar">
         <div class="container">
-            <div class="banner_content">
-                <h3><?php echo $title?></h3>
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a href="#"><span><?php echo $title?></span></a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section class="">
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            <li><?php echo $title?></li>
 
-        </ol>
 
         <div style="text-align: center" class="container">
 
@@ -77,22 +82,7 @@
                                                 <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
                                             </div>
 
-                                            <div class="row analysis_business">
-                                                <div class="col-md-5">
-                                                    <div class="our_about_image b_left_img">
-                                                        <img src="images/about-company-img5.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <div class="analysis_text">
-                                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum.</p>
-                                                        <ul>
-                                                            <li><a href="#">-  Building a strategic development and expansion</a></li>
-                                                            <li><a href="#">-  Plan is vital, as the tactics game</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
+
 
                                         </div>
 

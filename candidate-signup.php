@@ -7,20 +7,13 @@
     .form-control {
         padding: 6px 12px;
     }
+    .form_page {
 
-    body,html{
-        background: url("/images/form_img.jpeg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 10px;
+background: whitesmoke;
     }
 
 </style>
 <div id="page">
-
-    <?php include "layout/header.php"; ?>
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
