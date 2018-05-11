@@ -74,7 +74,7 @@ session_start();
 
                     </p>
                     <p style="text-align: center">
-                        <button type="submit" name="submit" class="button1">login</button>
+                        <button type="submit" name="submit" class="btn btn-default simple-btn">login</button>
                     </p>
                     <p style="color: black; text-align: center; font-size: small" >Don't have Id Register
                         <a style="font-size: 20px" href="candidate-signup"> here!</a>

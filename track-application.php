@@ -58,7 +58,7 @@ session_start(); ?>
                     </div>
 
                     <p style="text-align: center">
-                        <button id="btnSubmit" type="submit" name="track" class="button1">track</button>
+                        <button id="btnSubmit" type="submit" name="track" class="btn btn-default simple-btn">track</button>
                     </p>
 
                 </form>

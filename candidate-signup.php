@@ -86,7 +86,7 @@ background: whitesmoke;
                         </div>
                     </div>
                     <p style="text-align: center">
-                        <button id="btnSubmit" type="submit" class="button1">Register</button>
+                        <button id="btnSubmit" type="submit" class="btn btn-default simple-btn">Register</button>
                     </p>
                     <p style="color: red; text-align: center">
                         <a href="candidate-login">Login here</a>
