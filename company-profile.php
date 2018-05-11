@@ -20,7 +20,7 @@
 </style>
 <div id="page">
 
-    <?php include "layout/header.php"; ?>
+
     <?php
     if (empty($_SESSION["authenticated"])== true){
         include "layout/navbar.php"; }
@@ -29,14 +29,26 @@
     }
     ?>
 
-    <section class="">
 
-             <ol class="breadcrumb">
-                <li><a href="/">Home</a></li>
-                <li><?php echo $title; ?></li>
-
-            </ol>
+    <section class="innerpage-titlebar">
+        <div class="container">
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> |<a href="">about</a> |<span><?php echo $title; ?></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
 
     <section class="our_about_area">
         <div class="container">

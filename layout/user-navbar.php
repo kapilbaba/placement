@@ -16,10 +16,10 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="herader-topbar-col tobar-rightside center991">
-                        <span class="after-bdr ml0-991"><a href="/user-dashboard.php">User Dashboard</a></span>
-                        <span class="after-bdr ml0-991"><a href="/logout.php">Log out</a></span>
+                        <span class="after-bdr ml0-991"><a href="/user-dashboard">User Dashboard</a></span>
+                        <span class="after-bdr ml0-991"><a href="/logout">Log out</a></span>
 
-                        <p><a href="/track-application.php"><span>track your applicant status</span></a></p>
+                        <p><a href="/track-application"><span>track your applicant status</span></a></p>
                     </div>
                 </div>
             </div>
@@ -51,9 +51,9 @@
                                 </li>
                                 <li><a href="/about.php">About</a></li>
                                 <li><a href="/">services</a></li>
-                                <li><a href="/user-jobs.php">jobs</a></li>
+                                <li><a href="/user-jobs">jobs</a></li>
                                 <li>
-                                    <a href="/contact.php">Contact</a>
+                                    <a href="/contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

@@ -49,11 +49,11 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="/">Home</a>
                                 </li>
-                                <li><a href="/about.php">About</a></li>
-                                <li><a href="/services.php">services</a></li>
-                                <li><a href="/user-jobs.php">jobs</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/services">services</a></li>
+                                <li><a href="/user-jobs">jobs</a></li>
                                 <li>
-                                    <a href="/contact.php">Contact</a>
+                                    <a href="/contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

@@ -193,30 +193,30 @@
                             <h1>Make An <span>Appointment</span></h1>
                             <h5>Send Us Message</h5>
                         </div>
-                        <form>
+                        <form action="mail.php" method="post">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input type="text" class="form-control" placeholder="Your Name">
+                                        <input type="text" class="form-control" placeholder="Your Name" name="name">
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address" name="email">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="subject">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="subject" name="subject">
                                     </div>
                                 </div>
 
 
                                 <div class="col-md-12">
                                     <div class="appointment-col center1199">
-                                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                                        <button class="btn btn-default simple-btn" type="submit">Send Now</button>
+                                        <textarea class="form-control" rows="5" placeholder="Message"  name="message"></textarea>
+                                        <button class="btn btn-default simple-btn" type="submit" name="submit">Send Now</button>
                                     </div>
                                 </div>
                             </div>

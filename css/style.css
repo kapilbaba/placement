@@ -3440,3 +3440,72 @@ input:-moz-placeholder {
 .download_area .pull-right .main_btn {
     padding: 0px 25px;
 }
+.our_about_area {
+    padding: 100px 0px;
+}
+
+.our_about_left_content {
+    padding-right: 10px;
+}
+
+.our_about_left_content .section_title {
+    padding-bottom: 30px;
+}
+
+.our_about_left_content h3 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: .44px;
+    color: #242424;
+    font-family: "Lato", sans-serif;
+}
+
+.our_about_left_content p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #898989;
+    letter-spacing: .34px;
+    font-family: "Lato", sans-serif;
+    padding-top: 30px;
+}
+
+.our_about_image {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.our_about_image:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+    cursor: pointer;
+}
+
+.our_about_image img {
+    max-width: 100%;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.our_about_image:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.our_about_image:hover:before {
+    opacity: 1;
+}

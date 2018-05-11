@@ -56,6 +56,7 @@ if (empty($_SESSION["authenticated"]) == true) {
                             iure accusantium nulla labore. Aliquid deleniti quam, aspernatur quia expedita nobis, atque
                             sunt beatae iure odio explicabo sed rerum odit magnam vel quidem vero voluptatibus. Sed
                             molestiae quas officia reiciendis aut totam.</p>
+                        <a href="/company-profile">Read More</a>
                     </div>
                 </div>
             </div>
@@ -69,6 +70,7 @@ if (empty($_SESSION["authenticated"]) == true) {
                             iure accusantium nulla labore. Aliquid deleniti quam, aspernatur quia expedita nobis, atque
                             sunt beatae iure odio explicabo sed rerum odit magnam vel quidem vero voluptatibus. Sed
                             molestiae quas officia reiciendis aut totam.</p>
+                        <a href="/company-objective">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -92,6 +94,7 @@ if (empty($_SESSION["authenticated"]) == true) {
                             iure accusantium nulla labore. Aliquid deleniti quam, aspernatur quia expedita nobis, atque
                             sunt beatae iure odio explicabo sed rerum odit magnam vel quidem vero voluptatibus. Sed
                             molestiae quas officia reiciendis aut totam.</p>
+                        <a href="/our-mission">Read More</a>
                     </div>
                 </div>
             </div>
@@ -105,6 +108,7 @@ if (empty($_SESSION["authenticated"]) == true) {
                             iure accusantium nulla labore. Aliquid deleniti quam, aspernatur quia expedita nobis, atque
                             sunt beatae iure odio explicabo sed rerum odit magnam vel quidem vero voluptatibus. Sed
                             molestiae quas officia reiciendis aut totam.</p>
+                        <a href="/our-vision">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -128,6 +132,7 @@ if (empty($_SESSION["authenticated"]) == true) {
                             iure accusantium nulla labore. Aliquid deleniti quam, aspernatur quia expedita nobis, atque
                             sunt beatae iure odio explicabo sed rerum odit magnam vel quidem vero voluptatibus. Sed
                             molestiae quas officia reiciendis aut totam.</p>
+                        <a href="/our-value">Read More</a>
                     </div>
                 </div>
             </div>
@@ -150,96 +155,9 @@ if (empty($_SESSION["authenticated"]) == true) {
     </section>
 
 
-    <!-- Testimonial Section -->
-    <section class="testimonial-area bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="defult-title text-center">
-                        <h1>What People <span>Says</span></h1>
-                        <h5>consectetur adipisicing elit alias</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="testimonial-carousel">
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="images/1.jpg" alt="">
-                            </div>
-                            <p class="description">
-                                There are many variations of passages of Lorem Ipsum available, but the majority
-                                majority have suffered alteration in some form, by injected humour. There are many
-                                variations of passages.
-                            </p>
-                            <div class="testimonial-content">
-                                <a href="#" class="title">Tom Latham</a>
-                                <span class="post">Web Developer</span>
-                            </div>
-                        </div>
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="images/2.jpg" alt="">
-                            </div>
-                            <p class="description">
-                                There are many variations of passages of Lorem Ipsum available, but the majority
-                                majority have suffered alteration in some form, by injected humour. There are many
-                                variations of passages.
-                            </p>
-                            <div class="testimonial-content">
-                                <a href="#" class="title">Merry Alvna</a>
-                                <span class="post">Web Designer</span>
-                            </div>
-                        </div>
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="images/3.jpg" alt="">
-                            </div>
-                            <p class="description">
-                                There are many variations of passages of Lorem Ipsum available, but the majority
-                                majority have suffered alteration in some form, by injected humour. There are many
-                                variations of passages.
-                            </p>
-                            <div class="testimonial-content">
-                                <a href="#" class="title">Keen Williamson</a>
-                                <span class="post">PHP Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Client start -->
-    <section class="client-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="client-carousel">
-                        <div class="item">
-                            <a href="#"><img src="images/1.jpg" alt=""></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/2.jpg" alt=""></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/3.jpg" alt=""></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/4.jpg" alt=""></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/5.jpg" alt=""></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/6.jpg" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 <?php include "layout/footer.php"; ?>
 <?php include "layout/core/script.php"; ?>
