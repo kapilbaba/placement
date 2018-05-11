@@ -50,7 +50,7 @@
                                 <li><a href="/">Home</a>
                                 </li>
                                 <li><a href="/about.php">About</a></li>
-                                <li><a href="/">services</a></li>
+                                <li><a href="/services">services</a></li>
                                 <li><a href="/user-jobs">jobs</a></li>
                                 <li>
                                     <a href="/contact">Contact</a>

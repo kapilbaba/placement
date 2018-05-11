@@ -53,7 +53,7 @@ else{
                     </p>
 
                 </div>
-                <a href="/cunsulting-service.php">read more</a>
+                <a href="/cunsulting-service">read more</a>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -67,7 +67,7 @@ else{
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
                     </p>
                 </div>
-                <a href="/contract-staffing-service.php">read more</a>
+                <a href="/contract-staffing-service">read more</a>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -95,7 +95,7 @@ else{
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
                     </p>
                 </div>
-                <a href="/">read more</a>
+                <a href="/Leadership-Hiring-Services">read more</a>
             </div>
             <br>
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -109,7 +109,7 @@ else{
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
                     </p>
                 </div>
-                <a href="/">read more</a>
+                <a href="/man-power-services">read more</a>
             </div>
             <br>
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -123,7 +123,7 @@ else{
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
                     </p>
                 </div>
-                <a href="/">read more</a>
+                <a href="/IT-Staffing-Services">read more</a>
             </div>
 
 
