@@ -49,7 +49,7 @@ else{
                     <h3 class="title">HR CONSULTING SERVICES
                     </h3>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
+                        We Have the Perfect Solutions for All Your Hiring Requirements
                     </p>
 
                 </div>
@@ -92,7 +92,7 @@ else{
                     <h3 class="title">LEADERSHIP HIRING SERVICES
                     </h3>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
+                        To Make Your Team Succeed Go For Champions
                     </p>
                 </div>
                 <a href="/Leadership-Hiring-Services">read more</a>
@@ -120,7 +120,7 @@ else{
                     <h3 class="title">IT STAFFING SERVICES
                     </h3>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
+                        Offshore IT Consulting and Staffing Services For Organizations
                     </p>
                 </div>
                 <a href="/IT-Staffing-Services">read more</a>

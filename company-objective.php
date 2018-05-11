@@ -6,7 +6,7 @@
  * Time: 14:08
  */
 ?>
-<?php $title = "company profile"; ?>
+<?php $title = "company objective"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
@@ -22,9 +22,9 @@
 
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -56,12 +56,31 @@
                 <div class="col-md-8">
                     <div class="our_about_left_content">
                         <div class="section_title">
-                            <h2>About our firm </h2>
+                            <h2><?php echo $title; ?></h2>
                         </div>
-                        <h3>Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing </h3>
-                        <p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry simply dummy text of the printing and text of the stry simply dummy text of the printing and typesetting industry.</p>
-                        <p>Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry Lorem Ipsum is simply text of the. </p>
+                        <h3>Akostaplacement Services – Excellent Services Not a Single Act but Habit</h3>
+                        <p>Counted amongst India’s finest executive search firms, at AkostaPlacement our main objective
+                            is to provide exceptional staffing services – providing people who are true professionals to
+                            organizations that demand excellence.
+                            We have years of quality and committed high end placement experience right here in
+                            Delhi/NCR, India. We have become experts in delivering the right fit at the right time. Over
+                            the years, we have developed the systems, processes, talent network and market knowledge to
+                            consistently provide the most exceptional staffing solutions. We maintain high standards of
+                            ethics and fair play in our working philosophy which has helped us to meet our clients’
+                            specific requirements, thus building enduring relationships.
+                            Welcome to AkostaPlacement Services. We’re at your service.
+                            Since inception, AkostaPlacement Services has become India’s permanent & temporary placement
+                            agency of choice by offering clear workforce solutions!</p>
                     </div>
+                    <br>
+                    <br>
+
+                    <H3>We Care, We Serve……And Together We Grow!!</H3>
+                    <p>All placement services providers are recruiters, but all recruiters are not Akostaplacement. We
+                        aren't just recruiters, we are the hunting experts. We not only identify the right people for
+                        the right job but we also make sure that we bring together the right people for the right
+                        designation and for the right organization. We match talent to requirement, ambitions to growth
+                        and dreams to reality.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="our_about_image">
@@ -71,8 +90,6 @@
             </div>
         </div>
     </section>
-
-
 
 
 </div>

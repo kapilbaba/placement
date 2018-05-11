@@ -12,22 +12,17 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    body {
-        background: inherit;
-    }
-
-    tr{
-        border: solid 1px;
-
+    p{
+        text-align: left;
     }
 </style>
 <div id="page">
 
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -42,7 +37,8 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a href="#"><span><?php echo $title?></span></a></p>
+                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a
+                                        href="#"><span><?php echo $title ?></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -62,29 +58,87 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class=""><a href="/cunsulting-service"  >cunsulting-service</a></li>
-                                        <li role="presentation" class=""><a href="/Staff-Augmentation-Services" >Staff-Augmentation-Services</a></li>
-                                        <li role="presentation" class="active"><a href="/Leadership-Hiring-Services" >Leadership-Hiring-Services</a></li>
-                                        <li role="presentation" class=""><a href="/IT-Staffing-Services">IT-Staffing-Services</a></li>
-                                        <li role="presentation" class=""><a href="/contract-staffing-service" >contract-staffing-service</a></li>
-                                        <li role="presentation" class=""><a href="man-power-services.php">man-power-services</a></li>  </ul>
-                                    <?php include "contact-info.php";?>
+                                        <li role="presentation" class=""><a href="/cunsulting-service">cunsulting-service</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
+                                        </li>
+                                        <li role="presentation" class="active"><a href="/Leadership-Hiring-Services">Leadership-Hiring-Services</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="/IT-Staffing-Services">IT-Staffing-Services</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="/contract-staffing-service">contract-staffing-service</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="man-power-services.php">man-power-services</a>
+                                        </li>
+                                    </ul>
+                                    <?php include "contact-info.php"; ?>
 
                                 </div>
                             </div>
                             <div class="col-md-9">
                                 <div class="carrers_right_content">
                                     <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane fade active in" >
+                                        <div role="tabpanel" class="tab-pane fade active in">
                                             <div class="about_company">
 
                                                 <div class="section_title">
-                                                    <h2>We give best advice for your business</h2>
+                                                    <h2>Leadership Hiring</h2>
                                                 </div>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                                            </div>
+                                                <p>To Make Your Team Succeed Go For Champions
+                                                    With each passing day, the business environment is becoming more and
+                                                    more demanding, challenging and dynamic. In the present scenario,
+                                                    organizations look for efficient leaders who can be change
+                                                    facilitators. Most organizations seeking growth finds it difficult
+                                                    to hire leaders as there may not be adequate pipeline of senior
+                                                    management talent available within the organization.
+                                                    As a top leadership hiring services provider, AkostaPlacement
+                                                    services brings in proven leadership hiring process that leverage
+                                                    effective networking and relationship building with the top
+                                                    management leaders in the industry. Our team of experts is
+                                                    exceptionally networked and maintains comprehensive candidate
+                                                    profiles that include expertise, leadership style, career role
+                                                    inclinations and job suitability and skills matrix. This enables us
+                                                    to build a perfect team for the clients business rapidly. We have a
+                                                    unique & client focused approach towards leadership hiring services.
+                                                    Our approach towards leadership hiring is unique and encompasses a
+                                                    team of experienced search consultants who have spent significant
+                                                    time in the industry and understand the approach to be adopted to
+                                                    place candidates at leadership roles. </p>
 
+                                                <ul>
+                                                    <li>• Dedicated leadership hiring teams</li>
+                                                    <li>• Proficient in finding the finest talent</li>
+                                                    <li>• Unique and client focused approach</li>
+                                                    <li>• Equipped with robust search abilities</li>
+                                                </ul>
+
+                                                <br>
+                                                <br>
+                                                <h3>Leadership Hiring Experts Are Ready To Resolve Your Challenges</h3>
+                                                <br>
+                                                <p><b>Robust Communications</b> – Our team of experts help you connect with top
+                                                    notch leaders combining individual ambitions with capability
+                                                    potential.</p>
+                                                <br>
+                                                <p>
+                                                    <b>Global Reach and Local Expertise</b> – We believe and we understand that
+                                                    in a global setting, talent and skills are more likely to succeed
+                                                    when customized as per the local needs.
+                                                    Highly Focused Solutions – We have established highly effective
+                                                    tools and proven processes to create mutually acceptable goals and
+                                                    solutions.</p>
+                                                <br>
+                                                <p>
+                                                    <b>Nurturing Relationships</b> – We nurture our relationship with the
+                                                    client as well as talent committing ourselves to the continuous
+                                                    growth of our partners.</p>
+                                                <br>
+                                                <p>
+
+                                                    <b>Shadow Headhunting </b>– At AkostaPlacement Services, we understand the
+                                                    need for confidentiality that arises with leadership hiring and
+                                                    conducts leadership hunting discreetly yet efficiently.</p>
+                                            </div>
 
 
                                         </div>
@@ -100,7 +154,6 @@
 
 
     </section>
-
 
 
 </div>

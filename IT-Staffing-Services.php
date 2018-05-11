@@ -12,22 +12,18 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    body {
-        background: inherit;
-    }
+ p{
+     text-align: left;
+ }
 
-    tr{
-        border: solid 1px;
-
-    }
 </style>
 <div id="page">
 
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -42,7 +38,8 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a href="#"><span><?php echo $title?></span></a></p>
+                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a
+                                        href="#"><span><?php echo $title ?></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -61,29 +58,84 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class=""><a href="/cunsulting-service"  >cunsulting-service</a></li>
-                                        <li role="presentation" class=""><a href="/Staff-Augmentation-Services" >Staff-Augmentation-Services</a></li>
-                                        <li role="presentation" class=""><a href="/Leadership-Hiring-Services" >Leadership-Hiring-Services</a></li>
-                                        <li role="presentation" class="active"><a href="/IT-Staffing-Services">IT-Staffing-Services</a></li>
-                                        <li role="presentation" class=""><a href="/contract-staffing-service" >contract-staffing-service</a></li>
-                                        <li role="presentation" class=""><a href="man-power-services.php">man-power-services</a></li>     </ul>
-                                    <?php include "contact-info.php";?>
+                                        <li role="presentation" class=""><a href="/cunsulting-service">cunsulting-service</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="/Leadership-Hiring-Services">Leadership-Hiring-Services</a>
+                                        </li>
+                                        <li role="presentation" class="active"><a href="/IT-Staffing-Services">IT-Staffing-Services</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="/contract-staffing-service">contract-staffing-service</a>
+                                        </li>
+                                        <li role="presentation" class=""><a href="man-power-services.php">man-power-services</a>
+                                        </li>
+                                    </ul>
+                                    <?php include "contact-info.php"; ?>
 
                                 </div>
                             </div>
                             <div class="col-md-9">
                                 <div class="carrers_right_content">
                                     <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane fade active in" >
+                                        <div role="tabpanel" class="tab-pane fade active in">
                                             <div class="about_company">
 
                                                 <div class="section_title">
-                                                    <h2>We give best advice for your business</h2>
+                                                    <h2>IT Staff Augmentation</h2>
                                                 </div>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                                            </div>
+                                                <p> Offshore IT Consulting and Staffing Services For Organizations
+                                                    Staff Augmentation is an easy to implement outsourcing strategy
+                                                    opted usually by large enterprises and organizations to get skilled
+                                                    IT professionals for the respective projects. IT staff augmentation
+                                                    is a quick and efficient method of increasing your resources and
+                                                    skill sets without worrying about the infrastructure setup,
+                                                    management activities, hiring procedures etc. Just a few
+                                                    modifications and additions will complete the absorption procedure
+                                                    of the newly hired staff.
+                                                    We at AkostaPlacement Services offer expert consulting and IT Staff
+                                                    augmentation services to enterprises and organizations requiring
+                                                    additional manpower and skills set for their projects. In-housing a
+                                                    vast pool of highly experienced IT specialists, AkostaPlacement
+                                                    successfully caters to the IT staff requirements of its global
+                                                    clients. We are actively involved in innovating and deploying client
+                                                    oriented services and solutions to more than 500 clients since
+                                                    establishment.
+                                                    We thoroughly go through your requirements, functionalities and
+                                                    other preferences to formulate a well managed staff augmentation
+                                                    strategy. We specialize in offering flexible staff augmentation
+                                                    services and offer clients with on-demand skills and resources.</p>
+                                                <br>
+                                                <ul>
+                                                    <li>• Professional, technical, and managerial talent</li>
+                                                    <li>• Short- or long-term engagements</li>
+                                                    <li>• Deep pool of talent</li>
+                                                    <li>• Effective delivery combination of quality, speed, and
+                                                        innovation
+                                                    </li>
 
+                                                </ul>
+
+                                                <BR>
+                                                <h3>IT Staff Augmentation Services That Adds Value To Your Business</h3>
+                                                <br>
+
+                                                <p>Cost Effective – No setup cost, hiring cost or long term contracts.
+                                                    Leaves, medication, insurance etc for the resources is taken care by
+                                                    us.
+                                                    Experienced Staff – All the hiring and recruiting staff at
+                                                    AkostaPlacement Services have a minimum 3+ years of relevant working
+                                                    experience.
+                                                    Direct Access To Resources – You will be in direct touch with your
+                                                    resources and will have full control over them. Our services have
+                                                    been especially designed to provide maximum flexibility.
+                                                    Intellectual Copyrights – All the codes and work done by resources
+                                                    assigned to you will be reserved by you. No other client or
+                                                    competitor will have access to them.
+                                                    Managed Services – AkostaPlacement Services specializes in providing
+                                                    customers with complete CRM solutions by carefully analyzing their
+                                                    requirements and business model.</p>
+                                            </div>
 
 
                                         </div>
@@ -99,7 +151,6 @@
 
 
     </section>
-
 
 
 </div>

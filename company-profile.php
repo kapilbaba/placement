@@ -22,9 +22,9 @@
 
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -56,12 +56,30 @@
                 <div class="col-md-8">
                     <div class="our_about_left_content">
                         <div class="section_title">
-                            <h2>About our firm </h2>
+                            <h2><?php echo $title;?></h2>
                         </div>
-                        <h3>Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing </h3>
-                        <p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry simply dummy text of the printing and text of the stry simply dummy text of the printing and typesetting industry.</p>
-                        <p>Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry Lorem Ipsum is simply text of the. </p>
-                    </div>
+                        <h3>Akostaplacement Services – A Gateway To Success </h3>
+                        <p>Even after devastating recession, India continues to be the land of opportunities. With
+                            growing socio economic development in the country, Indian job market is showing positive
+                            signs of substantial growth in hiring the human workforce. Today, companies and
+                            organizations are in constant lookout for the talented and professional individuals. Noida
+                            based Akostaplacement services is the world leader in innovative workforce solutions as we
+                            bridge the gap between talented human potential and business leaders.
+                            We churn out the real talent and place them to the positions and companies they are suitable
+                            for. We strive to ensure that our candidates give a long and fruitful return to their
+                            employers. If you feel trapped in a wrong job losing out your real potential, look no
+                            further. We help you find relevant jobs with ease based on your qualification, experience
+                            and location.
+                            Thus, Akostaplacement is in constant chase of real talent to help it reach its real
+                            destination.</p></div>
+                    <br>
+                    <h3>People, Knowledge and Innovation – This is what makes us unique</h3>
+                    <br>
+                    <p>We care about the people and role of work in their lives. We let people develop their careers
+                        through planning, work, coaching and training. We are in constant touch with the world of work
+                        so that we actively pursue the development and adopt the best practices to innovate. We conduct
+                        personal screening of each candidate before presentation to our clients. We provide Placement
+                        and Job search services to all types of industries.</p>
                 </div>
                 <div class="col-md-4">
                     <div class="our_about_image">
@@ -72,8 +90,6 @@
         </div>
 
     </section>
-
-
 
 
 </div>

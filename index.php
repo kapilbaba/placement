@@ -59,22 +59,22 @@
                                 <i class="flaticon-wrench"></i>
                                 <h4>Our mission</h4>
                             </div>
-                            <p>consectetur adipisicing elit. Neque laboriosam quisquam perspiciatis error repellat ex doloremque ab consequatur.</p>
-                        </div>
+                            <p>At AkostaPlacement, we’ve put in our best efforts to align our mission with the needs of
+                                everyone who are or wish to collaborate with us. Venture through our goals and mission</p> </div>
                         <div class="choose-box">
                             <div class="choose-icon">
                                 <i class="flaticon-bricks"></i>
                                 <h4>Our vision</h4>
                             </div>
-                            <p>consectetur adipisicing elit. Neque laboriosam quisquam perspiciatis error repellat ex doloremque ab consequatur.</p>
-                        </div>
+                            <p>At AkostaPlacement Services, our vision is to eliminate the loss faced by the businesses due
+                                to the dearth of talent. We believe in continued growth</p>   </div>
                         <div class="choose-box">
                             <div class="choose-icon">
                                 <i class="flaticon-worker-1"></i>
                                 <h4>Our value</h4>
                             </div>
-                            <p>consectetur adipisicing elit. Neque laboriosam quisquam perspiciatis error repellat ex doloremque ab consequatur.</p>
-                        </div>
+                            <p>We offer perfect blend of skills, attitude, and delivery orientation. We understand your
+                                requirements and optimize ourselves with your goals.</p> </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -120,7 +120,7 @@
                         <img src="images/1.jpg" alt="">
                         <div class="service-two-content">
                             <h4>HR CONSULTING SERVICES</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in some form.</p>
+                            <p> We Have the Perfect Solutions for All Your Hiring Requirements</p>
                             <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                         <div class="service-two-content">
                             <h4>IT STAFFING SERVICES
                             </h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in some form.</p>
+                            <p> Offshore IT Consulting and Staffing Services For Organizations</p>
                             <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                         <div class="service-two-content">
                             <h4>LEADERSHIP HIRING SERVICES
                             </h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in some form.</p>
+                            <p>To Make Your Team Succeed Go For Champions</p>
                             <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
                         </div>
                     </div>

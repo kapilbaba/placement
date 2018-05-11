@@ -22,9 +22,9 @@
 
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -56,11 +56,42 @@
                 <div class="col-md-8">
                     <div class="our_about_left_content">
                         <div class="section_title">
-                            <h2>About our firm </h2>
+                            <h2><?php echo $title; ?> </h2>
                         </div>
-                        <h3>Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing </h3>
-                        <p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry simply dummy text of the printing and text of the stry simply dummy text of the printing and typesetting industry.</p>
-                        <p>Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry Lorem Ipsum is simply text of the. </p>
+                        <h3>Akostaplacement Services – Career Growth Simplified Here!!
+                            Our values </h3>
+                        <p>We offer perfect blend of skills, attitude, and delivery orientation. We understand your
+                            requirements and optimize ourselves with your goals. We have years of experience in working
+                            with companies of various sizes as Human Resources consultants and are committed to offer
+                            people related services with a view to enhance net worth of Human Capital in organizations,
+                            resulting in overall organizational growth & of individual at large.</p>
+                        <br>
+                        <ul>
+                            <li><i class="fas fa-angle-right"></i> We uphold integrity above all other things.</li>
+                            <li><i class="fas fa-angle-right"></i> We are passionate about our business and to serve our
+                                clients the best.
+                            </li>
+                            <li><i class="fas fa-angle-right"></i> We never let our stakeholders down; be they clients,
+                                candidates, partners or ourselves
+                            </li>
+                            <li><i class="fas fa-angle-right"></i> We believe in improving and excelling in everything
+                                that we do.
+                            </li>
+                            <li><i class="fas fa-angle-right"></i> We are unified by teamwork through collaborative
+                                practices.
+                            </li>
+                            <li><i class="fas fa-angle-right"></i> We constantly strive to enrich our professional
+                                relationships.
+                            </li>
+                        </ul>
+                        <br>
+                        <h3>Dedication Towards Clients Manpower’s Needs</h3>
+                        <p>Supported by a team of highly skilled and experienced HR practitioners and managers, we have
+                            successfully completed several HR related projects. Our team strives hard to make both ends
+                            meet to make the client satisfied.
+                            Since inception, AkostaPlacement Services has gained a number of satisfied customers. With a
+                            good grasp of people and understanding client expectations, we are confident of delivering
+                            expectations on time and within budget. </p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -71,8 +102,6 @@
             </div>
         </div>
     </section>
-
-
 
 
 </div>

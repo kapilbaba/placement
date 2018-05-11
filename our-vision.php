@@ -6,7 +6,7 @@
  * Time: 14:08
  */
 ?>
-<?php $title = "company profile"; ?>
+<?php $title = "Our vision"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
@@ -22,9 +22,9 @@
 
 
     <?php
-    if (empty($_SESSION["authenticated"])== true){
-        include "layout/navbar.php"; }
-    else{
+    if (empty($_SESSION["authenticated"]) == true) {
+        include "layout/navbar.php";
+    } else {
         include 'layout/user-navbar.php';
     }
     ?>
@@ -56,11 +56,25 @@
                 <div class="col-md-8">
                     <div class="our_about_left_content">
                         <div class="section_title">
-                            <h2>About our firm </h2>
+                            <h2><?php echo $title; ?></h2>
                         </div>
-                        <h3>Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing </h3>
-                        <p>Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry simply dummy text of the printing and text of the stry simply dummy text of the printing and typesetting industry.</p>
-                        <p>Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry stext of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the. Lorem Ipsum is  simply  text of the stry Lorem Ipsum is simply text of the. </p>
+                        <h3>Akostaplacement Services – On The Path to Become One Of The best
+                            Our Vision </h3>
+                        <p>At AkostaPlacement Services, our vision is to eliminate the loss faced by the businesses due
+                            to the dearth of talent. We believe in continued growth, and in doing so, we foresee our
+                            collaboration with the finest recruiters and HR professionals across the country. We wish to
+                            partner, acquire and provide business opportunities to every recruiter who is passionate
+                            about recruiting. We strive to be recognized as the most Preferred & reliable Human Resource
+                            partner in the industry and amongst our clients.</p>
+                        <p>It is our vision to provide better opportunity and progressive career. Candidates who are
+                            motivated to make change, as a career advisor, we can help them achieve their professional
+                            goals. We offer a brand new career and plenty of new opportunities to grow and excel.
+                            We at AkostaPlacement Services, provide recruitment platform where employers and employees
+                            get in touch to reach common milestone. To accomplish this, we are always easily accessible
+                            to our clients and associates. We have a highly skilled team of experts who fulfills the
+                            requirements of various highly professional companies.
+                            We are confident that, as AkostaPlacement Services, we inspire our associates to get Better
+                            Opportunity, with Progressive Career. </p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -71,8 +85,6 @@
             </div>
         </div>
     </section>
-
-
 
 
 </div>
