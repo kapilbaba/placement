@@ -124,7 +124,7 @@
                                         <label for="pwd">Message:</label>
                                         <textarea class="form-control" rows="5" name="message"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                                    <button type="submit" class="btn btn-default simple-btn" name="submit">Submit</button>
                                 </form>
                             </div>
                         </div>
