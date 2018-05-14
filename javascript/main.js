@@ -1,3 +1,8 @@
+
+$.validate({
+    lang: 'en'
+});
+
 (function($) {
 
     "use strict";

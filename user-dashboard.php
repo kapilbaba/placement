@@ -132,7 +132,7 @@ $applicantid = $row['id'];
                                 <a class="btn btn-default" href="<?php echo $resume; ?>">Show My Resume</a>
                                 <br>
                                 <br>
-                                <a class="btn btn-info" href="upload-resume.php">Resume Update</a>
+                                <a class="btn btn-info" href="upload-resume">Resume Update</a>
 
                             </div>
                         </div>

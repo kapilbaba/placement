@@ -49,26 +49,26 @@ background: whitesmoke;
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="name">first name</label>
-                            <input required="required" type="text" class="form-control" id="name" name="f_name">
+                            <input  type="text" pattern="[A-Za-z]{3}" required="required" class="form-control" id="name" name="f_name">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="name">last name</label>
-                            <input required="required" type="text" class="form-control" id="name" name="l_name">
+                            <input pattern="[A-Za-z]{3}" required="required" type="text" class="form-control" id="name" name="l_name">
                         </div>
                     </div>
 
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input required="required" type="email" class="form-control" id="email" name="user_email">
+                            <input  data-validation="email" required="required" type="email" class="form-control" id="email" name="user_email">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="contact">contact no</label>
-                            <input required="required" type="text" class="form-control" id="contact"
+                            <input required="required" type="text" data-validation="number"  class="form-control" id="contact"
                                    name="contact_info" maxlength="10">
                         </div>
                     </div>
@@ -99,7 +99,7 @@ background: whitesmoke;
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <p style="color: black; font-size: small">By proceeding you agree
+                                <p style="color: black; font-size: small"><input required type="checkbox"> By proceeding you agree
                                     to the <a href="/terms%20and%20condition">Terms of Use </a>and <a href="/privacy-policy"> Privacy Policy</a> </p>
                             </div>
                         </div>

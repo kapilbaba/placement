@@ -52,7 +52,7 @@ session_start();
                     <div class="col-md-12 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="email">Email:</label>
-                            <input type="email" value="<?php if(isset($_COOKIE["uid"])) { echo $_COOKIE["uid"]; } ?>" name="uid" class="form-control" id="email">
+                            <input    data-validation="email"  type="email" value="<?php if(isset($_COOKIE["uid"])) { echo $_COOKIE["uid"]; } ?>" name="uid" class="form-control" id="email">
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-6 col-xs-12">

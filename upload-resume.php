@@ -13,20 +13,12 @@ session_start(); ?>
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    .form-control {
-        padding: 6px 12px;
-    }
+
     .registration{
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    body,html {
-        background: url("/images/jobconfirm.jpeg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover
-    }
+
 </style>
 <div id="page">
 
@@ -48,7 +40,7 @@ session_start(); ?>
                             </div>
                             <p><?php echo $_SESSION['upload-error']; ?></p>
                             <p style="text-align: left">
-                                <input style="margin-left: 15px" name="upload" type="submit" class="button1"
+                                <input style="margin-left: 15px" name="upload" type="submit" class="btn btn-default simple-btn"
                                       id="btnUpload" value="Upload"/>
                                 <br>
                                 <br>
