@@ -48,14 +48,14 @@ background: whitesmoke;
                 <form ROLE="form" action="sign_up" method="post">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label for="name">first name</label>
-                            <input  type="text" pattern="[A-Za-z]{3}" required="required" class="form-control" id="name" name="f_name">
+                            <label for="fname">first name</label>
+                            <input  type="text" pattern="[A-Za-z]{3}" required="required" class="form-control" id="fname" name="f_name">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label for="name">last name</label>
-                            <input pattern="[A-Za-z]{3}" required="required" type="text" class="form-control" id="name" name="l_name">
+                            <label for="lname">last name</label>
+                            <input  type="text" pattern="[A-Za-z]{3}" required="required"  class="form-control" id="lname" name="l_name">
                         </div>
                     </div>
 
