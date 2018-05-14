@@ -12,7 +12,7 @@ include "core/database/connection_db.php";
     $sql = "DELETE FROM jobinformation WHERE id='$id'";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Record deleted successfully"."<a href='alljobs.php' class='btn-default'>Show Jobs</a>";
+        echo "Record deleted successfully"."<a href='alljobs' class='btn-default'>Show Jobs</a>";
     } else {
         echo "Error deleting record: " . $conn->error;
     }

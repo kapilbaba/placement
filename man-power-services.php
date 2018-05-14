@@ -66,7 +66,7 @@
                                         </li>
                                         <li role="presentation" class=""><a href="/contract-staffing-service">contract-staffing-service</a>
                                         </li>
-                                        <li role="presentation" class=" active"><a href="man-power-services.php">man-power-services</a>
+                                        <li role="presentation" class=" active"><a href="man-power-services">man-power-services</a>
                                         </li>
                                     </ul>
                                     <?php include "contact-info.php"; ?>

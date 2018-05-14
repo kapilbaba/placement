@@ -48,7 +48,7 @@ VALUES ('$jobdesription_1','$jobsalary','$jobindrustry','$jobcategory','$jobtype
 
 
 
-   echo "job posted sucessfuly"."<a href='post_job.php'>go back</a>";
+   echo "job posted sucessfuly"."<a href='post_job'>go back</a>";
 
 
 }

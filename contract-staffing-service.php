@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a
+                            <p><a href="/">Home</a> | <a href="/services">services</a>|<a
                                         href="#"><span><?php echo $title ?></span></a></p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                                         </li>
                                         <li role="presentation" class="active"><a href="/contract-staffing-service">contract-staffing-service</a>
                                         </li>
-                                        <li role="presentation" class=""><a href="man-power-services.php">man-power-services</a>
+                                        <li role="presentation" class=""><a href="man-power-services">man-power-services</a>
                                         </li>
                                     </ul>
                                     <?php include "contact-info.php"; ?>
