@@ -41,7 +41,7 @@
                                 <b>we will placed you in better place</b>
                             </span>
                         </h3>
-                        <a class="btn btn-default simple-btn" href="/contact.php">Contact Us</a>
+                        <a class="btn btn-default simple-btn" href="/contact">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input REQUIRED type="email" class="form-control" id="inputEmail3"
+                                        <input REQUIRED type="text" class="form-control" id="inputEmail3"
                                                placeholder="subject" name="subject">
                                     </div>
                                 </div>

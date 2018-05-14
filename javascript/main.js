@@ -214,14 +214,6 @@
 
 
     //Scroll-Up
-    dyscrollup.init({
-        showafter : 500,
-        scrolldelay : 1000,
-        position : 'right',
-        shape : 'squre',
-        width : "20",
-        height : "20"
-    });
 
     // Parallax background
     $('.jarallax').jarallax({

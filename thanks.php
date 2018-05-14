@@ -9,14 +9,6 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    body{
-        width: 100%;
-        background: url('/images/jobconfirm.jpeg')!important;
-        background-attachment: fixed!important;
-        background-position: center!important;
-        background-repeat: no-repeat!important;
-        background-size: cover!important;
-    }
 </style>
 
 
@@ -24,7 +16,6 @@
 
 <div class="confirmed">
 
-    <?php include "layout/header2.php" ?>
 
     <div style="margin-top: 20%" class="container">
         <div class="col-md-4 col-xs-12 col-sm-12">
