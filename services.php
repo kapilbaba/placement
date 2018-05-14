@@ -117,7 +117,7 @@ else{
                     <div class="service-icon">
                         <i class="flaticon-worker-1"></i>
                     </div>
-                    <h3 class="title">IT STAFFING SERVICES
+                    <h3 class="title">IT Staff Augmentation
                     </h3>
                     <p class="description">
                         Offshore IT Consulting and Staffing Services For Organizations

@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title;?></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -55,23 +55,28 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="our_about_left_content">
-                        <div class="section_title">
-                            <h2><?php echo $title; ?></h2>
-                        </div>
+
                         <h3>Akostaplacement Services – You’re Never Too Late to Set another Goal
                             Our Mission</h3>
                         <p>At AkostaPlacement, we’ve put in our best efforts to align our mission with the needs of
                             everyone who are or wish to collaborate with us. Venture through our goals and mission:
+                        </p>
+                        <p>
                             Employees – Our employees are the most valuable asset of our company. They have a thorough
                             understanding of their personal and professional goals thus prioritizing each always. We aim
-                            to foster, encourage and reward teamwork, creativity, and professionalism.
+                            to foster, encourage and reward teamwork, creativity, and professionalism.</p>
+                        <p>
                             Clients – Our success as a company can only be measured on the basis of client satisfaction.
                             Therefore, our company always strives to provide human resource, recruitment & placement
                             services in the most effective and efficient way possible.
+                        </p>
+                        <p>
                             Teamwork – Teamwork is the stepping stone of AkostaPlacement Services culture and values. We
                             always welcome and respect all team member’s contribution and take deep pride in the efforts
                             they put in. We always motivate them for their hard work in the form of rewards or good
-                            incentive or appraisals.
+                            incentive or appraisals.</p>
+                        <p>
+
                             Industry – To ensure that the recruitment industry continues to grow and excel in all
                             parameters, AkostaPlacement shares the mission to train and give scalable opportunities to
                             new recruiters, freelance recruiters, established HR professionals and also extend its

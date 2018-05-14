@@ -16,8 +16,8 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="herader-topbar-col tobar-rightside center991">
-                        <span class="after-bdr ml0-991"><a href="/candidate-login.php">Login</a></span>
-                        <span class="after-bdr ml0-991"><a href="/candidate-signup.php">Register</a></span>
+                        <span class="after-bdr ml0-991"><a href="/candidate-login">Login</a></span>
+                        <span class="after-bdr ml0-991"><a href="/candidate-signup">Register</a></span>
 
                         <p><a href="/track-application.php"><span>track your applicant status</span></a></p>
                     </div>
@@ -41,7 +41,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="/">
-                                akostaplacement
+                                <img src="/images/akostalogo.png" alt="">
                             </a>
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown"

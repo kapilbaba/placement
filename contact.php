@@ -110,7 +110,7 @@
                                 <form action="mail.php" method="post">
                                     <div class="form-group">
                                         <label for="email">Name:</label>
-                                        <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                                        <input  required type="text" class="form-control" placeholder="Enter Name" name="name">
                                     </div>
                                     <div class="form-group">
                                         <label for="pwd">Email Id:</label>
@@ -118,11 +118,11 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="pwd">Subject</label>
-                                        <input type="text" class="form-control" placeholder="Enter Subject here" name="subject">
+                                        <input required type="text" class="form-control" placeholder="Enter Subject here" name="subject">
                                     </div>
                                     <div class="form-group">
                                         <label for="pwd">Message:</label>
-                                        <textarea class="form-control" rows="5" name="message"></textarea>
+                                        <textarea  required class="form-control" rows="5" name="message"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-default simple-btn"  name="submit">Submit</button>
                                 </form>

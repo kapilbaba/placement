@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title;?></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -55,21 +55,21 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="our_about_left_content">
-                        <div class="section_title">
-                            <h2><?php echo $title;?></h2>
-                        </div>
+
                         <h3>Akostaplacement Services – A Gateway To Success </h3>
+                        <h5>About Akostaplacement</h5>
                         <p>Even after devastating recession, India continues to be the land of opportunities. With
                             growing socio economic development in the country, Indian job market is showing positive
                             signs of substantial growth in hiring the human workforce. Today, companies and
                             organizations are in constant lookout for the talented and professional individuals. Noida
                             based Akostaplacement services is the world leader in innovative workforce solutions as we
-                            bridge the gap between talented human potential and business leaders.
+                            bridge the gap between talented human potential and business leaders.</p>
+                    <p>
                             We churn out the real talent and place them to the positions and companies they are suitable
                             for. We strive to ensure that our candidates give a long and fruitful return to their
                             employers. If you feel trapped in a wrong job losing out your real potential, look no
                             further. We help you find relevant jobs with ease based on your qualification, experience
-                            and location.
+                        and location.<br>
                             Thus, Akostaplacement is in constant chase of real talent to help it reach its real
                             destination.</p></div>
                     <br>

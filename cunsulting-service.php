@@ -6,14 +6,14 @@
  * Time: 14:08
  */
 ?>
-<?php $title = "cunsulting services"; ?>
+<?php $title = "HR Cunsulting services"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    p {
-        text-align: justify;
+    .container {
+        text-align: left;
     }
 </style>
 <div id="page">
@@ -31,7 +31,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title;?></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -56,7 +56,7 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class="active"><a href="/cunsulting-service">cunsulting-service</a>
+                                        <li role="presentation" class="active"><a href="/cunsulting-service">HR Cunsulting-service</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
                                         </li>
@@ -79,10 +79,9 @@
 
                                         <div class="about_company">
 
-                                            <div class="section_title">
-                                                <h2>HR Consulting Services</h2>
-                                            </div>
-                                            <p>We Have the Perfect Solutions for All Your Hiring Requirements
+
+                                            <p>We Have the Perfect Solutions for All Your Hiring Requirements <br>
+
                                                 Organizations are finding it difficult to attract, nurture and retain
                                                 right kind of talented workforce for the optimal organizational growth.
                                                 At AkostaPlacement Services, we provide comprehensive HR consulting
@@ -115,15 +114,16 @@
                                             <p>Workplace
                                                 Investigations – Comprehensive, professional, third party examination of
                                                 workplace that require organized, documented, non biased investigation.
+                                                <br>
                                                 HR Transformations – We transform your HR department from an administrative
                                                 framework to one that encourages employee engagement and drives business
-                                                success.
+                                                success. <br>
                                                 Other HR Needs – Need assistance with other HR projects? Our team of HR
                                                 professionals is positioned to assist with the knowledge, expertise, and
-                                                friendly service to get the job done.
+                                                friendly service to get the job done. <br>
                                                 Performance Management – We address employee performance issues in a non
                                                 emotionally charged yet legally compliant manner that minimizes the impact
-                                                on employees and business productivity.
+                                                on employees and business productivity. <br>
                                                 Compliance – Mitigate risk by ensuring your workforce management practices
                                                 are compliant with federal, state, and local regulations.</p>
                                         </div>

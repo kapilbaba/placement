@@ -33,7 +33,7 @@
                 <div class="col-md-12">
                     <div class="hero-col">
                         <h5>Welcome !</h5>
-                        <h2> Akostaplacement Services</h2>
+                        <h2> Akosta Placement Services</h2>
                         <h3 class="cd-headline clip">
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">We are experienced</b>
@@ -55,32 +55,30 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="about-col">
                         <div class="choose-box">
-                            <div class="choose-icon">
-                                <i class="flaticon-wrench"></i>
-                                <h4>Our mission</h4>
-                            </div>
+
+                            <h3>Our mission</h3>
                             <p>At AkostaPlacement, we’ve put in our best efforts to align our mission with the needs of
-                                everyone who are or wish to collaborate with us. Venture through our goals and mission</p> </div>
+                                everyone who are or wish to collaborate with us. Venture through our goals and
+                                mission</p>
+                            <a href="/our-mission">Read more</a></div>
                         <div class="choose-box">
-                            <div class="choose-icon">
-                                <i class="flaticon-bricks"></i>
-                                <h4>Our vision</h4>
-                            </div>
-                            <p>At AkostaPlacement Services, our vision is to eliminate the loss faced by the businesses due
-                                to the dearth of talent. We believe in continued growth</p>   </div>
+                            <h3>Our vision</h3>
+                            <p>At AkostaPlacement Services, our vision is to eliminate the loss faced by the businesses
+                                due
+                                to the dearth of talent. We believe in continued growth</p>
+                            <a href="/our-vision">Read more</a></div>
                         <div class="choose-box">
-                            <div class="choose-icon">
-                                <i class="flaticon-worker-1"></i>
-                                <h4>Our value</h4>
-                            </div>
+
+                            <h3>Our value</h3>
                             <p>We offer perfect blend of skills, attitude, and delivery orientation. We understand your
-                                requirements and optimize ourselves with your goals.</p> </div>
+                                requirements and optimize ourselves with your goals.</p>
+                            <a href="/our-value">Read more</a></div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about-col">
                         <div class="about-image">
-                            <img src="images/1.png" alt="">
+                            <img src="images/profile.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -121,7 +119,7 @@
                         <div class="service-two-content">
                             <h4>HR CONSULTING SERVICES</h4>
                             <p> We Have the Perfect Solutions for All Your Hiring Requirements</p>
-                            <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
+                            <a class="btn btn-default simple-btn" href="">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -130,8 +128,8 @@
                         <img src="images/2.jpg" alt="">
                         <div class="service-two-content">
                             <h4>CONTRACT STAFFING SERVICES</h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in some form.</p>
-                            <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
+                            <p>We Have the Perfect Solutions for All Your Hiring Requirements</p>
+                            <a class="btn btn-default simple-btn" href="">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -141,8 +139,8 @@
                         <div class="service-two-content">
                             <h4>STAFF AUGMENTATION SERVICES
                             </h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in some form.</p>
-                            <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
+                            <p>We Have the Perfect Solutions for All Your Hiring Requirements</p>
+                            <a class="btn btn-default simple-btn" href="">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +161,8 @@
                         <div class="service-two-content">
                             <h4>MEN POWER RECRUITMENT SERVICES
                             </h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in some form.</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in
+                                some form.</p>
                             <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
                         </div>
                     </div>
@@ -197,26 +196,32 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input type="text" class="form-control" placeholder="Your Name" name="name">
+                                        <input REQUIRED type="text" class="form-control" placeholder="Your Name"
+                                               name="name">
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email Address" name="email">
+                                        <input REQUIRED type="email" class="form-control" id="inputEmail3"
+                                               placeholder="Email Address" name="email">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="subject" name="subject">
+                                        <input REQUIRED type="email" class="form-control" id="inputEmail3"
+                                               placeholder="subject" name="subject">
                                     </div>
                                 </div>
 
 
                                 <div class="col-md-12">
                                     <div class="appointment-col center1199">
-                                        <textarea class="form-control" rows="5" placeholder="Message"  name="message"></textarea>
-                                        <button class="btn btn-default simple-btn" type="submit" name="submit">Send Now</button>
+                                        <textarea REQUIRED class="form-control" rows="5" placeholder="Message"
+                                                  name="message"></textarea>
+                                        <button class="btn btn-default simple-btn" type="submit" name="submit">Send
+                                            Now
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +229,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="appointment-col appointment-img wow bounceInRight" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="appointment-col appointment-img wow bounceInRight" data-wow-duration="1s"
+                         data-wow-delay="0s">
                         <img src="images/worker.png" alt="">
                     </div>
                 </div>
@@ -235,14 +241,10 @@
     <!-- Team Start -->
 
 
-
-
-
-
     <section class="our_service_area">
         <div class="container">
             <div style="text-align: center" class="section_title">
-                <h2 >latest jobs</h2>
+                <h2>latest jobs</h2>
                 <a href="/user-jobs">See All Jobs</a>
             </div>
             <div class='row service_inner'>
@@ -258,10 +260,7 @@
             <div class='col-md-4 col-sm-6'>
                 <div class='service_item'>
                     <div class='media'>
-                        <div class='media-left'>
-                            <img src='images/icon/service-icon1-h.png' >
-                            <img src='images/icon/service-icon1-h.png' >
-                        </div>
+                      
                         <div class='media-body' style='color: white; text-transform: uppercase; letter-spacing: 2px;'>
                             <h3> " . $row['jobpost'] . "</h3>
                             <h5>Rs: " . $row['salary'] . "</h5>
@@ -285,7 +284,6 @@
             </div>
         </div>
     </section>
-
 
 
 </div>

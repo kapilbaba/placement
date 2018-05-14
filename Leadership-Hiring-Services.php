@@ -12,7 +12,7 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    p{
+    .container{
         text-align: left;
     }
 </style>
@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title ?></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -58,7 +58,7 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class=""><a href="/cunsulting-service">cunsulting-service</a>
+                                        <li role="presentation" class=""><a href="/cunsulting-service"> HR cunsulting-service</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
                                         </li>
@@ -82,15 +82,17 @@
                                             <div class="about_company">
 
                                                 <div class="section_title">
-                                                    <h2>Leadership Hiring</h2>
+
                                                 </div>
                                                 <p>To Make Your Team Succeed Go For Champions
+                                                    <br>
                                                     With each passing day, the business environment is becoming more and
                                                     more demanding, challenging and dynamic. In the present scenario,
                                                     organizations look for efficient leaders who can be change
                                                     facilitators. Most organizations seeking growth finds it difficult
                                                     to hire leaders as there may not be adequate pipeline of senior
-                                                    management talent available within the organization.
+                                                    management talent available within the organization.<br>
+
                                                     As a top leadership hiring services provider, AkostaPlacement
                                                     services brings in proven leadership hiring process that leverage
                                                     effective networking and relationship building with the top
@@ -99,11 +101,12 @@
                                                     profiles that include expertise, leadership style, career role
                                                     inclinations and job suitability and skills matrix. This enables us
                                                     to build a perfect team for the clients business rapidly. We have a
-                                                    unique & client focused approach towards leadership hiring services.
+                                                    unique & client focused approach towards leadership hiring services.<br>
                                                     Our approach towards leadership hiring is unique and encompasses a
                                                     team of experienced search consultants who have spent significant
                                                     time in the industry and understand the approach to be adopted to
                                                     place candidates at leadership roles. </p>
+                                                <br>
 
                                                 <ul>
                                                     <li>• Dedicated leadership hiring teams</li>

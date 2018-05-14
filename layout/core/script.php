@@ -8,7 +8,6 @@
 <script  type="text/javascript" src="/javascript/jarallax.js"></script>
 <script  type="text/javascript" src="/javascript/jquery.countup.min.js"></script>
 <script  type="text/javascript" src="/javascript/jquery.waypoints.min.js"></script>
-<script type="text/javascript"  src="/javascript/dyscrollup.js"></script>
 <script type="text/javascript" src="/javascript/animated-text.js"></script>
 <script type="text/javascript" src="/javascript/wow.min.js"></script>
 <script  type="text/javascript" src="/javascript/imagesloaded.min.js"></script>

@@ -4,6 +4,7 @@
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
+
     .form-control {
         padding: 6px 12px;
     }
@@ -21,9 +22,27 @@ background: whitesmoke;
         include 'layout/user-navbar.php';
     }
     ?>
+    <section class="innerpage-titlebar">
+        <div class="container">
+            <div class="titlebar-box">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <h2><?php echo $title;?></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 fw600">
+                        <div class="titlebar-col">
+                            <p><a href="/">Home</a> | <a href="#"><span><?php echo $title;?></span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="registration">
-        <h3 style="text-align: center">candidate registration</h3>
+
         <div class="container">
             <div class="form_page">
                 <form ROLE="form" action="sign_up" method="post">

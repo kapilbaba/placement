@@ -6,16 +6,15 @@
  * Time: 14:08
  */
 ?>
-<?php $title = "It staffing services"; ?>
+<?php $title = "IT Staff Augmentation"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
- p{
+ .container{
      text-align: left;
  }
-
 </style>
 <div id="page">
 
@@ -33,7 +32,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title;?></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -58,13 +57,13 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class=""><a href="/cunsulting-service">cunsulting-service</a>
+                                        <li role="presentation" class=""><a href="/cunsulting-service">HR cunsulting-service</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/Leadership-Hiring-Services">Leadership-Hiring-Services</a>
                                         </li>
-                                        <li role="presentation" class="active"><a href="/IT-Staffing-Services">IT-Staffing-Services</a>
+                                        <li role="presentation" class="active"><a href="/IT-Staffing-Services">IT Staff Augmentation</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/contract-staffing-service">contract-staffing-service</a>
                                         </li>
@@ -82,7 +81,7 @@
                                             <div class="about_company">
 
                                                 <div class="section_title">
-                                                    <h2>IT Staff Augmentation</h2>
+
                                                 </div>
                                                 <p> Offshore IT Consulting and Staffing Services For Organizations
                                                     Staff Augmentation is an easy to implement outsourcing strategy
@@ -123,15 +122,21 @@
                                                 <p>Cost Effective – No setup cost, hiring cost or long term contracts.
                                                     Leaves, medication, insurance etc for the resources is taken care by
                                                     us.
+                                                </p>
+                                                <P>
+
                                                     Experienced Staff – All the hiring and recruiting staff at
                                                     AkostaPlacement Services have a minimum 3+ years of relevant working
-                                                    experience.
+                                                    experience.</P>
+                                                <p>
+
                                                     Direct Access To Resources – You will be in direct touch with your
                                                     resources and will have full control over them. Our services have
                                                     been especially designed to provide maximum flexibility.
                                                     Intellectual Copyrights – All the codes and work done by resources
                                                     assigned to you will be reserved by you. No other client or
-                                                    competitor will have access to them.
+                                                    competitor will have access to them.</p>
+                                                <p>
                                                     Managed Services – AkostaPlacement Services specializes in providing
                                                     customers with complete CRM solutions by carefully analyzing their
                                                     requirements and business model.</p>

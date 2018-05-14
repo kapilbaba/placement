@@ -6,7 +6,7 @@
  * Time: 14:08
  */
 ?>
-<?php $title = "company profile"; ?>
+<?php $title = "our values"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title; ?> </h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -56,7 +56,7 @@
                 <div class="col-md-8">
                     <div class="our_about_left_content">
                         <div class="section_title">
-                            <h2><?php echo $title; ?> </h2>
+
                         </div>
                         <h3>Akostaplacement Services – Career Growth Simplified Here!!
                             Our values </h3>
@@ -66,6 +66,7 @@
                             people related services with a view to enhance net worth of Human Capital in organizations,
                             resulting in overall organizational growth & of individual at large.</p>
                         <br>
+                        <h3>OUR VALUES</h3>
                         <ul>
                             <li><i class="fas fa-angle-right"></i> We uphold integrity above all other things.</li>
                             <li><i class="fas fa-angle-right"></i> We are passionate about our business and to serve our
@@ -88,7 +89,8 @@
                         <h3>Dedication Towards Clients Manpower’s Needs</h3>
                         <p>Supported by a team of highly skilled and experienced HR practitioners and managers, we have
                             successfully completed several HR related projects. Our team strives hard to make both ends
-                            meet to make the client satisfied.
+                            meet to make the client satisfied.</p>
+                        <p>
                             Since inception, AkostaPlacement Services has gained a number of satisfied customers. With a
                             good grasp of people and understanding client expectations, we are confident of delivering
                             expectations on time and within budget. </p>

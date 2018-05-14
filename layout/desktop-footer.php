@@ -21,7 +21,7 @@
                         <li><a href="/"><i class="fas fa-chevron-right"></i> Home</a></li>
                         <li><a href="/candidate-login"><i class="fas fa-chevron-right"></i> login</a></li>
                         <li><a href="/candidate-signup"><i class="fas fa-chevron-right"></i> Sign Up</a></li>
-                        <li><a href="/"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="/sitemap"><i class="fas fa-chevron-right"></i> site map</a></li>
 
                         <li class="phantom"><a>&nbsp;</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
@@ -39,7 +39,7 @@
                         <li><a href="/our-mission"> <i class="fas fa-chevron-right"></i> our mission</a></li>
 
                         <li class="phantom"><a href="/our-value"> <i class="fas fa-chevron-right"></i>&nbsp;our
-                                 value</a></li>
+                                value</a></li>
                         <li class="phantom"><a href="/our-vision"><i class="fas fa-chevron-right"></i>&nbsp;our
                                 vision</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>
@@ -59,9 +59,8 @@
                         <li><a href="/Leadership-Hiring-Services"><i class="fas fa-chevron-right"></i>&nbsp;Leadership
                                 Hiring
                                 Services</a></li>
-                        <li><a href="/IT-Staffing-Services"><i class="fas fa-chevron-right"></i>&nbsp;IT
-                                Staffing
-                                Services</a></li>
+                        <li><a href="/IT-Staffing-Services"><i class="fas fa-chevron-right"></i>&nbsp;IT Staff
+                                Augmentation</a></li>
                         <li><a href="/contract-staffing-service"><i class="fas fa-chevron-right"></i>&nbsp;Contract
                                 Staffing
                                 Services</a></li>
@@ -73,9 +72,10 @@
                 <li class="sitemap_block ">
                     <ul>
                         <li class="sitemap_heading">company info</li>
-                        <li><i class="fas fa-map-marker-alt"></i> A-35/56, Dal Mill Rd</li>
+                        <li><i class="fas fa-map-marker-alt"></i> A-35/56, Dal Mill Rd, Ashok nagar, New Delhi</li>
                         <li><i class="fas fa-phone"></i> contact us :+91 84475 81034</li>
-                        <li><a href="mailto:akostaplacement@gmail.com"><i class="fas fa-envelope"></i> mail us</a></li>
+                        <li><a href="mailto:contact@akostaplacement.com"><i class="fas fa-envelope"></i> mail us</a>
+                        </li>
                         <li><a href="/terms%20and%20condition">terms and conditions</a></li>
                         <li><a href="/privacy-policy">privacy policy</a></li>
                         <li class="phantom"><a>&nbsp;</a></li>

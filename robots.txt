@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: http://akostaplsitemap.xml
+Disallow: /track/order/dialog
+Allow: /

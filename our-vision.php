@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <h2></h2>
+                            <h2><?php echo $title; ?></h2>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
@@ -56,7 +56,7 @@
                 <div class="col-md-8">
                     <div class="our_about_left_content">
                         <div class="section_title">
-                            <h2><?php echo $title; ?></h2>
+
                         </div>
                         <h3>Akostaplacement Services – On The Path to Become One Of The best
                             Our Vision </h3>
@@ -72,7 +72,8 @@
                             We at AkostaPlacement Services, provide recruitment platform where employers and employees
                             get in touch to reach common milestone. To accomplish this, we are always easily accessible
                             to our clients and associates. We have a highly skilled team of experts who fulfills the
-                            requirements of various highly professional companies.
+                            requirements of various highly professional companies.</p>
+                        <P>
                             We are confident that, as AkostaPlacement Services, we inspire our associates to get Better
                             Opportunity, with Progressive Career. </p>
                     </div>

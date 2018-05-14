@@ -46,7 +46,6 @@ session_start();
 
 
     <section class="registration">
-        <h3 style="text-align: center">candidate login</h3>
         <div class="container">
             <div class="form_page">
                 <form action="singn_in.php" method="post">
