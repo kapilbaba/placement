@@ -255,11 +255,6 @@ $.validate({
 
 
 
-AOS.init({
-    duration: 2500,
-})
-
-
 //password re enter
 
 $(function () {
