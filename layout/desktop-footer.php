@@ -64,7 +64,7 @@
                         <li><a href="/contract-staffing-service"><i class="fas fa-chevron-right"></i>&nbsp;Contract
                                 Staffing
                                 Services</a></li>
-                        <li class="phantom"><a>&nbsp;</a></li>
+                        <li><a href="/man-power-services"><i class="fas fa-chevron-right"></i>&nbsp;man-power-services</a></li>
 
                     </ul>
                 </li>

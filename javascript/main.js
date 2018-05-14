@@ -6,6 +6,8 @@ function testInput(event) {
 
 $("#fname,#lname").bind('keypress', testInput);
 
+
+//this is  VALIDATOR
 $.validate({
     lang: 'en'
 });
