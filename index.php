@@ -118,8 +118,8 @@
                         <img src="images/1.jpg" alt="">
                         <div class="service-two-content">
                             <h4>HR CONSULTING SERVICES</h4>
-                            <p> We Have the Perfect Solutions for All Your Hiring Requirements</p>
-                            <a class="btn btn-default simple-btn" href="">Read More</a>
+                            <p>  We Have the Perfect Solutions for All Your Hiring.</p>
+                            <a class="btn btn-default simple-btn" href="/cunsulting-service">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -128,8 +128,8 @@
                         <img src="images/2.jpg" alt="">
                         <div class="service-two-content">
                             <h4>CONTRACT STAFFING SERVICES</h4>
-                            <p>We Have the Perfect Solutions for All Your Hiring Requirements</p>
-                            <a class="btn btn-default simple-btn" href="">Read More</a>
+                            <p>Our Staff Recruiting Helps You Achieve Your Professional</p>
+                            <a class="btn btn-default simple-btn" href="/contract-staffing-service">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -139,8 +139,8 @@
                         <div class="service-two-content">
                             <h4>STAFF AUGMENTATION SERVICES
                             </h4>
-                            <p>We Have the Perfect Solutions for All Your Hiring Requirements</p>
-                            <a class="btn btn-default simple-btn" href="">Read More</a>
+                            <p> Quality Talent Where and When You Need It</p>
+                            <a class="btn btn-default simple-btn" href="/Staff-Augmentation-Services">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                             <h4>IT STAFFING SERVICES
                             </h4>
                             <p> Offshore IT Consulting and Staffing Services For Organizations</p>
-                            <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
+                            <a class="btn btn-default simple-btn" href="/IT-Staffing-Services">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -161,9 +161,8 @@
                         <div class="service-two-content">
                             <h4>MEN POWER RECRUITMENT SERVICES
                             </h4>
-                            <p>There are many variations of passages of Lorem Ipsum available, suffered alteration in
-                                some form.</p>
-                            <a class="btn btn-default simple-btn" href="service-details.html">Read More</a>
+                            <p> An Ability to Perform and Measure the Success</p>
+                            <a class="btn btn-default simple-btn" href="/man-power-services">Read More</a>
                         </div>
                     </div>
                 </div>
