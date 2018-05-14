@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-ErrorDocument 404 http://www.akostaplacement.com/404.php
+ErrorDocument 404 https://akostaplacement.com/404.php
