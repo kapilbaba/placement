@@ -99,7 +99,9 @@ background: whitesmoke;
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <p style="color: black; font-size: small"><input required type="checkbox"> By proceeding you agree
+                                <p style="color: black; font-size: small"><div class="col-md-12 col-sm-6 col-xs-12">
+                                    <label for="checkbox"><input type="checkbox" name="remember_me" value="1" id="remember_me"> remember me</label>
+                                </div>
                                     to the <a href="/terms%20and%20condition">Terms of Use </a>and <a href="/privacy-policy"> Privacy Policy</a> </p>
                             </div>
                         </div>
