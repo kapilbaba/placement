@@ -49,7 +49,7 @@ else{
                     <h3 class="title">HR CONSULTING SERVICES
                     </h3>
                     <p class="description">
-                        We Have the Perfect Solutions for All Your Hiring Requirements
+                        We Have the Perfect Solutions for All Your Hiring.
                     </p>
 
                 </div>
@@ -64,7 +64,7 @@ else{
                     <h3 class="title">CONTRACT STAFFING SERVICES
                     </h3>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
+                        Our Staff Recruiting Helps You Achieve Your Professional
                     </p>
                 </div>
                 <a href="/contract-staffing-service">read more</a>
@@ -78,10 +78,10 @@ else{
                     <h3 class="title">STAFF AUGMENTATION SERVICES
                     </h3>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
+                        Quality Talent Where and When You Need It
                     </p>
                 </div>
-                <a href="/">read more</a>
+                <a href="/Staff-Augmentation-Services">read more</a>
             </div>
             <br>
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -106,7 +106,7 @@ else{
                     <h3 class="title">MEN POWER RECRUITMENT SERVICES
                     </h3>
                     <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.
+                        An Ability to Perform and Measure the Success
                     </p>
                 </div>
                 <a href="/man-power-services">read more</a>
