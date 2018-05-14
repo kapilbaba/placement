@@ -118,7 +118,7 @@ if ($result->num_rows > 0) {
                         </div>
                         <div class="panel panel-info">
                             <div class="panel-heading">Job discription</div>
-                            <div class="panel-body"><pre><?php echo $description1; ?></pre>
+                            <div class="panel-body"><p><?php echo $description1; ?></p>
                             </div>
                         </div>
                             <div class="panel panel-info">
@@ -156,7 +156,7 @@ if ($result->num_rows > 0) {
 
                             <div class="panel panel-info">
                                 <div class="panel-heading">Company Details </div>
-                                <div class="panel-body"><pre><?php echo $company;?></pre></div>
+                                <div class="panel-body"><p><?php echo $company;?></p></div>
                             </div>
 
                             <a class="btn btn-default btn-lg" type="submit" href="candidate-job.php?id=<?php  echo $jobid; ?>">confirm job</a>
