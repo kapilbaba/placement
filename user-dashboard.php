@@ -94,8 +94,8 @@ $applicantid = $row['id'];
                                 </div>
                                 <div class="col-md-12 col-sm-6 col-xs-12">
                                     <div class="form-group">
-                                        <label for="contact">contact no</label>
-                                        <input value="<?php echo $contact; ?>" required="required" type="number"
+                                        <label for="contact" >contact no</label>
+                                        <input data-validation="number"  value="<?php echo $contact; ?>" required="required" type="text"
                                                class="form-control" id="contact" name="contact_info">
                                     </div>
                                 </div>
