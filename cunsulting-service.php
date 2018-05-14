@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-6 fw600">
                         <div class="titlebar-col">
-                            <p><a href="/">Home</a> | <a href="/services.php">services</a>|<a
+                            <p><a href="/">Home</a> | <a href="/services">services</a>|<a
                                         href="#"><span><?php echo $title ?></span></a></p>
                         </div>
                     </div>

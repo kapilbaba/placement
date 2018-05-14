@@ -23,14 +23,6 @@ session_start();
 <html>
 <?php include "layout/core/head.php" ?>
 <style>
-    body{
-        width: 100%;
-        background: url('/images/jobconfirm.jpeg')!important;
-        background-attachment: fixed!important;
-        background-position: center!important;
-        background-repeat: no-repeat!important;
-        background-size: cover!important;
-    }
 </style>
 
 
