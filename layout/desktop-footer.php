@@ -78,7 +78,9 @@
                         </li>
                         <li><a href="/terms%20and%20condition">terms and conditions</a></li>
                         <li><a href="/privacy-policy">privacy policy</a></li>
-                        <li class="phantom"><a>&nbsp;</a></li>
+                        <li><a href="/"><i class="fab fa-facebook-square"></i>&nbsp;</a>&nbsp;<a href="/"><i
+                                        class="fab fa-twitter-square"></i></a>&nbsp; <a
+                                    href="/"> <i class="fab fa-google-plus-square"></i></a> &nbsp;<a href="/"><i class="fab fa-instagram"></i></a></li>
 
                     </ul>
                 </li>
