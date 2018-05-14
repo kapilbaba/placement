@@ -49,13 +49,13 @@ background: whitesmoke;
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="fname">first name</label>
-                            <input  type="text" pattern="[A-Za-z]{3}" required="required" class="form-control" id="fname" name="f_name">
+                            <input  type="text"  required="required" class="form-control" id="fname" name="f_name">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label for="lname">last name</label>
-                            <input  type="text" pattern="[A-Za-z]{3}" required="required"  class="form-control" id="lname" name="l_name">
+                            <input  type="text" required="required"  class="form-control" id="lname" name="l_name">
                         </div>
                     </div>
 

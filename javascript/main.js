@@ -1,3 +1,10 @@
+function testInput(event) {
+    var value = String.fromCharCode(event.which);
+    var pattern = new RegExp(/[a-zåäö ]/i);
+    return pattern.test(value);
+}
+
+$("#fname,#lname").bind('keypress', testInput);
 
 $.validate({
     lang: 'en'
