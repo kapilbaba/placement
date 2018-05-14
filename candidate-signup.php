@@ -100,9 +100,9 @@ background: whitesmoke;
                         <div class="col-sm-12">
                             <div class="text-center">
                                 <p style="color: black; font-size: small"><div class="col-md-12 col-sm-6 col-xs-12">
-                                    <label for="checkbox"><input type="checkbox" name="remember_me" value="1" id="remember_me"> agree <a href="/terms%20and%20condition">Terms of Use </a>and <a href="/privacy-policy"> Privacy Policy</a></label>
+                                    <label for="checkbox"><input type="checkbox" name="remember_me" value="1" id="remember_me"> agree  to the<a href="/terms%20and%20condition">Terms of Use </a>and <a href="/privacy-policy"> Privacy Policy</a></label>
                                 </div>
-                                    to the  </p>
+                                     </p>
                             </div>
                         </div>
                     </div>
