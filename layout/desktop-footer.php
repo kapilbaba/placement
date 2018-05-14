@@ -72,7 +72,7 @@
                 <li class="sitemap_block ">
                     <ul>
                         <li class="sitemap_heading">company info</li>
-                        <li><i class="fas fa-map-marker-alt"></i> A-35/56, Dal Mill Rd, Ashok nagar, New Delhi</li>
+                        <li><i class="fas fa-map-marker-alt"></i> A-3/56, Dal Mill Rd, Ashok nagar, New Delhi</li>
                         <li><i class="fas fa-phone"></i> contact us :+91 84475 81034</li>
                         <li><a href="mailto:contact@akostaplacement.com"><i class="fas fa-envelope"></i> mail us</a>
                         </li>
