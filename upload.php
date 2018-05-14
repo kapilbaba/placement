@@ -18,7 +18,7 @@ if (isset($_POST["upload"])) {
         if (move_uploaded_file($_FILES["resume_upload"]["tmp_name"], $target_file)) {
             $sql = "update users set resumes= '$target_file' WHERE id='$id'";
             if ($conn->query($sql) === TRUE) {
-                $_SESSION['upload-success']="your resume is uploaded check your applicant Id ";
+                $_SESSION['upload-success']="your resume is uploaded check your applicant status ";
                 header("location:upload-resume.php");
             } else {
                 $_SESSION['upload-error']="your resume is upload failed  ";
