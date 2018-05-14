@@ -159,7 +159,7 @@
                     <div class="service-col-two wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
                         <img src="images/5.jpg" alt="">
                         <div class="service-two-content">
-                            <h4>MEN POWER RECRUITMENT SERVICES
+                            <h4>MEN POWER  SERVICES
                             </h4>
                             <p> An Ability to Perform and Measure the Success</p>
                             <a class="btn btn-default simple-btn" href="/man-power-services">Read More</a>

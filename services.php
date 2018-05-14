@@ -103,7 +103,7 @@ else{
                     <div class="service-icon">
                         <i class="flaticon-home-1"></i>
                     </div>
-                    <h3 class="title">MEN POWER RECRUITMENT SERVICES
+                    <h3 class="title">MEN POWER  SERVICES
                     </h3>
                     <p class="description">
                         An Ability to Perform and Measure the Success
