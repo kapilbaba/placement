@@ -35,6 +35,8 @@ include "core/database/connection_db.php";
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <div class="container"><br>
+            <p><?php  echo $_SESSION['user_deleted']; $_SESSION['user_deleted']=null; ?></p>
+
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
@@ -67,7 +69,8 @@ include "core/database/connection_db.php";
                             <th>status</th>
                             <th>resume</th>
                             <th> jobs</th>
-                            <th>edit</th>";
+                            <th>edit</th>
+                            <th>Delete users</th>";
                         while ($row = mysqli_fetch_array($result)) {
                             echo "
                                
@@ -82,6 +85,7 @@ include "core/database/connection_db.php";
                                 <td><a  href='" .$row['resumes']. "'>view</a></td>
                                 <td><a  href='job.php?id=" .$row['jobid']. "'>view</a></td>
                                 <td><a href='candidateinfo.php?id=".$row['id']."' >edit status</a></td>
+                                <td><a href='delete_user.php?id=".$row['id']."' >Delete</a></td>
                          
                          ";
 $_SESSION['candidateid']=$row['id'];

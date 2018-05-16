@@ -27,6 +27,7 @@ include "core/database/connection_db.php";
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <div class="container"><br>
+            <p><?php echo   $_SESSION['job_deleted'];   $_SESSION['job_deleted']=null;?></p>
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">

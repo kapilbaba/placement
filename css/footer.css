@@ -1,6 +1,7 @@
 /* FOOTER */
 
 footer.main_footer {
+    text-transform: capitalize;
     color: #fcfffa;
     background-color:#16486a ;
     clear: both;

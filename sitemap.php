@@ -41,6 +41,10 @@
             text-align: center;
             border-radius: 3px;
         }
+
+        body{
+            text-transform: capitalize;
+        }
     </style>
     <section class="innerpage-titlebar">
         <div class="container">
@@ -73,48 +77,32 @@
 
             <ul class="footer_sitemap">
 
-                <li class="sitemap_block">
-                    <ul>
+                <li class="lpage"><a href="https://akostaplacement.com/" title="home">home</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/candidate-login.php" title="login">login</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/candidate-signup.php" title="register">register</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/track-application.php" title="track application status">track application status</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/about" title="about us">about us</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/services" title="services">services</a></li>
 
-                        <li class="lpage"><a href="https://akostaplacement.com/" title="home">home</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/candidate-login" title="login">login</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/candidate-signup" title="register">register</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/track-application" title="track application status">track application status</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/about" title="about us">about us</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/services" title="services">services</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/user-jobs" title="job">job</a></li>
-
-                    </ul>
-                </li>
-                <li class="sitemap_block">
-                    <ul>
-
-                        <li class="lpage"><a href="https://akostaplacement.com/contact" title="contact-us">contact-us</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/company-profile" title="company profile">company profile</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/company-objective" title="company objective">company objective</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/our-mission" title="Our Mission">Our Mission</a></li>
-                        <li class="phantom"><a>&nbsp;</a></li>
-                        <li class="phantom"><a>&nbsp;</a></li>
-                        <li class="phantom"><a>&nbsp;</a></li>
-
-                    </ul>
-                </li>
-
-
-                <li class="sitemap_block">
-
-                    <ul>
-
-                        <li class="lpage"><a href="https://akostaplacement.com/terms%20and%20condition" title="terms and conditions">terms and conditions</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/privacy-policy" title="privacy policy">privacy policy</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/man-power-services" title="Men power recruitment services">Men power recruitment services</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/user-jobs" title="job">job</a></li>
-                        <li class="lpage"><a href="https://akostaplacement.com/services" title="services">services</a></li>
-                        <li class="lpage last-page"><a href="https://akostaplacement.com/man-power-services" title="Men power recruitment services">Men power recruitment services</a></li>
-                        <li><a href="/user-jobs">user jobs</a></li>
-
-                    </ul>
-                </li>
+                <li class="lpage"><a href="https://akostaplacement.com/contact" title="contact-us">contact-us</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/contact.php" title="contact-us">contact-us</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/user_job_info.php?id=20" title="job-information">job-information</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/candidate-signup" title="register">register</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/company-profile" title="company profile">company profile</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/company-objective" title="company objective">company objective</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/our-mission" title="Our Mission">Our Mission</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/our-value" title="company profile">company profile</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/our-vision" title="Our vision">Our vision</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/cunsulting-service" title="cunsulting services">cunsulting services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/Staff-Augmentation-Services" title="staff augmentation services">staff augmentation services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/Leadership-Hiring-Services" title="leadership hiring services">leadership hiring services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/IT-Staffing-Services" title="It staffing services">It staffing services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/contract-staffing-service" title="contract staffing services">contract staffing services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/terms%20and%20condition" title="terms and conditions">terms and conditions</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/privacy-policy" title="privacy policy">privacy policy</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/man-power-services" title="Men power recruitment services">Men power recruitment services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/user-jobs.php" title="job">job</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/services.php" title="services">services</a></li>
 
 
             </ul>

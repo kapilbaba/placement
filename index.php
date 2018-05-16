@@ -1,4 +1,4 @@
-<?php $title = "home"; ?>
+<?php $title = "Akostaplacement services"; ?>
 <?php session_start() ?>
 <!DOCTYPE HTML>
 <html>
@@ -195,20 +195,20 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input REQUIRED type="text" class="form-control" placeholder="Your Name"
+                                        <input id="contact_name" REQUIRED type="text" class="form-control" placeholder="Your Name"
                                                name="name">
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input REQUIRED type="email" class="form-control" id="inputEmail3"
+                                        <input  data-validation="email" REQUIRED type="email" class="form-control" id="inputEmail3"
                                                placeholder="Email Address" name="email">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input REQUIRED type="text" class="form-control" id="inputEmail3"
+                                        <input  REQUIRED type="text" id="contact_subject" class="form-control"
                                                placeholder="subject" name="subject">
                                     </div>
                                 </div>

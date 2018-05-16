@@ -109,20 +109,20 @@
                             <div class="item">
                                 <form action="mail.php" method="post">
                                     <div class="form-group">
-                                        <label for="email">Name:</label>
-                                        <input  required type="text" class="form-control" placeholder="Enter Name" name="name">
+                                        <label for="contact_name">Name:</label>
+                                        <input id="contact_name" required type="text" class="form-control" placeholder="Enter Name" name="name">
                                     </div>
                                     <div class="form-group">
-                                        <label for="pwd">Email Id:</label>
-                                        <input type="email" class="form-control" placeholder="Enter Email Id" name="email">
+                                        <label  for="contact_email">Email Id:</label>
+                                        <input data-validation="email" id="contact_email" type="email" class="form-control" placeholder="Enter Email Id" name="email">
                                     </div>
                                     <div class="form-group">
-                                        <label for="pwd">Subject</label>
-                                        <input required type="text" class="form-control" placeholder="Enter Subject here" name="subject">
+                                        <label for="contact_subject">Subject</label>
+                                        <input id="contact_subject" required type="text" class="form-control" placeholder="Enter Subject here" name="subject">
                                     </div>
                                     <div class="form-group">
-                                        <label for="pwd">Message:</label>
-                                        <textarea  required class="form-control" rows="5" name="message"></textarea>
+                                        <label for="message">Message:</label>
+                                        <textarea id="message"  required class="form-control" rows="5" name="message"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-default simple-btn"  name="submit">Submit</button>
                                 </form>
@@ -138,7 +138,6 @@
                                     <li class="color">Mobile No: <span class="black"> ‪+91 84475 81034</span></li>
                                     <li class="color">Email: <span class="black" style="text-transform: lowercase"> contact@akostaplacement.com</span></li>
                                     <li class="color">Email: <span class="black" style="text-transform: lowercase"> akostaplacement@gmail.com</span></li>
-                                    <br>
 
                                 </ul>
                             </div>

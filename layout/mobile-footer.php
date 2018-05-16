@@ -10,6 +10,7 @@
 
 
     .footer-mobile {
+        text-transform: capitalize;
         position: relative;
         background: #000;
         bottom: 0;
@@ -55,7 +56,7 @@
     <div class="p10 fs13 footer-bdr-btm text-center footer-link">
         <a href="/candidate-signup">register</a>
         <a href="/contact">Contact Us</a>
-        <a href="/track-application">Track applicant</a>
+        <a href="/track-application">Track job status</a>
     </div>
     <div class="footer-btm-bar clr-777 text-center fs13">
         ©2018 Akostaplacement Pvt.Ltd.
