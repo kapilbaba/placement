@@ -93,7 +93,7 @@
                 <li class="lpage"><a href="https://akostaplacement.com/our-mission" title="Our Mission">Our Mission</a></li>
                 <li class="lpage"><a href="https://akostaplacement.com/our-value" title="company profile">company profile</a></li>
                 <li class="lpage"><a href="https://akostaplacement.com/our-vision" title="Our vision">Our vision</a></li>
-                <li class="lpage"><a href="https://akostaplacement.com/cunsulting-service" title="cunsulting services">cunsulting services</a></li>
+                <li class="lpage"><a href="https://akostaplacement.com/cunsulting-service" title="cunsulting services">consulting services</a></li>
                 <li class="lpage"><a href="https://akostaplacement.com/Staff-Augmentation-Services" title="staff augmentation services">staff augmentation services</a></li>
                 <li class="lpage"><a href="https://akostaplacement.com/Leadership-Hiring-Services" title="leadership hiring services">leadership hiring services</a></li>
                 <li class="lpage"><a href="https://akostaplacement.com/IT-Staffing-Services" title="It staffing services">It staffing services</a></li>
