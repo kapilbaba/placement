@@ -53,7 +53,7 @@ else{
                     </p>
 
                 </div>
-                <a href="/cunsulting-service">read more</a>
+                <a href="/HR-consulting-service">read more</a>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">

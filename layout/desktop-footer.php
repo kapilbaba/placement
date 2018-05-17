@@ -51,7 +51,7 @@
 
                     <ul>
                         <li class="sitemap_heading">Services</li>
-                        <li><a href="/cunsulting-service"><i class="fas fa-chevron-right"></i> Hr consultance
+                        <li><a href="/HR-consulting-service"><i class="fas fa-chevron-right"></i> Hr consultance
                                 service</a>
                         </li>
                         <li><a href="/Staff-Augmentation-Services"><i class="fas fa-chevron-right"></i> Staff

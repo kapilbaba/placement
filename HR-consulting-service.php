@@ -6,7 +6,7 @@
  * Time: 14:08
  */
 ?>
-<?php $title = "HR Cunsulting services"; ?>
+<?php $title = "HR Consulting services"; ?>
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
@@ -57,7 +57,7 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class="active"><a href="/cunsulting-service">HR Cunsulting-service</a>
+                                        <li role="presentation" class="active"><a href="/HR-consulting-service.php">HR Cunsulting-service</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
                                         </li>

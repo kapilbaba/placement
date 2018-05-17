@@ -119,7 +119,7 @@
                         <div class="service-two-content">
                             <h4>HR CONSULTING SERVICES</h4>
                             <p>  We Have the Perfect Solutions for All Your Hiring.</p>
-                            <a class="btn btn-default simple-btn" href="/cunsulting-service">Read More</a>
+                            <a class="btn btn-default simple-btn" href="/HR-consulting-service">Read More</a>
                         </div>
                     </div>
                 </div>

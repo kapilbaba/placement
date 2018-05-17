@@ -26,7 +26,7 @@
 
 <div class="container">
             <ul class="nav nav-pills nav-justified">
-                <li><a class="plain" href="/cunsulting-service">HR
+                <li><a class="plain" href="/HR-consulting-service.php">HR
                         Consulting
                         Services
                         </a></li>
