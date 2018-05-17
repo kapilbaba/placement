@@ -57,7 +57,7 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class="active"><a href="/HR-consulting-service.php">HR Cunsulting-service</a>
+                                        <li role="presentation" class="active"><a href="/HR-consulting-service.php">HR Consulting-service</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
                                         </li>
