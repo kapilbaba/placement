@@ -3,14 +3,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="k04xcXY0qE22LcpD4YtGUzFyXjCg_e3YDfbvq59STkc" />
+    <meta name="google-site-verification" content="k04xcXY0qE22LcpD4YtGUzFyXjCg_e3YDfbvq59STkc"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?php echo $title;?></title>
-
+    <title><?php echo $title; ?></title>
 
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,14 +27,26 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="23df3dd9-79f7-4218-be86-a7480ea6f4c7";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script type="text/javascript">window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "23df3dd9-79f7-4218-be86-a7480ea6f4c7";
+        (function () {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();</script>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119405632-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-119405632-1');
@@ -89,6 +100,13 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="about-col">
+                        <div class="choose-box">
+
+                            <h3>Company Profile</h3>
+                            <p>Even after devastating recession, India continues to be the land of opportunities. With
+                                growing socio economic development in the country, Indian job market is showing positive
+                                signs of substantial growth in hiring the human workforce.</p>
+                            <a href="/company-profile">Read more</a></div>
                         <div class="choose-box">
 
                             <h3>Our mission</h3>
@@ -153,7 +171,7 @@
                         <img src="images/1.jpg" alt="">
                         <div class="service-two-content">
                             <h4>HR CONSULTING SERVICES</h4>
-                            <p>  We Have the Perfect Solutions for All Your Hiring.</p>
+                            <p> We Have the Perfect Solutions for All Your Hiring.</p>
                             <a class="btn btn-default simple-btn" href="/hr-consulting-service.php">Read More</a>
                         </div>
                     </div>
@@ -194,7 +212,7 @@
                     <div class="service-col-two wow bounceInUp" data-wow-duration="1s" data-wow-delay="0s">
                         <img src="images/5.jpg" alt="">
                         <div class="service-two-content">
-                            <h4>MEN POWER  SERVICES
+                            <h4>MEN POWER SERVICES
                             </h4>
                             <p> An Ability to Perform and Measure the Success</p>
                             <a class="btn btn-default simple-btn" href="/man-power-services">Read More</a>
@@ -230,20 +248,22 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input id="contact_name" REQUIRED type="text" class="form-control" placeholder="Your Name"
+                                        <input id="contact_name" REQUIRED type="text" class="form-control"
+                                               placeholder="Your Name"
                                                name="name">
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input  data-validation="email" REQUIRED type="email" class="form-control" id="inputEmail3"
+                                        <input data-validation="email" REQUIRED type="email" class="form-control"
+                                               id="inputEmail3"
                                                placeholder="Email Address" name="email">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="appointment-col">
-                                        <input  REQUIRED type="text" id="contact_subject" class="form-control"
+                                        <input REQUIRED type="text" id="contact_subject" class="form-control"
                                                placeholder="subject" name="subject">
                                     </div>
                                 </div>
