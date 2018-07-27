@@ -57,13 +57,13 @@
                             <div class="col-md-3">
                                 <div class="carrers_left">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation" class=""><a href="/HR-consulting-service">HR consulting-service</a>
+                                        <li role="presentation" class=""><a href="/hr-consulting-service.php">HR consulting-service</a>
                                         </li>
-                                        <li role="presentation" class=""><a href="/Staff-Augmentation-Services">Staff-Augmentation-Services</a>
+                                        <li role="presentation" class=""><a href="/staff-Augmentation-Services.php">Staff-Augmentation-Services</a>
                                         </li>
-                                        <li role="presentation" class=""><a href="/Leadership-Hiring-Services">Leadership-Hiring-Services</a>
+                                        <li role="presentation" class=""><a href="/leadership-Hiring-Services.php">Leadership-Hiring-Services</a>
                                         </li>
-                                        <li role="presentation" class="active"><a href="/IT-Staffing-Services">IT Staff Augmentation</a>
+                                        <li role="presentation" class="active"><a href="/it-Staffing-Services.php">IT Staff Augmentation</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/contract-staffing-service">contract-staffing-service</a>
                                         </li>

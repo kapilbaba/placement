@@ -53,7 +53,7 @@ else{
                     </p>
 
                 </div>
-                <a href="/HR-consulting-service">read more</a>
+                <a href="/hr-consulting-service.php">read more</a>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -81,7 +81,7 @@ else{
                         Quality Talent Where and When You Need It
                     </p>
                 </div>
-                <a href="/Staff-Augmentation-Services">read more</a>
+                <a href="/staff-Augmentation-Services.php">read more</a>
             </div>
             <br>
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -95,7 +95,7 @@ else{
                         To Make Your Team Succeed Go For Champions
                     </p>
                 </div>
-                <a href="/Leadership-Hiring-Services">read more</a>
+                <a href="/leadership-Hiring-Services.php">read more</a>
             </div>
             <br>
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -123,7 +123,7 @@ else{
                         Offshore IT Consulting and Staffing Services For Organizations
                     </p>
                 </div>
-                <a href="/IT-Staffing-Services">read more</a>
+                <a href="/it-Staffing-Services.php">read more</a>
             </div>
 
 

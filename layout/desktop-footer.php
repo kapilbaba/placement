@@ -51,20 +51,20 @@
 
                     <ul>
                         <li class="sitemap_heading">Services</li>
-                        <li><a href="/HR-consulting-service"><i class="fas fa-chevron-right"></i> Hr consultance
+                        <li><a href="/hr-consulting-service.php"><i class="fas fa-chevron-right"></i> Hr consulting
                                 service</a>
                         </li>
-                        <li><a href="/Staff-Augmentation-Services"><i class="fas fa-chevron-right"></i> Staff
+                        <li><a href="/staff-Augmentation-Services.php"><i class="fas fa-chevron-right"></i> Staff
                                 Augmentation </a></li>
-                        <li><a href="/Leadership-Hiring-Services"><i class="fas fa-chevron-right"></i>&nbsp;Leadership
+                        <li><a href="/leadership-Hiring-Services.php"><i class="fas fa-chevron-right"></i>&nbsp;Leadership
                                 Hiring
                                 Services</a></li>
-                        <li><a href="/IT-Staffing-Services"><i class="fas fa-chevron-right"></i>&nbsp;IT Staff
+                        <li><a href="/it-Staffing-Services.php"><i class="fas fa-chevron-right"></i>&nbsp;IT Staff
                                 Augmentation</a></li>
                         <li><a href="/contract-staffing-service"><i class="fas fa-chevron-right"></i>&nbsp;Contract
                                 Staffing
                                 Services</a></li>
-                        <li><a href="/man-power-services"><i class="fas fa-chevron-right"></i>&nbsp;man-power-services</a></li>
+                        <li><a href="/man-power-services"><i class="fas fa-chevron-right"></i>&nbsp;man power services</a></li>
 
                     </ul>
                 </li>
