@@ -165,6 +165,7 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-6 fw600">
                     <div class="service-col-two wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0s">
