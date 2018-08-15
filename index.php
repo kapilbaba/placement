@@ -227,7 +227,7 @@
                             <h4>LEADERSHIP HIRING SERVICES
                             </h4>
                             <p>To Make Your Team Succeed Go For Champions</p>
-                            <a class="btn btn-default simple-btn" href="/leadership-Hiring-Services.php">Read More</a>
+                            <a class="btn btn-default simple-btn" href="/leadership-hiring-services.php">Read More</a>
                         </div>
                     </div>
                 </div>
