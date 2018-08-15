@@ -1,4 +1,4 @@
 User-agent: *
-Sitemap: http://akostaplsitemap.xml
+Sitemap: https://akostaplacement.com/sitemap.xml
 Disallow: /track/order/dialog
 Allow: /
