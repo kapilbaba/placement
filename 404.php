@@ -1,51 +1,35 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: kapilanand
- * Date: 13/05/18
- * Time: 21:32
- */
-?>
-<?php
-/**
- * Created by PhpStorm.
- * User: kapilanand
- * Date: 23/03/18
- * Time: 08:49
- */
-
-$title = "404";
-session_start();
-?>
-
-
+<?php $title = "404"; ?>
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <?php include "layout/core/head.php" ?>
-<?php
-if (empty($_SESSION["authenticated"]) == true) {
-    include "layout/navbar.php";
-} else {
-    include 'layout/user-navbar.php';
-}
-<style>
-</style>
+
+<div id="page">
+    <?php
+    if (empty($_SESSION["authenticated"])== true){
+        include "layout/navbar.php"; }
+    else{
+        include 'layout/user-navbar.php';
+    }
+    ?>
 
 
 
 
-<div class="confirmed">
+    <div style="margin-bottom: 20%;" class="confirmed">
 
 
 
-    <div style="margin-top: 20%" class="container">
-        <div class="col-md-4 col-xs-12 col-sm-12">
-            <h3 style="text-align: center">
-                  404 page is not found
-                <a href="/">Go Back To home</a>
-            </h3>
+        <div style="margin-top: 20%" class="container">
+            <div class="col-md-4 col-xs-12 col-sm-12">
+                <h3 style="text-align: center">
+                    404 page is not found
+                    <a href="/">Go Back To home</a>
+                </h3>
 
+            </div>
         </div>
+
     </div>
 
 </div>
@@ -53,7 +37,7 @@ if (empty($_SESSION["authenticated"]) == true) {
 
 
 
-
+<?php include "layout/footer.php"; ?>
+<?php include "layout/core/script.php"; ?>
 
 </html>
-
