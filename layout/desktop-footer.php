@@ -5,6 +5,12 @@
  * Date: 06/04/18
  * Time: 09:24
  */ ?>
+
+<style>
+    .icon_footer{
+        font-size: 30px;
+    }
+</style>
 <link rel="stylesheet" href="/css/footer.css" type="text/css">
 <footer class="main_footer">
 
@@ -64,7 +70,8 @@
                         <li><a href="/contract-staffing-service"><i class="fas fa-chevron-right"></i>&nbsp;Contract
                                 Staffing
                                 Services</a></li>
-                        <li><a href="/man-power-services"><i class="fas fa-chevron-right"></i>&nbsp;man power services</a></li>
+                        <li><a href="/man-power-services"><i class="fas fa-chevron-right"></i>&nbsp;man power
+                                services</a></li>
 
                     </ul>
                 </li>
@@ -78,10 +85,11 @@
                         </li>
                         <li><a href="/terms%20and%20condition">terms and conditions</a></li>
                         <li><a href="/privacy-policy">privacy policy</a></li>
-                        <li><a href="/"><i class="fab fa-facebook-square"></i>&nbsp;</a>&nbsp;<a href="/"><i
-                                        class="fab fa-twitter-square"></i></a>&nbsp; <a
-                                    href="/"> <i class="fab fa-google-plus-square"></i></a> &nbsp;<a href="/"><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-pinterest-square"></i></a></li>
+                        <li><a href="/"><i class="fab fa-facebook-square icon_footer"></i>&nbsp;</a>&nbsp;<a href="/"><i
+                                        class="fab fa-twitter-square icon_footer"></i></a>&nbsp; <a
+                                    href="/"> <i class="fab fa-google-plus-square icon_footer"></i></a> &nbsp;<a href="/"><i
+                                        class="fab fa-instagram icon_footer"></i></a>
+                            <a href=""><i class="fab fa-pinterest-square icon_footer"></i></a></li>
 
                     </ul>
                 </li>
