@@ -19,7 +19,7 @@
                         <span class="after-bdr ml0-991"><a href="/candidate-login">Login</a></span>
                         <span class="after-bdr ml0-991"><a href="/candidate-signup">Register</a></span>
 
-                        <p><a href="/track-application"><span>track your applicant status</span></a></p>
+                        <p><a href="/track-application"><span>Track your applicant status</span></a></p>
                     </div>
                 </div>
             </div>
