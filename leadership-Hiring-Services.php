@@ -60,11 +60,11 @@
                                     <ul class="nav nav-tabs" role="tablist">
                                         <li role="presentation" class=""><a href="/hr-consulting-service.php"> HR consulting-service</a>
                                         </li>
-                                        <li role="presentation" class=""><a href="/staff-Augmentation-Services.php">Staff-Augmentation-Services</a>
+                                        <li role="presentation" class=""><a href="/staff-augmentation-services.php">Staff-Augmentation-Services</a>
                                         </li>
                                         <li role="presentation" class="active"><a href="/leadership-Hiring-Services.php">Leadership-Hiring-Services</a>
                                         </li>
-                                        <li role="presentation" class=""><a href="/it-Staffing-Services.php">IT-Staffing-Services</a>
+                                        <li role="presentation" class=""><a href="/it-staffing-services.php">IT-Staffing-Services</a>
                                         </li>
                                         <li role="presentation" class=""><a href="/contract-staffing-service">contract-staffing-service</a>
                                         </li>

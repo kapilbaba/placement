@@ -30,7 +30,7 @@
                         Consulting
                         Services
                         </a></li>
-                <li><a class="plain" href="/staff-Augmentation-Services.php">Staff
+                <li><a class="plain" href="/staff-augmentation-services.php">Staff
                         Augmentation
                         Services
                         </a></li>
@@ -38,7 +38,7 @@
                         Hiring
                         Services
                         </a></li>
-                <li><a class="plain" href="/it-Staffing-Services.php">IT
+                <li><a class="plain" href="/it-staffing-services.php">IT
                         Staffing
                         Services
                         </a></li>

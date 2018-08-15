@@ -134,7 +134,7 @@
                                 <h4>24/7 Quick Contact</h4>
 
                                 <ul>
-
+                                    <li class="color">Address: <span class="black"> A-3/56, Dal Mill Rd, Ashok Nagar, New Delhi</span></li>
                                     <li class="color">Mobile No: <span class="black"> ‪+91 84475 81034</span></li>
                                     <li class="color">Email: <span class="black" style="text-transform: lowercase"> contact@akostaplacement.com</span></li>
                                     <li class="color">Email: <span class="black" style="text-transform: lowercase"> akostaplacement@gmail.com</span></li>

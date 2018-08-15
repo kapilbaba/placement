@@ -194,7 +194,7 @@
                             <h4>STAFF AUGMENTATION SERVICES
                             </h4>
                             <p> Quality Talent Where and When You Need It</p>
-                            <a class="btn btn-default simple-btn" href="/staff-Augmentation-Services.php">Read More</a>
+                            <a class="btn btn-default simple-btn" href="/staff-augmentation-services.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                             <h4>IT STAFFING SERVICES
                             </h4>
                             <p> Offshore IT Consulting and Staffing Services For Organizations</p>
-                            <a class="btn btn-default simple-btn" href="/it-Staffing-Services.php">Read More</a>
+                            <a class="btn btn-default simple-btn" href="/it-staffing-services.php">Read More</a>
                         </div>
                     </div>
                 </div>

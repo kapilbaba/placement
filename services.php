@@ -81,7 +81,7 @@ else{
                         Quality Talent Where and When You Need It
                     </p>
                 </div>
-                <a href="/staff-Augmentation-Services.php">read more</a>
+                <a href="/staff-augmentation-services.php">read more</a>
             </div>
             <br>
             <div class="col-md-4 col-sm-6 col-xs-6 fw600">
@@ -123,7 +123,7 @@ else{
                         Offshore IT Consulting and Staffing Services For Organizations
                     </p>
                 </div>
-                <a href="/it-Staffing-Services.php">read more</a>
+                <a href="/it-staffing-services.php">read more</a>
             </div>
 
 
